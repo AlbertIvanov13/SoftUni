@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\bin\Debug\net6.0\CustomDoublyLinkedList.exe
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\bin\Debug\net6.0\CustomDoublyLinkedList.deps.json
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\bin\Debug\net6.0\CustomDoublyLinkedList.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\bin\Debug\net6.0\CustomDoublyLinkedList.dll
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\bin\Debug\net6.0\CustomDoublyLinkedList.pdb
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\obj\Debug\net6.0\CustomDoublyLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\obj\Debug\net6.0\CustomDoublyLinkedList.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\obj\Debug\net6.0\CustomDoublyLinkedList.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\obj\Debug\net6.0\CustomDoublyLinkedList.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\obj\Debug\net6.0\CustomDoublyLinkedList.sourcelink.json
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\obj\Debug\net6.0\CustomDoublyLinkedList.dll
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\obj\Debug\net6.0\refint\CustomDoublyLinkedList.dll
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\obj\Debug\net6.0\CustomDoublyLinkedList.pdb
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\obj\Debug\net6.0\CustomDoublyLinkedList.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# Advanced\ImplementingLinkedList\CustomDoublyLinkedList\obj\Debug\net6.0\ref\CustomDoublyLinkedList.dll
