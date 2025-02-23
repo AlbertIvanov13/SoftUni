@@ -13,10 +13,12 @@
 
             customList.RemoveAt(0);
 
-            customList.Insert(1, 20);
+            //customList.Insert(1, 20);
 
             customList.Contains(8);
             customList.Contains(99);
+
+            customList.Swap(1, 3);
         }
     }
 }

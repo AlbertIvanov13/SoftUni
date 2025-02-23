@@ -89,6 +89,16 @@ namespace CustomList
             return default;
         }
 
+        public void Swap(int firstIndex, int secondIndex)
+        {
+            IndexOutOfRangeException(firstIndex);
+            IndexOutOfRangeException(secondIndex);
+
+            var firstIndexElement = this.items[firstIndex];
+            this.items[firstIndex] = this.items[secondIndex];
+            this.items[secondIndex] = firstIndexElement;
+        }
+
         private void IndexOutOfRangeException(int index)
         {
             if (index >= Count || index < 0)
