@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\bin\Debug\net6.0\CustomList.exe
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\bin\Debug\net6.0\CustomList.deps.json
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\bin\Debug\net6.0\CustomList.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\bin\Debug\net6.0\CustomList.dll
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\bin\Debug\net6.0\CustomList.pdb
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\obj\Debug\net6.0\CustomList.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\obj\Debug\net6.0\CustomList.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\obj\Debug\net6.0\CustomList.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\obj\Debug\net6.0\CustomList.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\obj\Debug\net6.0\CustomList.sourcelink.json
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\obj\Debug\net6.0\CustomList.dll
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\obj\Debug\net6.0\refint\CustomList.dll
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\obj\Debug\net6.0\CustomList.pdb
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\obj\Debug\net6.0\CustomList.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomList\obj\Debug\net6.0\ref\CustomList.dll

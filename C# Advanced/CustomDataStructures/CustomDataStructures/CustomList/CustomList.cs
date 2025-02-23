@@ -43,6 +43,14 @@ namespace CustomList
             this.Count++;
         }
 
+        public int RemoveAt(int index)
+        {
+            IndexOutOfRangeException();
+
+            var item = this.items[index];
+            this.items[index] = default(int);
+        }
+
         private void IndexOutOfRangeException(int index)
         {
             if (index >= Count || index < 0)
@@ -59,6 +67,24 @@ namespace CustomList
                 copyArray[i] = this.items[i];
             }
             this.items = copyArray;
+        }
+
+        private void Shift(int index)
+        {
+            for (int i = index; i < this.Count - 1; i++)
+            {
+                this.items[i] = this.items[i + 1];
+            }
+        }
+
+        private void Shrink()
+        {
+            int[] copy = new int[this.items.Length / 2];
+            for (int i = 0; i < this.Count; i++)
+            {
+                copy[i] = this.items[i];
+            }
+            this.items = copy;
         }
     }
 }
