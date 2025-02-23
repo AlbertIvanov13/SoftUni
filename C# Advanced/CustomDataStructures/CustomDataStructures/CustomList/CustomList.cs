@@ -76,6 +76,19 @@ namespace CustomList
             this.Count++;
         }
 
+        public bool Contains(int element)
+        {
+            for (int i = 0; i < this.Count; i++)
+            {
+                if (items[i] == element)
+                {
+                    return true;
+                }
+            }
+
+            return default;
+        }
+
         private void IndexOutOfRangeException(int index)
         {
             if (index >= Count || index < 0)
@@ -119,7 +132,5 @@ namespace CustomList
             }
             this.items = copy;
         }
-
-
     }
 }
