@@ -45,10 +45,35 @@ namespace CustomList
 
         public int RemoveAt(int index)
         {
-            IndexOutOfRangeException();
+            IndexOutOfRangeException(index);
 
             var item = this.items[index];
             this.items[index] = default(int);
+            this.Shift(index);
+
+            this.Count--;
+            if (this.Count <= this.items.Length / 4)
+            {
+                this.Shrink();
+            }
+
+            return item;
+        }
+
+        public void Insert(int index, int element)
+        {
+            if (index > this.Count || index < 0)
+            {
+                throw new IndexOutOfRangeException("Index out of range!");
+            }
+
+            if (this.items.Length == this.Count)
+            {
+                Resize();
+            }
+            this.ShiftRight(index);
+            this.items[index] = element;
+            this.Count++;
         }
 
         private void IndexOutOfRangeException(int index)
@@ -77,6 +102,14 @@ namespace CustomList
             }
         }
 
+        private void ShiftRight(int index)
+        {
+            for (int i = this.Count - 1; i > index; i--)
+            {
+                this.items[i] = this.items[i - 1];
+            }
+        }
+
         private void Shrink()
         {
             int[] copy = new int[this.items.Length / 2];
@@ -86,5 +119,7 @@ namespace CustomList
             }
             this.items = copy;
         }
+
+
     }
 }

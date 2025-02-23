@@ -10,6 +10,10 @@
             customList.Add(8);
             customList.Add(9);
             customList.Add(15);
+
+            customList.RemoveAt(0);
+
+            customList.Insert(1, 20);
         }
     }
 }
