@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\bin\Debug\net6.0\CustomQueue.exe
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\bin\Debug\net6.0\CustomQueue.deps.json
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\bin\Debug\net6.0\CustomQueue.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\bin\Debug\net6.0\CustomQueue.dll
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\bin\Debug\net6.0\CustomQueue.pdb
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\obj\Debug\net6.0\CustomQueue.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\obj\Debug\net6.0\CustomQueue.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\obj\Debug\net6.0\CustomQueue.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\obj\Debug\net6.0\CustomQueue.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\obj\Debug\net6.0\CustomQueue.sourcelink.json
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\obj\Debug\net6.0\CustomQueue.dll
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\obj\Debug\net6.0\refint\CustomQueue.dll
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\obj\Debug\net6.0\CustomQueue.pdb
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\obj\Debug\net6.0\CustomQueue.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# Advanced\CustomDataStructures\CustomDataStructures\CustomQueue\obj\Debug\net6.0\ref\CustomQueue.dll

@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomList", "CustomList\CustomList.csproj", "{58CF2967-5E69-4E09-82DE-D12E7471E9EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomStack", "CustomStack\CustomStack\CustomStack.csproj", "{AE0BDA97-7BD7-44DF-84C1-1D3C4980A08E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomStack", "CustomStack\CustomStack\CustomStack.csproj", "{AE0BDA97-7BD7-44DF-84C1-1D3C4980A08E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomQueue", "CustomQueue\CustomQueue.csproj", "{4F80C656-B7F0-40A8-A2D6-D106FCC5B117}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AE0BDA97-7BD7-44DF-84C1-1D3C4980A08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE0BDA97-7BD7-44DF-84C1-1D3C4980A08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE0BDA97-7BD7-44DF-84C1-1D3C4980A08E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F80C656-B7F0-40A8-A2D6-D106FCC5B117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F80C656-B7F0-40A8-A2D6-D106FCC5B117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F80C656-B7F0-40A8-A2D6-D106FCC5B117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F80C656-B7F0-40A8-A2D6-D106FCC5B117}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
