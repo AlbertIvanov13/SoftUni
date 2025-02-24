@@ -13,7 +13,7 @@
 
             customQueue.Peek();
 
-            customQueue.Clear();
+            customQueue.ForEach(x => Console.WriteLine(x));
         }
     }
 }

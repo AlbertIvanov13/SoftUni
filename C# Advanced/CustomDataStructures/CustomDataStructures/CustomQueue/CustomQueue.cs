@@ -75,6 +75,14 @@ namespace CustomQueue
             return this.items;
         }
 
+        public void ForEach(Action<int> action)
+        {
+            for (int i = 0; i < this.Count; i++)
+            {
+                action(this.items[i]);
+            }
+        }
+
         private void IndexOutOfRangeException(int index)
         {
             if (index >= Count || index < 0)
