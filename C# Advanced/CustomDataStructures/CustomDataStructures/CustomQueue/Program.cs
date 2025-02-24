@@ -4,12 +4,15 @@
     {
         public static void Main(string[] args)
         {
-            CustomQueue customQueue = new CustomQueue();
+            CustomQueue<string> customQueue = new CustomQueue<string>();
 
-            customQueue.Enqueue(1);
-            customQueue.Enqueue(2);
-            customQueue.Enqueue(5);
-            customQueue.Enqueue(4);
+            //customQueue.Enqueue(1);
+            //customQueue.Enqueue(2);
+            //customQueue.Enqueue(5);
+            //customQueue.Enqueue(4);
+
+            customQueue.Enqueue("Albert");
+            customQueue.Enqueue("Tsvetty");
 
             customQueue.Peek();
 

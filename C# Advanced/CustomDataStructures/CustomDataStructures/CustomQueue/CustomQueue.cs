@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace CustomQueue
 {
-    public class CustomQueue
+    public class CustomQueue<T>
     {
         private const int InitialCapacity = 4;
         private const int FirstElementIndex = 0;
-        private int[] items;
+        private T[] items;
 
         public CustomQueue()
         {
-            items = new int[InitialCapacity];
+            items = new T[InitialCapacity];
         }
         public int Count { get; set; }
 
@@ -32,7 +32,7 @@ namespace CustomQueue
             }
         }
 
-        public void Enqueue(int element)
+        public void Enqueue(T element)
         {
             if (this.items.Length == this.Count)
             {
@@ -42,7 +42,7 @@ namespace CustomQueue
             Count++;
         }
 
-        public int Dequeue()
+        public T Dequeue()
         {
             if (this.Count == 0)
             {
@@ -57,25 +57,25 @@ namespace CustomQueue
             return firstElement;
         }
 
-        public int Peek()
+        public T Peek()
         {
             if (this.Count == 0)
             {
                 throw new InvalidOperationException("CustomQueue is empty!");
             }
 
-            int firstElement = this.items[FirstElementIndex];
+            T firstElement = this.items[FirstElementIndex];
             return firstElement;
         }
 
-        public int[] Clear()
+        public T[] Clear()
         {
-            this.items = new int[items.Length];
+            this.items = new T[items.Length];
 
             return this.items;
         }
 
-        public void ForEach(Action<int> action)
+        public void ForEach(Action<T> action)
         {
             for (int i = 0; i < this.Count; i++)
             {
@@ -101,7 +101,7 @@ namespace CustomQueue
 
         private void Resize()
         {
-            int[] copyArray = new int[this.items.Length * 2];
+            T[] copyArray = new T[this.items.Length * 2];
 
             for (int i = 0; i < this.items.Length; i++)
             {
