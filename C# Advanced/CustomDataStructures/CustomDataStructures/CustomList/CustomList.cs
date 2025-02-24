@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace CustomList
 {
-    public class CustomList
+    public class CustomList<T>
     {
         private const int InitialCapacity = 2;
-        private int[] items;
+        private T[] items;
 
         public CustomList()
         {
-            items = new int[InitialCapacity];
+            items = new T[InitialCapacity];
         }
 
         public int Count { get; private set; }
@@ -32,7 +32,7 @@ namespace CustomList
             }
         }
 
-        public void Add(int item)
+        public void Add(T item)
         {
             if (this.items.Length == this.Count)
             {
@@ -43,12 +43,12 @@ namespace CustomList
             this.Count++;
         }
 
-        public int RemoveAt(int index)
+        public T RemoveAt(int index)
         {
             IndexOutOfRangeException(index);
 
             var item = this.items[index];
-            this.items[index] = default(int);
+            this.items[index] = default(T);
             this.Shift(index);
 
             this.Count--;
@@ -60,7 +60,7 @@ namespace CustomList
             return item;
         }
 
-        public void Insert(int index, int element)
+        public void Insert(int index, T element)
         {
             if (index > this.Count || index < 0)
             {
@@ -76,11 +76,11 @@ namespace CustomList
             this.Count++;
         }
 
-        public bool Contains(int element)
+        public bool Contains(T element)
         {
             for (int i = 0; i < this.Count; i++)
             {
-                if (items[i] == element)
+                if (items[i].Equals(element))
                 {
                     return true;
                 }
@@ -108,7 +108,7 @@ namespace CustomList
         }
         private void Resize()
         {
-            int[] copyArray = new int[this.items.Length * 2];
+            T[] copyArray = new T[this.items.Length * 2];
 
             for (int i = 0; i < this.items.Length; i++)
             {
@@ -135,7 +135,7 @@ namespace CustomList
 
         private void Shrink()
         {
-            int[] copy = new int[this.items.Length / 2];
+            T[] copy = new T[this.items.Length / 2];
             for (int i = 0; i < this.Count; i++)
             {
                 copy[i] = this.items[i];
