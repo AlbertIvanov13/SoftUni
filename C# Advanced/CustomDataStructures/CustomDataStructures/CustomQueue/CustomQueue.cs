@@ -57,6 +57,17 @@ namespace CustomQueue
             return firstElement;
         }
 
+        public int Peek()
+        {
+            if (this.Count == 0)
+            {
+                throw new InvalidOperationException("CustomQueue is empty!");
+            }
+
+            int firstElement = this.items[FirstElementIndex];
+            return firstElement;
+        }
+
         private void IndexOutOfRangeException(int index)
         {
             if (index >= Count || index < 0)

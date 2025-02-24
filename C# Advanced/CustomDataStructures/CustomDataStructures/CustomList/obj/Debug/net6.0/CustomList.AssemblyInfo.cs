@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustomList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+daca1e4f8cd6800689477ccac0de32ab0a042baa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffaf7758623016c7021a725c4007ce2a04ebd71b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustomList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustomList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
