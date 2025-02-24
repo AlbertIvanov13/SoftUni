@@ -45,7 +45,7 @@ namespace CustomStack
 
         public int Pop()
         {
-            if (this.items.Length == 0)
+            if (this.Count == 0)
             {
                 throw new InvalidOperationException("CustomStack is empty!");
             }
@@ -53,6 +53,18 @@ namespace CustomStack
             var lastIndex = this.Count - 1;
             int last = this.items[lastIndex];
             this.Count--;
+            return last;
+        }
+
+        public int Peek()
+        {
+            if (this.Count == 0)
+            {
+                throw new InvalidOperationException("CustomStack is empty!");
+            }
+
+            var lastIndex = this.Count - 1;
+            int last = this.items[lastIndex];
             return last;
         }
 

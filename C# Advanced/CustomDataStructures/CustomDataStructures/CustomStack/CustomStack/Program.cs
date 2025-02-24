@@ -12,6 +12,12 @@
             customStack.Push(20);
             customStack.Pop();
             customStack.Pop();
+
+            Console.WriteLine(customStack.Pop());
+            Console.WriteLine(customStack.Pop());
+            Console.WriteLine(customStack.Peek());
+
+
         }
     }
 }
