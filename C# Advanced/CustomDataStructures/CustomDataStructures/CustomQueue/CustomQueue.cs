@@ -42,11 +42,34 @@ namespace CustomQueue
             Count++;
         }
 
+        public int Dequeue()
+        {
+            if (this.Count == 0)
+            {
+                throw new InvalidOperationException("CustomQueue is empty!");
+            }
+
+            this.Count--;
+            var firstElement = this.items[FirstElementIndex];
+            this.items[FirstElementIndex] = default;
+            Shift();
+            this.items[Count] = default;
+            return firstElement;
+        }
+
         private void IndexOutOfRangeException(int index)
         {
             if (index >= Count || index < 0)
             {
                 throw new IndexOutOfRangeException("Index out of range!");
+            }
+        }
+
+        private void Shift()
+        {
+            for (int i = 0; i < this.Count; i++)
+            {
+                this.items[i] = this.items[i + 1];
             }
         }
 

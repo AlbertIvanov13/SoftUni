@@ -10,6 +10,11 @@
             customQueue.Enqueue(2);
             customQueue.Enqueue(5);
             customQueue.Enqueue(4);
+
+            customQueue.Dequeue();
+            customQueue.Dequeue();
+            customQueue.Dequeue();
+            customQueue.Dequeue();
         }
     }
 }
