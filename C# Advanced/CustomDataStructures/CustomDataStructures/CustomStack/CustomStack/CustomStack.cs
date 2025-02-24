@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace CustomStack
 {
-    public class CustomStack
+    public class CustomStack<T>
     {
         private const int InitialCapacity = 4;
-        private int[] items;
+        private T[] items;
 
         public CustomStack()
         {
-            items = new int[InitialCapacity];
+            items = new T[InitialCapacity];
         }
 
         public int Count { get; private set; }
@@ -32,7 +32,7 @@ namespace CustomStack
             }
         }
 
-        public void Push(int element)
+        public void Push(T element)
         {
             if (this.items.Length == this.Count)
             {
@@ -43,7 +43,7 @@ namespace CustomStack
             this.Count++;
         }
 
-        public int Pop()
+        public T Pop()
         {
             if (this.Count == 0)
             {
@@ -51,12 +51,12 @@ namespace CustomStack
             }
 
             var lastIndex = this.Count - 1;
-            int last = this.items[lastIndex];
+            T last = this.items[lastIndex];
             this.Count--;
             return last;
         }
 
-        public int Peek()
+        public T Peek()
         {
             if (this.Count == 0)
             {
@@ -64,11 +64,11 @@ namespace CustomStack
             }
 
             var lastIndex = this.Count - 1;
-            int last = this.items[lastIndex];
+            T last = this.items[lastIndex];
             return last;
         }
 
-        public void ForEach(Action<int> action)
+        public void ForEach(Action<T> action)
         {
             for (int i = 0; i < this.Count; i++)
             {
@@ -86,7 +86,7 @@ namespace CustomStack
 
         private void Resize()
         {
-            int[] copyArray = new int[this.items.Length * 2];
+            T[] copyArray = new T[this.items.Length * 2];
 
             for (int i = 0; i < this.items.Length; i++)
             {
