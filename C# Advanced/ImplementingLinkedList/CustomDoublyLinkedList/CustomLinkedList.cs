@@ -7,35 +7,35 @@ using System.Threading.Tasks;
 
 namespace CustomDoublyLinkedList
 {
-    public class CustomLinkedList
+    public class CustomLinkedList<T>
     {
-        private class Node
+        private class Node<T>
         {
-            public int Value { get; set; }
+            public T Value { get; set; }
 
-            public Node Next { get; set; }
-            public Node Previous { get; set; }
+            public Node<T> Next { get; set; }
+            public Node<T> Previous { get; set; }
 
-            public Node(int value)
+            public Node(T value)
             {
                 this.Value = value;
             }
         }
 
-        private Node head;
-        private Node tail;
+        private Node<T> head;
+        private Node<T> tail;
 
         public int Count { get; private set; }
 
-        public void AddFirst(int element)
+        public void AddFirst(T element)
         {
             if (this.Count == 0)
             {
-                this.head = this.tail = new Node(element);
+                this.head = this.tail = new Node<T>(element);
             }
             else
             {
-                var newHead = new Node(element);
+                var newHead = new Node<T>(element);
                 newHead.Next = this.head;
                 this.head.Previous = newHead;
                 this.head = newHead;
@@ -43,15 +43,15 @@ namespace CustomDoublyLinkedList
             this.Count++;
         }
 
-        public void AddLast(int element)
+        public void AddLast(T element)
         {
             if (this.Count == 0)
             {
-                this.tail = this.head = new Node(element);
+                this.tail = this.head = new Node<T>(element);
             }
             else
             {
-                var newTail = new Node(element);
+                var newTail = new Node<T>(element);
                 newTail.Previous = this.tail;
                 this.tail.Next = newTail;
                 this.tail = newTail;
@@ -59,7 +59,7 @@ namespace CustomDoublyLinkedList
             this.Count++;
         }
 
-        public int RemoveFirst()
+        public T RemoveFirst()
         {
             if (this.Count == 0)
             {
@@ -80,7 +80,7 @@ namespace CustomDoublyLinkedList
             return firstElement;
         }
 
-        public int RemoveLast()
+        public T RemoveLast()
         {
             if (this.Count == 0)
             {
@@ -101,7 +101,7 @@ namespace CustomDoublyLinkedList
             return lastElement;
         }
 
-        public void ForEach(Action<int> action)
+        public void ForEach(Action<T> action)
         {
             var currentNode = this.head;
             while (currentNode != null)
@@ -111,9 +111,9 @@ namespace CustomDoublyLinkedList
             }
         }
 
-        public int[] ToArray()
+        public T[] ToArray()
         {
-            int[] array = new int[this.Count];
+            T[] array = new T[this.Count];
             int counter = 0;
             var currentNode = this.head;
             while (currentNode != null)

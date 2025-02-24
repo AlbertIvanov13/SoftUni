@@ -4,11 +4,13 @@
     {
         public static void Main(string[] args)
         {
-            CustomLinkedList customLinkedList = new CustomLinkedList();
+            CustomLinkedList<string> customLinkedList = new CustomLinkedList<string>();
 
-            customLinkedList.AddFirst(1);
-            customLinkedList.AddFirst(2);
-            customLinkedList.AddFirst(3);
+            //customLinkedList.AddFirst(1);
+            //customLinkedList.AddFirst(2);
+            //customLinkedList.AddFirst(3);
+
+            customLinkedList.AddFirst("Albert");
 
             customLinkedList.RemoveFirst();
             customLinkedList.RemoveFirst();
