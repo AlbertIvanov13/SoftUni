@@ -12,6 +12,8 @@
             customQueue.Enqueue(4);
 
             customQueue.Peek();
+
+            customQueue.Clear();
         }
     }
 }

@@ -68,6 +68,13 @@ namespace CustomQueue
             return firstElement;
         }
 
+        public int[] Clear()
+        {
+            this.items = new int[items.Length];
+
+            return this.items;
+        }
+
         private void IndexOutOfRangeException(int index)
         {
             if (index >= Count || index < 0)
