@@ -13,11 +13,7 @@
             customStack.Pop();
             customStack.Pop();
 
-            Console.WriteLine(customStack.Pop());
-            Console.WriteLine(customStack.Pop());
-            Console.WriteLine(customStack.Peek());
-
-
+            customStack.ForEach(x => Console.WriteLine(x));
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustomStack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a38293dd33bcd40d5cfdefd4681c07fb9928732")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14bf4a507a1ff30b51f3806d38e2349c496a6091")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustomStack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustomStack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
