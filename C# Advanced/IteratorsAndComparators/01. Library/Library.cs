@@ -9,13 +9,13 @@ namespace IteratorsAndComparators
 {
     public class Library : IEnumerable<Book>
     {
-        private List<Book> books;
+        private SortedSet<Book> books;
 
         public Library(params Book[] books)
         {
-            this.books = new List<Book>(books);
+            this.books = new SortedSet<Book>(books.ToList());
         }
-        public List<Book> Books
+        public SortedSet<Book> Books
         {
             get { return books; }
             set { books = value; }
@@ -55,9 +55,10 @@ namespace IteratorsAndComparators
             public Book Current => this.books[currentIndex];
 
             object IEnumerator.Current => this.Current;
+
             public void Dispose()
             {
-                throw new NotImplementedException();
+
             }
 
             public bool MoveNext()
