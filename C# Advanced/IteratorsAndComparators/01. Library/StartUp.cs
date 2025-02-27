@@ -11,9 +11,9 @@
             Library libraryOne = new Library();
             Library libraryTwo = new Library(bookOne, bookTwo, bookThree);
 
-            foreach (var c in libraryTwo)
+            foreach (var book in libraryTwo)
             {
-                Console.WriteLine(c.Title);
+                Console.WriteLine(book.Title);
             }
         }
     }
