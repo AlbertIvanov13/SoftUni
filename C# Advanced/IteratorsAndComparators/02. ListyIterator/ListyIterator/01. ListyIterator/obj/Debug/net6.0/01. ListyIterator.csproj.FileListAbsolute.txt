@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\bin\Debug\net6.0\01. ListyIterator.exe
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\bin\Debug\net6.0\01. ListyIterator.deps.json
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\bin\Debug\net6.0\01. ListyIterator.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\bin\Debug\net6.0\01. ListyIterator.dll
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\bin\Debug\net6.0\01. ListyIterator.pdb
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\obj\Debug\net6.0\01. ListyIterator.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\obj\Debug\net6.0\01. ListyIterator.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\obj\Debug\net6.0\01. ListyIterator.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\obj\Debug\net6.0\01. ListyIterator.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\obj\Debug\net6.0\01. ListyIterator.sourcelink.json
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\obj\Debug\net6.0\01. ListyIterator.dll
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\obj\Debug\net6.0\refint\01. ListyIterator.dll
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\obj\Debug\net6.0\01. ListyIterator.pdb
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\obj\Debug\net6.0\01. ListyIterator.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\02. ListyIterator\ListyIterator\01. ListyIterator\obj\Debug\net6.0\ref\01. ListyIterator.dll
