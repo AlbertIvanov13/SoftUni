@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\bin\Debug\net6.0\CustomStack.exe
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\bin\Debug\net6.0\CustomStack.deps.json
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\bin\Debug\net6.0\CustomStack.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\bin\Debug\net6.0\CustomStack.dll
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\bin\Debug\net6.0\CustomStack.pdb
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\obj\Debug\net6.0\CustomStack.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\obj\Debug\net6.0\CustomStack.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\obj\Debug\net6.0\CustomStack.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\obj\Debug\net6.0\CustomStack.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\obj\Debug\net6.0\CustomStack.sourcelink.json
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\obj\Debug\net6.0\CustomStack.dll
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\obj\Debug\net6.0\refint\CustomStack.dll
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\obj\Debug\net6.0\CustomStack.pdb
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\obj\Debug\net6.0\CustomStack.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomStack\obj\Debug\net6.0\ref\CustomStack.dll
