@@ -51,6 +51,5 @@ namespace IteratorsAndComparators
 		{
 			return $"{this.title} - {this.year}";
 		}
-
-    }
+	}
 }
