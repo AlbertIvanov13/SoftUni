@@ -62,9 +62,17 @@ namespace ListyIterator
             }
         }
 
+        public void PrintAll()
+        {
+            Console.WriteLine(string.Join(" ", this.items));
+        }
+
         public IEnumerator<T> GetEnumerator()
         {
-            return items.GetEnumerator();
+            for (int i = 0; i < this.items.Count; i++)
+            {
+                yield return this.items[i];
+            }
         }
 
         IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();

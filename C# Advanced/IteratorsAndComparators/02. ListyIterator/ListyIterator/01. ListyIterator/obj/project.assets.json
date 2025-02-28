@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\02. ListyIterator\\ListyIterator\\01. ListyIterator\\ListyIterator.csproj",
-      "projectName": "ListyIterator",
-      "projectPath": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\02. ListyIterator\\ListyIterator\\01. ListyIterator\\ListyIterator.csproj",
+      "projectUniqueName": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\02. ListyIterator\\ListyIterator\\01. ListyIterator\\01. ListyIterator.csproj",
+      "projectName": "01. ListyIterator",
+      "projectPath": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\02. ListyIterator\\ListyIterator\\01. ListyIterator\\01. ListyIterator.csproj",
       "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
       "outputPath": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\02. ListyIterator\\ListyIterator\\01. ListyIterator\\obj\\",
       "projectStyle": "PackageReference",

@@ -22,6 +22,10 @@
                 {
                     strings.Print();
                 }
+                else if (command == "PrintAll")
+                {
+                    strings.PrintAll();
+                }
             }
         }
     }
