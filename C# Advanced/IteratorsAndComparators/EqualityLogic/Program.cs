@@ -24,11 +24,8 @@
                 {
                     if (list[i].Equals(list[j]))
                     {
-                        if (!hashSet.Contains(list[i]) && !sortedSet.Contains(list[i]))
-                        {
-                            hashSet.Add(list[i]);
-                            sortedSet.Add(list[i]);
-                        }
+                        hashSet.Add(list[i]);
+                        sortedSet.Add(list[i]);
                     }
                 }
             }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EqualityLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65d0284b8db73ade7c1113e2f9a56a6a202cd19c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7229ff8a355f8d000df948e9e76c3ac5d531a4c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("EqualityLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EqualityLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
