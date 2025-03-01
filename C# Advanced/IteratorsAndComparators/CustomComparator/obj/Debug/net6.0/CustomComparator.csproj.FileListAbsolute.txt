@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\bin\Debug\net6.0\CustomComparator.exe
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\bin\Debug\net6.0\CustomComparator.deps.json
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\bin\Debug\net6.0\CustomComparator.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\bin\Debug\net6.0\CustomComparator.dll
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\bin\Debug\net6.0\CustomComparator.pdb
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\obj\Debug\net6.0\CustomComparator.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\obj\Debug\net6.0\CustomComparator.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\obj\Debug\net6.0\CustomComparator.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\obj\Debug\net6.0\CustomComparator.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\obj\Debug\net6.0\CustomComparator.sourcelink.json
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\obj\Debug\net6.0\CustomComparator.dll
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\obj\Debug\net6.0\refint\CustomComparator.dll
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\obj\Debug\net6.0\CustomComparator.pdb
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\obj\Debug\net6.0\CustomComparator.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\CustomComparator\obj\Debug\net6.0\ref\CustomComparator.dll
