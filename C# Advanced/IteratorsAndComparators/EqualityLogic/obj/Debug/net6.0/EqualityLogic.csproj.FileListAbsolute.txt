@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\bin\Debug\net6.0\EqualityLogic.exe
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\bin\Debug\net6.0\EqualityLogic.deps.json
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\bin\Debug\net6.0\EqualityLogic.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\bin\Debug\net6.0\EqualityLogic.dll
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\bin\Debug\net6.0\EqualityLogic.pdb
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\obj\Debug\net6.0\EqualityLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\obj\Debug\net6.0\EqualityLogic.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\obj\Debug\net6.0\EqualityLogic.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\obj\Debug\net6.0\EqualityLogic.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\obj\Debug\net6.0\EqualityLogic.sourcelink.json
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\obj\Debug\net6.0\EqualityLogic.dll
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\obj\Debug\net6.0\refint\EqualityLogic.dll
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\obj\Debug\net6.0\EqualityLogic.pdb
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\obj\Debug\net6.0\EqualityLogic.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# Advanced\IteratorsAndComparators\EqualityLogic\obj\Debug\net6.0\ref\EqualityLogic.dll
