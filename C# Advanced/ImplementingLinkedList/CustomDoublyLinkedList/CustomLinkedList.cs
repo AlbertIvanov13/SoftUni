@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CustomDoublyLinkedList
 {
-    public class CustomLinkedList<T>
+    public class CustomLinkedList<T> : IEnumerable<T>
     {
         private class Node<T>
         {
@@ -124,5 +125,24 @@ namespace CustomDoublyLinkedList
             }
             return array;
         }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            T[] array = new T[this.Count];
+            int counter = 0;
+            var currentNode = this.head;
+            while (currentNode != null)
+            {
+                array[counter] = currentNode.Value;
+                currentNode = currentNode.Next;
+                counter++;
+            }
+            for (int i = 0; i < array.Length; i++)
+            {
+                yield return array[i];
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
     }
 }

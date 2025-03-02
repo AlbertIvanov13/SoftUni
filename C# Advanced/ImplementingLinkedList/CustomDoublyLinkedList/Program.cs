@@ -10,10 +10,21 @@
             //customLinkedList.AddFirst(2);
             //customLinkedList.AddFirst(3);
 
-            customLinkedList.AddFirst("Albert");
+            //customLinkedList.AddFirst("Albert");
+            //customLinkedList.AddFirst("Tsvetty");
+            //customLinkedList.AddFirst("Vesko");
 
-            customLinkedList.RemoveFirst();
-            customLinkedList.RemoveFirst();
+            customLinkedList.AddLast("Albert");
+            customLinkedList.AddLast("Tsvetty");
+            customLinkedList.AddLast("Vesko");
+
+            //customLinkedList.RemoveFirst();
+            //customLinkedList.RemoveFirst();
+
+            foreach (var item in customLinkedList)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
