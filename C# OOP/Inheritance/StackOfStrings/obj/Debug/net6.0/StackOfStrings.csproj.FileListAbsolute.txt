@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\bin\Debug\net6.0\StackOfStrings.exe
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\bin\Debug\net6.0\StackOfStrings.deps.json
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\bin\Debug\net6.0\StackOfStrings.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\bin\Debug\net6.0\StackOfStrings.dll
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\bin\Debug\net6.0\StackOfStrings.pdb
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\obj\Debug\net6.0\StackOfStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\obj\Debug\net6.0\StackOfStrings.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\obj\Debug\net6.0\StackOfStrings.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\obj\Debug\net6.0\StackOfStrings.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\obj\Debug\net6.0\StackOfStrings.sourcelink.json
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\obj\Debug\net6.0\StackOfStrings.dll
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\obj\Debug\net6.0\refint\StackOfStrings.dll
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\obj\Debug\net6.0\StackOfStrings.pdb
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\obj\Debug\net6.0\StackOfStrings.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\StackOfStrings\obj\Debug\net6.0\ref\StackOfStrings.dll
