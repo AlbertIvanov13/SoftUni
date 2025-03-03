@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\bin\Debug\net6.0\HierarchicalInheritance.exe
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\bin\Debug\net6.0\HierarchicalInheritance.deps.json
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\bin\Debug\net6.0\HierarchicalInheritance.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\bin\Debug\net6.0\HierarchicalInheritance.dll
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\bin\Debug\net6.0\HierarchicalInheritance.pdb
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\obj\Debug\net6.0\HierarchicalInheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\obj\Debug\net6.0\HierarchicalInheritance.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\obj\Debug\net6.0\HierarchicalInheritance.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\obj\Debug\net6.0\HierarchicalInheritance.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\obj\Debug\net6.0\HierarchicalInheritance.sourcelink.json
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\obj\Debug\net6.0\HierarchicalInheritance.dll
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\obj\Debug\net6.0\refint\HierarchicalInheritance.dll
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\obj\Debug\net6.0\HierarchicalInheritance.pdb
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\obj\Debug\net6.0\HierarchicalInheritance.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\HierarchicalInheritance\obj\Debug\net6.0\ref\HierarchicalInheritance.dll
