@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\bin\Debug\net6.0\MultipleInheritance.exe
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\bin\Debug\net6.0\MultipleInheritance.deps.json
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\bin\Debug\net6.0\MultipleInheritance.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\bin\Debug\net6.0\MultipleInheritance.dll
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\bin\Debug\net6.0\MultipleInheritance.pdb
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\obj\Debug\net6.0\MultipleInheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\obj\Debug\net6.0\MultipleInheritance.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\obj\Debug\net6.0\MultipleInheritance.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\obj\Debug\net6.0\MultipleInheritance.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\obj\Debug\net6.0\MultipleInheritance.sourcelink.json
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\obj\Debug\net6.0\MultipleInheritance.dll
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\obj\Debug\net6.0\refint\MultipleInheritance.dll
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\obj\Debug\net6.0\MultipleInheritance.pdb
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\obj\Debug\net6.0\MultipleInheritance.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# OOP\Inheritance\MultipleInheritance\obj\Debug\net6.0\ref\MultipleInheritance.dll
