@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\bin\Debug\net6.0\Persons.exe
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\bin\Debug\net6.0\Persons.deps.json
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\bin\Debug\net6.0\Persons.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\bin\Debug\net6.0\Persons.dll
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\bin\Debug\net6.0\Persons.pdb
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\obj\Debug\net6.0\Persons.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\obj\Debug\net6.0\Persons.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\obj\Debug\net6.0\Persons.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\obj\Debug\net6.0\Persons.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\obj\Debug\net6.0\Persons.sourcelink.json
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\obj\Debug\net6.0\Persons.dll
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\obj\Debug\net6.0\refint\Persons.dll
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\obj\Debug\net6.0\Persons.pdb
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\obj\Debug\net6.0\Persons.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# OOP\Encapsulation\Persons\obj\Debug\net6.0\ref\Persons.dll
