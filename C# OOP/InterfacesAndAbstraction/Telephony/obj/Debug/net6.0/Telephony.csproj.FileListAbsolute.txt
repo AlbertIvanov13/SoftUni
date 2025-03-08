@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\bin\Debug\net6.0\Telephony.exe
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\bin\Debug\net6.0\Telephony.deps.json
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\bin\Debug\net6.0\Telephony.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\bin\Debug\net6.0\Telephony.dll
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\bin\Debug\net6.0\Telephony.pdb
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\obj\Debug\net6.0\Telephony.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\obj\Debug\net6.0\Telephony.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\obj\Debug\net6.0\Telephony.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\obj\Debug\net6.0\Telephony.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\obj\Debug\net6.0\Telephony.sourcelink.json
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\obj\Debug\net6.0\Telephony.dll
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\obj\Debug\net6.0\refint\Telephony.dll
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\obj\Debug\net6.0\Telephony.pdb
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\obj\Debug\net6.0\Telephony.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# OOP\InterfacesAndAbstraction\Telephony\obj\Debug\net6.0\ref\Telephony.dll
