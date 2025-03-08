@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\bin\Debug\net6.0\Animals.exe
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\bin\Debug\net6.0\Animals.deps.json
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\bin\Debug\net6.0\Animals.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\bin\Debug\net6.0\Animals.dll
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\bin\Debug\net6.0\Animals.pdb
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\obj\Debug\net6.0\Animals.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\obj\Debug\net6.0\Animals.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\obj\Debug\net6.0\Animals.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\obj\Debug\net6.0\Animals.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\obj\Debug\net6.0\Animals.sourcelink.json
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\obj\Debug\net6.0\Animals.dll
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\obj\Debug\net6.0\refint\Animals.dll
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\obj\Debug\net6.0\Animals.pdb
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\obj\Debug\net6.0\Animals.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\Animals\obj\Debug\net6.0\ref\Animals.dll
