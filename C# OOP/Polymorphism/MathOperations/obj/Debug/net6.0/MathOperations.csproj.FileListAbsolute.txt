@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\bin\Debug\net6.0\MathOperations.exe
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\bin\Debug\net6.0\MathOperations.deps.json
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\bin\Debug\net6.0\MathOperations.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\bin\Debug\net6.0\MathOperations.dll
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\bin\Debug\net6.0\MathOperations.pdb
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\obj\Debug\net6.0\MathOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\obj\Debug\net6.0\MathOperations.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\obj\Debug\net6.0\MathOperations.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\obj\Debug\net6.0\MathOperations.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\obj\Debug\net6.0\MathOperations.sourcelink.json
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\obj\Debug\net6.0\MathOperations.dll
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\obj\Debug\net6.0\refint\MathOperations.dll
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\obj\Debug\net6.0\MathOperations.pdb
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\obj\Debug\net6.0\MathOperations.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# OOP\Polymorphism\MathOperations\obj\Debug\net6.0\ref\MathOperations.dll
