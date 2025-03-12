@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VehiclesExtension")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+164f5c16de792bc568b535198041436131671a04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e134a8650d88ac459f809b862c64bb9935b1836c")]
 [assembly: System.Reflection.AssemblyProductAttribute("VehiclesExtension")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VehiclesExtension")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

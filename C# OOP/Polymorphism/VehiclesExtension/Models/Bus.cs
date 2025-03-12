@@ -16,7 +16,7 @@ namespace VehiclesExtension.Models
         public override double FuelConsumption => base.FuelConsumption;
         public override bool Drive(double distance)
         {
-            double newFuelConsumption = base.FuelConsumption + 1.4;
+            double newFuelConsumption = FuelConsumption + 1.4;
             return base.DriveFull(distance, newFuelConsumption);
         }
 

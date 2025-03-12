@@ -1,7 +1,4 @@
-﻿
-
-
-using VehiclesExtension.Core;
+﻿using VehiclesExtension.Core;
 using VehiclesExtension.Core.Interfaces;
 using VehiclesExtension.IO;
 using VehiclesExtension.IO.Interfaces;

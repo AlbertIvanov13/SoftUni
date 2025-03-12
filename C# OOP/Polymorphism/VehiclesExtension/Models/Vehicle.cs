@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using VehiclesExtension.Models.Interfaces;
@@ -9,26 +10,50 @@ namespace VehiclesExtension.Models
 {
     public abstract class Vehicle : IVehicle
     {
-
+        private double fuelQuantity;
+        private double fuelConsumption;
+        private double tankCapacity;
         protected Vehicle(double fuelQuantity, double fuelConsumption, double tankCapacity)
         {
+            TankCapacity = tankCapacity;
             FuelQuantity = fuelQuantity;
             FuelConsumption = fuelConsumption;
-            TankCapacity = tankCapacity;
         }
 
-        public double FuelQuantity { get; private set; }
+        public virtual double FuelQuantity 
+        { 
+            get 
+            { 
+                return fuelQuantity; 
+            }
+            private set 
+            {
+                if (value > TankCapacity)
+                {
+                    value = 0;
+                }
+                fuelQuantity = value;
+            } 
+        }
 
-        public virtual double FuelConsumption { get; private set; }
-        public double TankCapacity { get; private set; }
+
+        public virtual double FuelConsumption
+        {
+            get { return fuelConsumption; }
+            set { fuelConsumption = value; }
+        }
+
+
+        public double TankCapacity
+        {
+            get { return tankCapacity; }
+            set { tankCapacity = value; }
+        }
+
+
 
         public virtual bool Drive(double distance)
         {
-            if (distance < 0)
-            {
-                throw new ArgumentException("Distance cannot be negative.");
-            }
-
             if (FuelQuantity < distance * FuelConsumption)
             {
                 return false;
@@ -40,10 +65,6 @@ namespace VehiclesExtension.Models
 
         public virtual bool DriveEmpty(double distance)
         {
-            if (distance < 0)
-            {
-                throw new ArgumentException("Distance cannot be negative.");
-            }
 
             if (FuelQuantity < distance * FuelConsumption)
             {
@@ -56,10 +77,6 @@ namespace VehiclesExtension.Models
 
         public virtual bool DriveFull(double distance, double fuelConsumption)
         {
-            if (distance < 0)
-            {
-                throw new ArgumentException("Distance cannot be negative.");
-            }
 
             if (FuelQuantity < distance * fuelConsumption)
             {
@@ -78,13 +95,27 @@ namespace VehiclesExtension.Models
             }
             else
             {
-                if (FuelQuantity + amount > TankCapacity)
+                if (this.GetType().Name == "Truck")
                 {
-                    Console.WriteLine($"Cannot fit {amount} fuel in the tank");
+                    if (FuelQuantity + amount > TankCapacity)
+                    {
+                        Console.WriteLine($"Cannot fit {amount} fuel in the tank");
+                    }
+                    else
+                    {
+                        FuelQuantity += amount * 0.95;
+                    }
                 }
                 else
                 {
-                    FuelQuantity += amount;
+                    if (FuelQuantity + amount > TankCapacity)
+                    {
+                        Console.WriteLine($"Cannot fit {amount} fuel in the tank");
+                    }
+                    else
+                    {
+                        FuelQuantity += amount;
+                    }
                 }
             }
         }
