@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\bin\Debug\net6.0\EnterNumbers.exe
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\bin\Debug\net6.0\EnterNumbers.deps.json
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\bin\Debug\net6.0\EnterNumbers.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\bin\Debug\net6.0\EnterNumbers.dll
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\bin\Debug\net6.0\EnterNumbers.pdb
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\obj\Debug\net6.0\EnterNumbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\obj\Debug\net6.0\EnterNumbers.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\obj\Debug\net6.0\EnterNumbers.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\obj\Debug\net6.0\EnterNumbers.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\obj\Debug\net6.0\EnterNumbers.sourcelink.json
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\obj\Debug\net6.0\EnterNumbers.dll
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\obj\Debug\net6.0\refint\EnterNumbers.dll
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\obj\Debug\net6.0\EnterNumbers.pdb
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\obj\Debug\net6.0\EnterNumbers.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\EnterNumbers\obj\Debug\net6.0\ref\EnterNumbers.dll
