@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\bin\Debug\net6.0\SquareRoot.exe
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\bin\Debug\net6.0\SquareRoot.deps.json
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\bin\Debug\net6.0\SquareRoot.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\bin\Debug\net6.0\SquareRoot.dll
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\bin\Debug\net6.0\SquareRoot.pdb
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\obj\Debug\net6.0\SquareRoot.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\obj\Debug\net6.0\SquareRoot.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\obj\Debug\net6.0\SquareRoot.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\obj\Debug\net6.0\SquareRoot.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\obj\Debug\net6.0\SquareRoot.sourcelink.json
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\obj\Debug\net6.0\SquareRoot.dll
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\obj\Debug\net6.0\refint\SquareRoot.dll
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\obj\Debug\net6.0\SquareRoot.pdb
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\obj\Debug\net6.0\SquareRoot.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# OOP\ExceptionsAndErrorHandling\SquareRoot\obj\Debug\net6.0\ref\SquareRoot.dll
