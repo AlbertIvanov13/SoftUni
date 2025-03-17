@@ -26,254 +26,213 @@ namespace _02._BombHasBeenPlanted
             int startingRow = 0;
             int startingCol = 0;
 
-            bool isFound = false;
-            for (int row = 0; row <= map.GetLength(0) - 1; row++)
+            int currentCounterRow = startingRow;
+            int currentCounterCol = startingCol;
+
+            for (int row = 0; row < map.GetLength(0); row++)
             {
-                for (int col = 0; col <= map.GetLength(1) - 1; col++)
+                for (int col = 0; col < map.GetLength(1); col++)
                 {
-                    if (map[row, col] == 'C' && isFound == false)
+                    if (map[row, col] == 'C')
                     {
                         startingRow = row;
                         startingCol = col;
-                        isFound = true;
                         break;
                     }
                 }
             }
 
-            string command = Console.ReadLine();
-
-            while (true)
+            while (totalSeconds > 0)
             {
+                string command = Console.ReadLine();
                 if (command == "left")
                 {
-                    if (totalSeconds > 0)
+                    if (startingCol > 0)
                     {
                         totalSeconds--;
-                        if (startingRow >= map.GetLength(0) || startingCol - 1 >= map.GetLength(1))
-                        {
-                            map[startingRow, startingCol] = map[map.GetLength(0) - 1, map.GetLength(1) - 1];
-                            totalSeconds--;
-                            command = Console.ReadLine();
-                        }
-                        else
+                        if (totalSeconds > 0)
                         {
                             if (map[startingRow, startingCol - 1] == '*')
                             {
-                                map[startingRow, startingCol] = map[startingRow, startingCol--];
-                                command = Console.ReadLine();
-                                continue;
+                                startingCol--;
                             }
                             else if (map[startingRow, startingCol - 1] == 'B')
                             {
-                                map[startingRow, startingCol] = map[startingRow, startingCol--];
-                                command = Console.ReadLine();
-                                if (command == "defuse")
-                                {
-                                    continue;
-                                }
+                                startingCol--;
+                            }
+                            else if (map[startingRow, startingCol - 1] == 'C')
+                            {
+                                startingCol--;
                             }
                             else if (map[startingRow, startingCol - 1] == 'T')
                             {
-                                map[startingRow, startingCol - 1] = '*';
+                                startingCol--;
                                 map[startingRow, startingCol] = '*';
                                 Console.WriteLine("Terrorists win!");
                                 PrintMatrix(map);
-                                break;
+                                Environment.Exit(0);
                             }
+                        }
+                        else
+                        {
+                            break;
                         }
                     }
                     else
                     {
-                        Console.WriteLine("Terrorists win!");
-                        Console.WriteLine("Bomb was not defused successfully!");
-                        Console.WriteLine($"Time needed: 0 second/s.");
-                        PrintMatrix(map);
-                        break;
+                        totalSeconds--;
                     }
                 }
                 else if (command == "right")
                 {
-                    if (totalSeconds > 0)
+                    if (startingCol < map.GetLength(1) - 1)
                     {
                         totalSeconds--;
-                        if (startingRow >= map.GetLength(0) || startingCol + 1 >= map.GetLength(1))
-                        {
-                            map[startingRow, startingCol] = map[map.GetLength(0) - 1, map.GetLength(1) - 1];
-                            totalSeconds--;
-                            command = Console.ReadLine();
-                        }
-                        else
+                        if (totalSeconds > 0)
                         {
                             if (map[startingRow, startingCol + 1] == '*')
                             {
-                                map[startingRow, startingCol] = map[startingRow, startingCol++];
-                                command = Console.ReadLine();
-                                continue;
+                                startingCol++;
                             }
                             else if (map[startingRow, startingCol + 1] == 'B')
                             {
-                                map[startingRow, startingCol] = map[startingRow, startingCol++];
-                                command = Console.ReadLine();
-                                if (command == "defuse")
-                                {
-                                    continue;
-                                }
+                                startingCol++;
+                            }
+                            else if (map[startingRow, startingCol + 1] == 'C')
+                            {
+                                startingCol++;
                             }
                             else if (map[startingRow, startingCol + 1] == 'T')
                             {
-                                map[startingRow, startingCol + 1] = '*';
+                                startingCol++;
                                 map[startingRow, startingCol] = '*';
                                 Console.WriteLine("Terrorists win!");
                                 PrintMatrix(map);
-                                break;
+                                Environment.Exit(0);
                             }
+                        }
+                        else
+                        {
+                            break;
                         }
                     }
                     else
                     {
-                        Console.WriteLine("Terrorists win!");
-                        Console.WriteLine("Bomb was not defused successfully!");
-                        Console.WriteLine($"Time needed: 0 second/s.");
-                        PrintMatrix(map);
-                        break;
+                        totalSeconds--;
                     }
                 }
                 else if (command == "up")
                 {
-                    if (totalSeconds > 0)
+                    if (startingRow > 0)
                     {
                         totalSeconds--;
-                        if (startingRow - 1 >= map.GetLength(0) || startingCol >= map.GetLength(1))
-                        {
-                            map[startingRow, startingCol] = map[map.GetLength(0) - 1, map.GetLength(1) - 1];
-                            totalSeconds--;
-                            command = Console.ReadLine();
-                        }
-                        else
+                        if (totalSeconds > 0)
                         {
                             if (map[startingRow - 1, startingCol] == '*')
                             {
-                                map[startingRow, startingCol] = map[startingRow--, startingCol];
-                                command = Console.ReadLine();
-                                continue;
+                                startingRow--;
                             }
                             else if (map[startingRow - 1, startingCol] == 'B')
                             {
-                                map[startingRow, startingCol] = map[startingRow--, startingCol];
-                                command = Console.ReadLine();
-                                if (command == "defuse")
-                                {
-                                    continue;
-                                }
+                                startingRow--;
+                            }
+                            else if (map[startingRow - 1, startingCol] == 'C')
+                            {
+                                startingRow--;
                             }
                             else if (map[startingRow - 1, startingCol] == 'T')
                             {
-                                map[startingRow - 1, startingCol] = '*';
+                                startingRow--;
                                 map[startingRow, startingCol] = '*';
                                 Console.WriteLine("Terrorists win!");
                                 PrintMatrix(map);
-                                break;
+                                Environment.Exit(0);
                             }
+                        }
+                        else
+                        {
+                            break;
                         }
                     }
                     else
                     {
-                        Console.WriteLine("Terrorists win!");
-                        Console.WriteLine("Bomb was not defused successfully!");
-                        Console.WriteLine($"Time needed: 0 second/s.");
-                        PrintMatrix(map);
-                        break;
+                        totalSeconds--;
                     }
                 }
                 else if (command == "down")
                 {
-                    if (totalSeconds > 0)
+                    if (startingRow < map.GetLength(0) - 1)
                     {
                         totalSeconds--;
-                        if (startingRow + 1 >= map.GetLength(0) || startingCol >= map.GetLength(1))
-                        {
-                            map[startingRow, startingCol] = map[map.GetLength(0) - 1, map.GetLength(1) - 1];
-                            totalSeconds--;
-                            command = Console.ReadLine();
-                        }
-                        else
+                        if (totalSeconds > 0)
                         {
                             if (map[startingRow + 1, startingCol] == '*')
                             {
-                                map[startingRow, startingCol] = map[startingRow++, startingCol];
-                                command = Console.ReadLine();
-                                continue;
+                                startingRow++;
                             }
                             else if (map[startingRow + 1, startingCol] == 'B')
                             {
-                                map[startingRow, startingCol] = map[startingRow++, startingCol];
-                                command = Console.ReadLine();
-                                if (command == "defuse")
-                                {
-                                    continue;
-                                }
+                                startingRow++;
+                            }
+                            else if (map[startingRow + 1, startingCol] == 'C')
+                            {
+                                startingRow++;
                             }
                             else if (map[startingRow + 1, startingCol] == 'T')
                             {
-                                map[startingRow + 1, startingCol] = '*';
+                                startingRow++;
                                 map[startingRow, startingCol] = '*';
                                 Console.WriteLine("Terrorists win!");
                                 PrintMatrix(map);
-                                break;
+                                Environment.Exit(0);
                             }
+                        }
+                        else
+                        {
+                            break;
                         }
                     }
                     else
                     {
-                        Console.WriteLine("Terrorists win!");
-                        Console.WriteLine("Bomb was not defused successfully!");
-                        Console.WriteLine($"Time needed: 0 second/s.");
-                        PrintMatrix(map);
-                        break;
+                        totalSeconds--;
                     }
                 }
                 else if (command == "defuse")
                 {
-                    if (totalSeconds > 0)
+                    if (map[startingRow, startingCol] == 'B')
                     {
-                        if (map[startingRow, startingCol] != 'B')
+                        if (totalSeconds - 4 >= 0)
                         {
-                            totalSeconds -= 2;
-                            command = Console.ReadLine();
-                            continue;
+                            totalSeconds -= 4;
+                            map[startingRow, startingCol] = 'D';
+                            Console.WriteLine("Counter-terrorist wins!");
+                            Console.WriteLine($"Bomb has been defused: {totalSeconds} second/s remaining.");
+                            PrintMatrix(map);
+                            Environment.Exit(0);
                         }
                         else
                         {
-                            if (totalSeconds - 4 >= 0)
-                            {
-                                totalSeconds -= 4;
-                                map[startingRow, startingCol] = 'D';
-                                Console.WriteLine("Counter-terrorist wins!");
-                                Console.WriteLine($"Bomb has been defused: {totalSeconds} second/s remaining.");
-                                PrintMatrix(map);
-                                break;
-                            }
-                            else
-                            {
-                                map[startingRow, startingCol] = 'X';
-                                Console.WriteLine("Terrorists win!");
-                                Console.WriteLine("Bomb was not defused successfully!");
-                                Console.WriteLine($"Time needed: {Math.Abs(totalSeconds - 4)} second/s.");
-                                PrintMatrix(map);
-                                break;
-                            }
+                            map[startingRow, startingCol] = 'X';
+                            Console.WriteLine("Terrorists win!");
+                            Console.WriteLine("Bomb was not defused successfully!");
+                            Console.WriteLine($"Time needed: {Math.Abs(4 - totalSeconds)} second/s.");
+                            PrintMatrix(map);
+                            Environment.Exit(0);
                         }
                     }
                     else
                     {
-                        Console.WriteLine("Terrorists win!");
-                        Console.WriteLine("Bomb was not defused successfully!");
-                        Console.WriteLine($"Time needed: 0 second/s.");
-                        PrintMatrix(map);
-                        break;
+                        totalSeconds -= 2;
                     }
                 }
+            }
+
+            if (totalSeconds <= 0)
+            {
+                Console.WriteLine("Terrorists win!");
+                Console.WriteLine("Bomb was not defused successfully!");
+                Console.WriteLine($"Time needed: 0 second/s.");
+                PrintMatrix(map);
             }
         }
 
