@@ -36,6 +36,7 @@ namespace _05._SpaceMission
 
             int units = 100;
 
+
             space[spaceshipRow, spaceshipCol] = '.';
             while (units >= 5)
             {
