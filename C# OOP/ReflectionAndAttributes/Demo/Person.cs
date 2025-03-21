@@ -12,7 +12,7 @@ namespace Demo
         private string lastName;
 
         public string Name { get; set; }
-        private int Age { get; set; }
+        public int Age { get; set; }
         private void Eat()
         {
 
