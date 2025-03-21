@@ -13,19 +13,19 @@ namespace Demo
 
         public string Name { get; set; }
         public int Age { get; set; }
-        private void Eat()
+        public void Eat(string food)
         {
-
+            Console.WriteLine($"Person is eating {food}");
         }
 
-        private void Sleep()
+        public void Sleep(string place)
         {
-            
+            Console.WriteLine($"Person is sleeping at {place}");
         }
 
-        public void Work()
+        public void Work(string workplace)
         {
-
+            Console.WriteLine($"Person is working at {workplace}");
         }
     }
 }
