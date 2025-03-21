@@ -27,5 +27,19 @@ namespace Demo
         {
             Console.WriteLine($"Person is working at {workplace}");
         }
+
+        public void GettingPaid(decimal salary, string day)
+        {
+            if (day == "Tuesday")
+            {
+                salary *= 1.15m;
+            }
+            Console.WriteLine($"Person is getting paid {salary:f2} on {day}");
+        }
+
+        public string BuyingFood(decimal price)
+        {
+            return $"Person spent {price:f2} leva on food";
+        }
     }
 }

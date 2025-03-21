@@ -34,16 +34,23 @@ namespace Demo
 
             MethodInfo methodToInvoke = classType.GetMethod("Eat");
 
-            methodToInvoke.Invoke(person, new object[] { "banana" });
+            methodToInvoke?.Invoke(person, new object[] { "banana" });
 
             methodToInvoke = classType.GetMethod("Sleep");
 
-            methodToInvoke.Invoke(person, new object[] { "work" });
+            methodToInvoke?.Invoke(person, new object[] { "work" });
 
             methodToInvoke = classType.GetMethod("Work");
 
-            methodToInvoke.Invoke(person, new object[] { "airport" });
+            methodToInvoke?.Invoke(person, new object[] { "airport" });
 
+            methodToInvoke = classType.GetMethod("GettingPaid");
+
+            methodToInvoke?.Invoke(person, new object[] {1900.85m, "Tuesday"});
+
+            methodToInvoke = classType.GetMethod("BuyingFood");
+
+            Console.WriteLine(methodToInvoke?.Invoke(person, new object[] { 200m }));
         }
     }
 }
