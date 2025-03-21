@@ -1,4 +1,6 @@
 ﻿using System.Reflection;
+using System;
+using Demo.Attributes;
 
 namespace Demo
 {
@@ -29,6 +31,10 @@ namespace Demo
 
             Console.WriteLine(methodToInvoke.Invoke(obj, new object[] { firstNumber, secondNumber }));
 
+            var newMethod = typeof(Calculator).GetMethod("Add");
+            var attribute = (CustomAttribute)Attribute.GetCustomAttribute(newMethod, typeof(CustomAttribute));
+
+            Console.WriteLine(attribute.Description);
         }
     }
 }
