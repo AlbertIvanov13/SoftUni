@@ -11,6 +11,7 @@ namespace Demo
             var methods = classType.GetMethods(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.DeclaredOnly);
             var properties = classType.GetProperties(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.DeclaredOnly);
             var fields = classType.GetFields(BindingFlags.Instance | BindingFlags.NonPublic);
+
             person.Name = "Ivan";
             person.Age = 10;
 
@@ -29,6 +30,8 @@ namespace Demo
                 Console.WriteLine($"Field: {field.Name}");
             }
 
+            Console.WriteLine($"Person {person.Name} is {person.Age} years old");
+
             MethodInfo methodToInvoke = classType.GetMethod("Eat");
 
             methodToInvoke.Invoke(person, new object[] { "banana" });
@@ -41,7 +44,6 @@ namespace Demo
 
             methodToInvoke.Invoke(person, new object[] { "airport" });
 
-            Console.WriteLine($"Person {person.Name} is {person.Age} years old");
         }
     }
 }
