@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,8 @@ namespace Demo
         private string lastName;
 
         public string Name { get; set; }
+
+        [AgeRange(1, 90)]
         public int Age { get; set; }
         public void Eat(string food)
         {
