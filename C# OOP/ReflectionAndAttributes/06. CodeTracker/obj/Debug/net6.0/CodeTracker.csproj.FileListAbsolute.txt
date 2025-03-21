@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\bin\Debug\net6.0\CodeTracker.exe
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\bin\Debug\net6.0\CodeTracker.deps.json
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\bin\Debug\net6.0\CodeTracker.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\bin\Debug\net6.0\CodeTracker.dll
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\bin\Debug\net6.0\CodeTracker.pdb
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\obj\Debug\net6.0\CodeTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\obj\Debug\net6.0\CodeTracker.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\obj\Debug\net6.0\CodeTracker.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\obj\Debug\net6.0\CodeTracker.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\obj\Debug\net6.0\CodeTracker.sourcelink.json
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\obj\Debug\net6.0\CodeTracker.dll
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\obj\Debug\net6.0\refint\CodeTracker.dll
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\obj\Debug\net6.0\CodeTracker.pdb
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\obj\Debug\net6.0\CodeTracker.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# OOP\ReflectionAndAttributes\06. CodeTracker\obj\Debug\net6.0\ref\CodeTracker.dll
