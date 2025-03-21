@@ -6,51 +6,29 @@ namespace Demo
     {
         public static void Main(string[] args)
         {
-            Type classType = typeof(Person);
-            Person person = (Person)Activator.CreateInstance(classType);
-            var methods = classType.GetMethods(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.DeclaredOnly);
-            var properties = classType.GetProperties(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.DeclaredOnly);
-            var fields = classType.GetFields(BindingFlags.Instance | BindingFlags.NonPublic);
+            string className = Console.ReadLine();
 
-            person.Name = "Ivan";
-            person.Age = 10;
+            Type classType = Type.GetType($"Demo.{className}");
 
-            foreach (var method in methods)
+            object obj = Activator.CreateInstance(classType);
+            Calculator calculator = (Calculator)obj;
+            MethodInfo[] methods = classType.GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.DeclaredOnly);
+
+            Console.WriteLine("Methods:");
+            foreach (MethodInfo method in methods)
             {
-                Console.WriteLine($"Method: {method.Name}");
+                Console.WriteLine($"{method.Name} ({method.ReturnType.Name})");
             }
 
-            foreach (var property in properties)
-            {
-                Console.WriteLine($"Property: {property.Name}");
-            }
+            string methodName = Console.ReadLine();
 
-            foreach (var field in fields)
-            {
-                Console.WriteLine($"Field: {field.Name}");
-            }
+            MethodInfo methodToInvoke = classType.GetMethod(methodName);
 
-            Console.WriteLine($"Person {person.Name} is {person.Age} years old");
+            int firstNumber = int.Parse(Console.ReadLine());
+            int secondNumber = int.Parse(Console.ReadLine());
 
-            MethodInfo methodToInvoke = classType.GetMethod("Eat");
+            Console.WriteLine(methodToInvoke.Invoke(obj, new object[] { firstNumber, secondNumber }));
 
-            methodToInvoke?.Invoke(person, new object[] { "banana" });
-
-            methodToInvoke = classType.GetMethod("Sleep");
-
-            methodToInvoke?.Invoke(person, new object[] { "work" });
-
-            methodToInvoke = classType.GetMethod("Work");
-
-            methodToInvoke?.Invoke(person, new object[] { "airport" });
-
-            methodToInvoke = classType.GetMethod("GettingPaid");
-
-            methodToInvoke?.Invoke(person, new object[] {1900.85m, "Tuesday"});
-
-            methodToInvoke = classType.GetMethod("BuyingFood");
-
-            Console.WriteLine(methodToInvoke?.Invoke(person, new object[] { 200m }));
         }
     }
 }
