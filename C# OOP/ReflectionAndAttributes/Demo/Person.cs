@@ -8,6 +8,9 @@ namespace Demo
 {
     public class Person
     {
+        private string secondName;
+        private string lastName;
+
         public string Name { get; set; }
         private int Age { get; set; }
         private void Eat()

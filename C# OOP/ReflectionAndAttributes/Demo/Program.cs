@@ -7,8 +7,11 @@ namespace Demo
         public static void Main(string[] args)
         {
             Type classType = typeof(Person);
+
             var methods = classType.GetMethods(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.DeclaredOnly);
-            var properties = classType.GetProperties(BindingFlags.Instance | BindingFlags.NonPublic);
+            var properties = classType.GetProperties(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.DeclaredOnly);
+            var fields = classType.GetFields(BindingFlags.Instance | BindingFlags.NonPublic);
+
             foreach (var method in methods)
             {
                 Console.WriteLine($"Method: {method.Name}");
@@ -19,6 +22,10 @@ namespace Demo
                 Console.WriteLine($"Property: {property.Name}");
             }
 
+            foreach (var field in fields)
+            {
+                Console.WriteLine($"Field: {field.Name}");
+            }
             
         }
     }
