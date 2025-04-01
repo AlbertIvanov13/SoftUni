@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CyberSecurityDS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c00287954670e028f38f88b7c844e15727551b78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc7470f473f38587e14d3833faf157f8025ee17a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CyberSecurityDS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CyberSecurityDS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
