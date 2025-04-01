@@ -1,10 +1,14 @@
-﻿namespace CyberSecurityDS
+﻿using CyberSecurityDS.Core.Contracts;
+using CyberSecurityDS.Core;
+
+namespace CyberSecurityDS
 {
-    internal class Program
+    public class StartUp
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            IEngine engine = new Engine();
+            engine.Run();
         }
     }
 }
