@@ -55,7 +55,6 @@ namespace CyberSecurityDS.Models
             }
         }
 
-
         public IReadOnlyCollection<string> AssignedAttacks
         {
             get { return assignedAttacks.AsReadOnly(); }
