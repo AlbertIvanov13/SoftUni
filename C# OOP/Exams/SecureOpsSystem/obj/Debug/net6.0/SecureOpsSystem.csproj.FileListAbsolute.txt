@@ -1,0 +1,15 @@
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\obj\Debug\net6.0\SecureOpsSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\obj\Debug\net6.0\SecureOpsSystem.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\obj\Debug\net6.0\SecureOpsSystem.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\obj\Debug\net6.0\SecureOpsSystem.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\obj\Debug\net6.0\SecureOpsSystem.sourcelink.json
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\bin\Debug\net6.0\SecureOpsSystem.exe
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\bin\Debug\net6.0\SecureOpsSystem.deps.json
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\bin\Debug\net6.0\SecureOpsSystem.runtimeconfig.json
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\bin\Debug\net6.0\SecureOpsSystem.dll
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\bin\Debug\net6.0\SecureOpsSystem.pdb
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\obj\Debug\net6.0\SecureOpsSystem.dll
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\obj\Debug\net6.0\refint\SecureOpsSystem.dll
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\obj\Debug\net6.0\SecureOpsSystem.pdb
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\obj\Debug\net6.0\SecureOpsSystem.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\C# OOP\Exams\SecureOpsSystem\obj\Debug\net6.0\ref\SecureOpsSystem.dll
