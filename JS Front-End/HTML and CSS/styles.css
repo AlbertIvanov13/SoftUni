@@ -1,0 +1,35 @@
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: large;
+}
+
+.highlight{
+    background-color: burlywood;
+}
+
+li.highlight{
+    background-color: yellow;
+}
+
+#main-title{
+    color: red;
+}
+
+#special-paragraph{
+    font-style: italic;
+}
+
+ul{
+    list-style-type: georgian;
+}
+
+li{
+    color: blue;
+}
+
+div{
+    background-color: aqua;
+}
