@@ -1,0 +1,19 @@
+div p{
+    color:blue;
+}
+
+ul > li{
+    list-style-type: style type disc;;
+}
+
+p + p{
+    background-color:beige;
+}
+
+p ~ span{
+    font-weight: 1000;
+}
+
+span{
+    color: red;
+}
