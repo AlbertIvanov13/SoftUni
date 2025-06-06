@@ -1,0 +1,29 @@
+p.highlighted{
+    color: blue;
+    font-size:large;
+}
+
+div#special{
+    background-color: orange;
+}
+
+[href="#"]{
+    color: blueviolet;
+}
+
+[href="//"]{
+    color: green;
+}
+
+p.class1.class2.class3{
+    color: red;
+}
+
+.important1{
+    color: lime;
+}
+
+.important2{
+    color: red;
+    font-style: italic;
+}
