@@ -1,0 +1,26 @@
+section p{
+    color: rgb(0, 84, 27);
+}
+
+.highlighted + article{
+    background-color: rgb(193, 34, 87);
+}
+
+.specific-heading ~ p{
+    color: aqua;
+}
+
+.first-list > li{
+    color: black;
+    font-weight: bolder;
+}
+
+.second-list a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 900;
+}
+
+.middle-element ~ li a{
+    color: coral;
+}

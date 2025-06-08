@@ -1,0 +1,11 @@
+nav a{
+    text-decoration: none;
+}
+
+.special > #first, #second{
+    background-color: aqua;
+}
+
+div ~ article{
+    color: blue;
+}
