@@ -1,0 +1,17 @@
+.uniform-padding p{
+    border: solid, black;
+    padding: 20px;
+}
+
+.non-uniform-padding p{
+    border: solid, black;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.percentage-padding p{
+    border: solid, black;
+    padding: 5%;
+}
