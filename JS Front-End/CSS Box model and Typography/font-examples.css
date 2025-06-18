@@ -1,0 +1,33 @@
+.family{
+    border: solid black;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.size{
+    border: solid black;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.weight{
+    border: solid black;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.style{
+    border: solid black;
+    font-style: italic;
+    margin: 20px;
+}
+
+.variant{
+    border: solid black;
+    font-variant: small-caps;
+    margin: 20px;
+}
+
+p{
+    padding: 10px;
+}
