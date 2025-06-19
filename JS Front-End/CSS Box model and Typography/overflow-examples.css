@@ -1,0 +1,20 @@
+.overflow-visible{
+    border: solid black;
+    overflow: visible;
+    width: 300px;
+    height: 120px;
+}
+
+.overflow-hidden{
+    border: solid black;
+    overflow: hidden;
+    width: 300px;
+    height: 120px;
+}
+
+.overflow-scroll{
+    border: solid black;
+    overflow: scroll;
+    width: 300px;
+    height: 120px;
+}
