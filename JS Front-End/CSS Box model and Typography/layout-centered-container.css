@@ -1,0 +1,47 @@
+.mother-div{
+    border: 3px solid green;
+    margin-left: 15em;
+    margin-right: 15em;
+    margin: -0.6%;
+}
+
+.container{
+    border: 3px solid blue;
+    margin: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.header{
+    border: 3px solid black;
+    padding: 1em;
+    margin: 3em;
+    width: 90%;
+    text-align: center;
+}
+
+.main{
+    border: 3px solid black;
+    padding: 1em;
+    margin: 3em;
+    width: 90%;
+    text-align: center;
+    margin: em;
+}
+
+.footer{
+    border: 3px solid black;
+    padding: 1em;
+    margin: 3em;
+    width: 90%;
+    text-align: center;
+}
+
+.horizontal-hr{
+    background-color: green;
+    border: none;
+    height: 3px;
+    margin: 2em;
+    width: 100%;
+    left: 0;
+}
