@@ -1,0 +1,21 @@
+body{
+    border: 2px solid green;
+    padding-bottom: 3.4em;
+}
+
+div{
+    padding: 1em;
+    border: 2px solid black;
+    margin: 2em;
+}
+
+header, main, article, footer{
+    padding: 2em;
+    border: 2px solid blue;
+    margin: 6em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
