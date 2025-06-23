@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(218, 218, 218);
+}
+
+article{
+    background-color: white;
+    margin-right: 35em;
+    margin-left: 35em;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 20em;
+    box-shadow: 2em;
+    border-radius: 0.3em;
+    text-align: left;
+}
+
+img{
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+section{
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link{
+    all: unset;
+    display: inline-block;
+    width:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    margin-bottom: 1em;
+    font-style: italic;
+}
+
+footer{
+    margin-top: 2em;
+}
