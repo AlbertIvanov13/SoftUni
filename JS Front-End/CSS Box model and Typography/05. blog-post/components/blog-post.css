@@ -8,3 +8,6 @@ html{
     box-sizing: border-box;
 }
 
+p{
+    background-color: darkblue;
+}
