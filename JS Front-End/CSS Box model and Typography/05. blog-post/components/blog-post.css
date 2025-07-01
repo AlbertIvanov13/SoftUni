@@ -8,6 +8,17 @@ html{
     box-sizing: border-box;
 }
 
-p{
-    background-color: darkblue;
+article{
+    border: 1px solid gray;
+    max-width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 20em;
+    margin-right: 20em;
+    height: auto;
+    overflow: visible;
+    margin-bottom: 3em;
+    height:fit-content;
 }
