@@ -1,0 +1,17 @@
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-left: 1em;
+}
+
+i{
+    background-color: #ebebeb;
+    border: 25px solid #ebebeb;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+h1{
+    margin-left: 1.2em;
+}
