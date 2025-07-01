@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+  --font-family: Lato, sans-serif;
+}
+
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: var(--font-family);
+}
+
+p, ol, ul{
+    padding-bottom: 1.5rem;
+}
+
+ol, ul{
+    padding-left: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+  background-color: #ccc;
+  border: none;
+  text-align: left;
+}
+
+th{
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-align: left;
+  width: 30%;
+  background-color: #ccc;
+}
+
+td{
+  border: solid #ccc;
+}
+
+tr:nth-child(n+1):nth-child(odd){
+  background-color: rgb(250, 250, 250);
+  border: 0.1px;
+}
+
+.vertical{
+  width: 1px;
+  height: 15rem;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 180px;
+  background-color:rgb(169, 169, 169);
+  color: darkgray;
+  border: 5px darkgray;
+
+}
+
+hr, .vertical{
+  border: 0.1px solid darkgray;
+}
+
+blockquote{
+    margin-top: -390px;
+    margin-left: 100;
+    margin-bottom: 50px;
+}
+
+blockquote p{
+    font-style: italic;
+}
+
+.name{
+  text-align: right;
+}

@@ -1,0 +1,31 @@
+.accordion{
+    border: 1px solid gray;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2em;
+}
+
+summary{
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+}
+
+details:nth-child(1)[open]{
+    border-bottom: 1px solid gray;
+}
+
+details:nth-child(2)[open]{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+details:nth-child(3)[open]{
+    border-top: 1px solid gray;
+}
+
+p{
+    margin-left: 1em;
+    margin-right: 1em;
+}
