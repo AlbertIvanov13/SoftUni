@@ -1,0 +1,42 @@
+a, button{
+    border: 1px solid gray;
+    background-color: gray;
+    text-decoration: none;
+    color: black;
+    border-radius: 5%;
+    margin: 1em;
+    padding: 0.9em;
+    font: inherit;
+    display: inline-block;
+}
+
+h2{
+    font-family: Lato, sans-serif;
+    margin: 2em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.button{
+    background-color: #d8d8d8;
+    border: 1px solid #d8d8d8;
+}
+
+.button-primary{
+    background-color: #ff9b00;
+    border: 1px solid #ff9b00;
+}
+
+.button-secondary{
+    background-color: #f9f9cc;
+    border: 1px solid #f9f9cc;
+}
+
+.button-outline{
+    background-color: white;
+}
+
+.button-icon{
+    background-color: #d8d8d8;
+    border: 1px solid #d8d8d8;
+}
