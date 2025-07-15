@@ -10,62 +10,81 @@ body{
 
 .week{
     display: flex;
-    flex-direction: column;
     flex-basis: 80%;
     border: 1px solid gray;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.notes{
+    display: flex;
+    flex-basis: 20%;
+    border: 1px solid gray;
+}
+
+.week .workweek li{
+    display: block;
+}
+
+.week .nowork li{
+    display: block;
+}
+
+.week .workweek{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+}
+
+.week .nowork{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
 }
 
 .notes{
     display: flex;
     flex-direction: column;
-    flex-basis: 20%;
-    justify-content: center;
-}
-
-.workweek{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.workweek li{
-    display: block;
-    border: 1px solid gray;
-    flex-basis: 400px;
-    text-align: center;
-    padding: 2em;
-}
-
-h3{
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px solid gray;
-}
-
-.nowork{
-    display: flex;
-    flex-direction: row;
-    flex: content;
-    justify-content: center;
-    width: auto;
-    flex-basis: 80%;
-}
-
-.nowork li{
-    display: block;
-    border: 1px solid gray;
-    flex-basis: 100%;
-    text-align: center;
-    padding: 2em;
 }
 
 .notes span{
     display: flex;
+    justify-content: center;
     border: 1px solid gray;
     flex-basis: 50%;
-    padding-left: 5em;
-    padding-right: 5em;
-    padding-bottom: 2em;
-    padding-top: 2em;
+    padding-top: 1em;
+}
+
+.week > *{
+    border: 1px solid gray;
+    margin: 0;
+    padding: 2em;
+}
+
+.workweek li{
+    flex: 1 1 auto;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 2em;
+    margin: 0;
+}
+
+.nowork li{
+    flex: 1 1 auto;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 2em;
+    margin: 0;
+}
+
+.workweek{
+    padding: 0;
+}
+
+.nowork{
+    padding: 0;
 }
