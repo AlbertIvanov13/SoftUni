@@ -1,0 +1,22 @@
+body{
+    background: #ccc;
+}
+
+section{
+    display: flex;
+    background: white;
+    border: 1px solid black;
+    height: auto;
+}
+
+.first{
+    flex-basis: 40px;
+    border: 1px solid gray;
+    flex-wrap: wrap;
+}
+
+.second{
+    flex-basis: 60px;
+    border: 1px solid gray;
+    flex-wrap: wrap;
+}
