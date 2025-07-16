@@ -1,22 +1,23 @@
-body{
-    background: #ccc;
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-section{
-    display: flex;
-    background: white;
-    border: 1px solid black;
-    height: auto;
+.dropdown {
+  position: relative; /* Establishes positioning context */
 }
 
-.first{
-    flex-basis: 40px;
-    border: 1px solid gray;
-    flex-wrap: wrap;
+.submenu {
+  position: absolute;
+  top: 100%; /* Puts it directly below the parent li */
+  left: 0;
+  display: none; /* Hidden by default */
+  background-color: white;
+  border: 1px solid #ccc;
 }
 
-.second{
-    flex-basis: 60px;
-    border: 1px solid gray;
-    flex-wrap: wrap;
+.dropdown:hover .submenu {
+  display: block;
 }
+

@@ -18,13 +18,38 @@ nav ul li{
     padding-right: 1em;
     background: white;
     color: darkorange;
+    border-radius: 0.3em;
+    position: relative;
 }
 
-nav ul{
-    gap: 1em;
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    white-space: nowrap;
+    padding-left: 0;
 }
 
-nav ul li:hover{
+.menu:hover .dropdown{
+    display: block;
+    color: white;
+    background: darkorange;
+}
+
+ul li:hover{
+    color: white;
+    background: darkorange;
+}
+
+a{
+    text-decoration: none;
+    color: darkorange;
+}
+
+.menu:hover > *{
     color: white;
     background: darkorange;
 }
