@@ -13,7 +13,6 @@ body{
     flex-basis: 80%;
     border: 1px solid gray;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .notes{

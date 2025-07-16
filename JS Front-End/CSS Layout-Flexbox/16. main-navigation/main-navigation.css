@@ -1,0 +1,30 @@
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav{
+    border: 1px solid gray;
+    background-color: #eee;
+    border-radius: 0.3em;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+nav ul li{
+    border: 1px solid gray;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: white;
+    color: darkorange;
+}
+
+nav ul{
+    gap: 1em;
+}
+
+nav ul li:hover{
+    color: white;
+    background: darkorange;
+}
