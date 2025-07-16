@@ -53,3 +53,25 @@ a{
     color: white;
     background: darkorange;
 }
+
+.hover:hover .second-dropdown{
+    display: block;
+    color: white;
+    background: darkorange;
+}
+
+.second-dropdown {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    white-space: nowrap;
+    padding-left: 0;
+}
+
+.hover:hover a{
+    color: white;
+    background: darkorange;
+}
