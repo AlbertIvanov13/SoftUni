@@ -1,0 +1,23 @@
+.gallery li{
+    display: block;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.gallery li{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    height: 30%px;
+    border: 8px solid black;
+    justify-content: center;
+    width: 30%;
+}
+
+.gallery li img{
+    padding: 1em;
+}
