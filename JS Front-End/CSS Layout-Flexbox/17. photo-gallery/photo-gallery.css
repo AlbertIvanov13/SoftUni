@@ -10,14 +10,23 @@
 
 .gallery li{
     display: flex;
-    width: 200px;
+    max-width: 200px;
     flex-direction: column;
-    height: 30%px;
+    max-height: 30%px;
     border: 8px solid black;
     justify-content: center;
-    width: 30%;
+    max-width: 30%;
+    position: relative;
 }
 
 .gallery li img{
     padding: 1em;
+    padding-bottom: 3em;
+}
+
+p{
+    position: absolute;
+    bottom: 0;
+    left: 1em;
+    font-style: italic;
 }
