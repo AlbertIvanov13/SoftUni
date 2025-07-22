@@ -1,59 +1,84 @@
-.keys{
-    display: flex;
-    gap: 1em;
-    justify-content: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.keys p{
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+.keyboard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.3em;
+    background: #ddd;
+    margin: 2em auto; /* center horizontally */
     border: 1px solid gray;
-    border-radius: 0.3em;
-    padding: 1em 1.5em 1em 1.5em;
+    border-radius: 0.4em;
+    width: 800px; /* fixed width */
+    box-sizing: border-box;
+}
+
+
+.regular, .special{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.regular p{
+    background: white;
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.special p{
+    background: #ccc;
+    border: 1px solid gray;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.special .space{
+    flex-basis: 300px;
     background: white;
 }
 
-.keyboard{
-    border: 2px solid #adadad;
-    width: 73em;
-    border-radius: 0.5em;
-    margin: 10em 20em 10em 18em;
-    background: #ddd;
-}
-
-.space{
-    flex-basis: 20em;
-}
-
-.ctrl, .win, .alt{
-    padding-right: 2em;
-    padding-left: 2em;
-}
-
-.special p:not(.space){
-    background: #eee;
-}
-
-.regular .special{
-    background: #eee;
-}
-
-.keys{
+.special {
     display: flex;
-    margin-left: 1em;
-    margin-right: 1em;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.backspace{
-    flex-basis: 100px;
+.special > *:not(.space) {
+    flex: 1;
     text-align: center;
 }
 
-.regular{
-    justify-content: flex-start;
-    
+.keys{
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
 }
 
-.special{
-    justify-content: flex-start;
+.special, .regular{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.regular > *{
+    flex: 1;
+    text-align: center;
+}
+
+.capslock{
+    flex-basis: 80px;
 }
