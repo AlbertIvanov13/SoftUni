@@ -79,6 +79,54 @@
     text-align: center;
 }
 
-.capslock{
+.regular .capslock{
     flex-basis: 80px;
+    background: #ccc;    
+}
+
+.regular .shift{
+    flex-basis: 60px;
+    background: #ccc;
+}
+
+.regular .tab, .regular .backspace, .regular .enter{
+    background: #ccc;
+}
+
+.regular .right-shift{
+    flex-basis: 110px;
+    background: #ccc;
+}
+
+.tab{
+    flex-basis: 60px;
+}
+
+.regular .enter-child{
+    flex-basis: 30px;
+    background: #ccc;
+    
+}
+
+.enter::after {
+  content: '';
+  position: absolute;
+  top: 100%;         /* Places it just below */
+  width: 35px;
+  height: 50px;
+  left: 18.8px;
+  background-color: #ccc;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-top: none;
+}
+
+
+section:nth-child(4){
+    padding-right: 6em;
+}
+
+.enter {
+    position: relative;
 }
