@@ -1,0 +1,40 @@
+body{
+    background: #eee;
+}
+
+.main{
+    display: flex;
+    gap: 2em;
+    margin: 2em;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: inherit;
+}
+
+.card {
+  display: flex;
+  padding: 1.5em;
+  background: white;
+  border: none;
+  border-radius: 0.3em;
+    align-items: center;
+}
+
+.second{
+    display: flex;
+    flex: 0 0 70ch;
+}
+
+figure{
+    flex: 0 0 15ch;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    background: green;
+}
+
+.content{
+    align-items: flex-start;
+}
