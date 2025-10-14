@@ -37,3 +37,23 @@ INSERT INTO [People]([Name], [Picture], [Height], [Weight], [Gender], [Birthdate
 			('Stefan', NULL, 1.70, 2.30, 'm', '2000-10-11', 'A short description...')
 
 GO
+
+/* Problem 08 */
+        CREATE TABLE [Users](
+	            [Id] BIGINT PRIMARY KEY IDENTITY(1, 1),
+	      [Username] VARCHAR(30) NOT NULL UNIQUE,
+	      [Password] VARCHAR(26) NOT NULL,
+	[ProfilePicture] VARBINARY(MAX),
+	 [LastLoginTime] DATETIME,
+	     [IsDeleted] VARCHAR(5)
+)
+
+INSERT INTO [Users]([Username], [Password], [ProfilePicture], [LastLoginTime], [IsDeleted])
+     VALUES
+            ('Albert_Ivanov13', '12345678', NULL, NULL, NULL),
+            ('Stanislav-222', '3847387', NULL, NULL, NULL),
+            ('Venci@qqq', '219898fdf9', NULL, NULL, NULL),
+            ('Venisdhjch', 'dewieuiuicuw898', NULL, NULL, NULL),
+            ('STEFFF', '3983984', NULL, NULL, NULL)
+
+GO
