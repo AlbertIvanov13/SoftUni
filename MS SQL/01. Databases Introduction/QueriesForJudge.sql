@@ -122,3 +122,97 @@ INSERT INTO [Movies]([Title], [DirectorId], [CopyrightYear], [Length], [GenreId]
             ('Chucky', '5', NULL, NULL, '5', '5', NULL, NULL)
 
 GO
+
+/* Problem 14 */
+      CREATE TABLE [Categories](
+	          [Id] INT IDENTITY(1, 1) PRIMARY KEY,
+	[CategoryName] VARCHAR(50) NOT NULL,
+	   [DailyRate] DECIMAL(10, 2),
+	  [WeeklyRate] DECIMAL(10, 2),
+	 [MonthlyRate] DECIMAL(10, 2) NOT NULL,
+	 [WeekendRate] DECIMAL(10, 2)
+)
+
+      CREATE TABLE [Cars](
+	          [Id] INT IDENTITY(1, 1) PRIMARY KEY,
+	 [PlateNumber] VARCHAR(8) UNIQUE NOT NULL,
+	[Manufacturer] VARCHAR(50),
+	       [Model] VARCHAR(50),
+	     [CarYear] INT,
+	  [CategoryId] INT FOREIGN KEY REFERENCES [Categories]([Id]) NOT NULL,
+	       [Doors] INT,
+ 	     [Picture] VARBINARY(MAX),
+	   [Condition] NVARCHAR(200),
+	   [Available] BIT NOT NULL
+)
+
+   CREATE TABLE [Employees](
+	       [Id] INT IDENTITY(1, 1) PRIMARY KEY,
+	[FirstName] NVARCHAR(100) NOT NULL,
+	 [LastName] NVARCHAR(100),
+	    [Title] NVARCHAR(100),
+	    [Notes] NVARCHAR(MAX)
+)
+
+             CREATE TABLE [Customers](
+	                 [Id] INT IDENTITY(1, 1) PRIMARY KEY,
+	[DriverLicenceNumber] VARCHAR(50) UNIQUE NOT NULL,
+	           [FullName] NVARCHAR(200) NOT NULL,
+	            [Address] NVARCHAR(200),
+	               [City] NVARCHAR(200),
+	            [ZIPCode] NVARCHAR(10),
+	              [Notes] NVARCHAR(MAX)
+)
+
+          CREATE TABLE [RentalOrders](
+	              [Id] INT IDENTITY(1, 1) PRIMARY KEY,
+	      [EmployeeId] INT FOREIGN KEY REFERENCES [Employees]([Id]) NOT NULL,
+	      [CustomerId] INT FOREIGN KEY REFERENCES [Customers]([Id]) NOT NULL,
+	           [CarId] INT FOREIGN KEY REFERENCES [Cars]([Id]),
+	       [TankLevel] DECIMAL(10, 2),
+	[KilometrageStart] INT,
+	  [KilometrageEnd] INT,
+	[TotalKilometrage] INT,
+	       [StartDate] DATE,
+	         [EndDate] DATE,
+	       [TotalDays] INT,
+	     [RateApplied] DECIMAL(10, 2),
+	         [TaxRate] DECIMAL(10, 2),
+	     [OrderStatus] NVARCHAR(50) NOT NULL,
+	           [Notes] NVARCHAR(MAX)
+)
+
+INSERT INTO [Categories]([CategoryName], [DailyRate], [WeeklyRate], [MonthlyRate], [WeekendRate])
+     VALUES
+            ('Economy', 25.00, 150.00, 500.00, 30.00),
+            ('Compact', 30.00, 180.00, 600.00, 35.00),
+            ('SUV', 50.00, 300.00, 1000.00, 60.00)
+
+INSERT INTO [Cars]([PlateNumber], [Manufacturer], [Model], [CarYear], [CategoryId], [Doors], [Condition], [Available])
+     VALUES
+            ('ABC123', 'Toyota', 'Corolla', 2020, 1, 4, 'Good', 1),
+            ('XYZ789', 'Honda', 'Civic', 2019, 2, 4, 'Good', 1),
+            ('SUV456', 'Ford', 'Explorer', 2021, 3, 5, 'Excellent', 1)
+
+INSERT INTO [Employees] ([FirstName], [LastName], [Title])
+     VALUES
+            ('Alice', 'Smith', 'Manager'),
+            ('Bob', 'Johnson', 'Sales'),
+            ('Charlie', NULL, 'Clerk')
+
+INSERT INTO [Customers] ([DriverLicenceNumber], [FullName], [Address], [City], [ZIPCode])
+     VALUES
+            ('DL12345', 'John Doe', '123 Main St', 'Pernik', '2300'),
+            ('DL54321', 'Jane Roe', '456 Oak Ave', 'Sofia', '1000'),
+            ('DL67890', 'Mike Lee', '789 Pine Rd', 'Plovdiv', '4000')
+
+INSERT INTO [RentalOrders] 
+            ([EmployeeId], [CustomerId], [CarId], [TankLevel], [KilometrageStart], 
+			[KilometrageEnd], [TotalKilometrage], [StartDate], [EndDate], 
+			[TotalDays], [RateApplied], [TaxRate], [OrderStatus])
+     VALUES
+            (1, 1, 1, 100.00, 12000, 12250, 250, '2025-09-01', '2025-09-05', 5, 125.00, 20.00, 'Completed'),
+            (2, 2, 2, 80.00, 5000, 5250, 250, '2025-09-03', '2025-09-07', 5, 150.00, 20.00, 'Completed'),
+            (3, 3, 3, 100.00, 20000, 20300, 300, '2025-09-05', '2025-09-10', 6, 300.00, 20.00, 'Active')
+
+GO
