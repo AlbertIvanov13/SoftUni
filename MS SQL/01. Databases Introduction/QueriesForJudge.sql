@@ -57,3 +57,68 @@ INSERT INTO [Users]([Username], [Password], [ProfilePicture], [LastLoginTime], [
             ('STEFFF', '3983984', NULL, NULL, NULL)
 
 GO
+
+/* Problem 13 */
+      CREATE TABLE [Directors](
+	          [Id] INT IDENTITY(1, 1) PRIMARY KEY,
+	[DirectorName] NVARCHAR(200) NOT NULL,
+	       [Notes] NVARCHAR(MAX)
+)
+
+   CREATE TABLE [Genres](
+	       [Id] INT IDENTITY(1, 1) PRIMARY KEY,
+	[GenreName] VARCHAR(100) NOT NULL,
+	    [Notes] VARCHAR(MAX)
+)
+
+      CREATE TABLE [Categories](
+	          [Id] INT IDENTITY(1, 1) PRIMARY KEY,
+	[CategoryName] VARCHAR(100) NOT NULL,
+	       [Notes] NVARCHAR(MAX)
+)
+
+       CREATE TABLE [Movies](
+	           [Id] INT IDENTITY(1, 1) PRIMARY KEY,
+	        [Title] NVARCHAR(200) NOT NULL,
+	   [DirectorId] INT FOREIGN KEY REFERENCES [Directors]([Id]) NOT NULL,
+	[CopyrightYear] INT,
+       	   [Length] DECIMAL(5, 2),
+	      [GenreId] INT FOREIGN KEY REFERENCES [Genres]([Id]) NOT NULL,
+	   [CategoryId] INT FOREIGN KEY REFERENCES [Categories]([Id]) NOT NULL,
+	       [Rating] DECIMAL(3, 1),
+	        [Notes] NVARCHAR(MAX)
+)
+
+INSERT INTO [Directors]([DirectorName], [Notes])
+     VALUES
+            ('Albert', 'cfjhvkjhfkhkhkehrkehrjkehrrrrrrrrr'),
+            ('Stanislav', 'fofdidfoiodidoif'),
+            ('Venci', 'fi3orieoreoriorioi'),
+            ('Kalata', 'ffkf2kjdmcnxmcjdd'),
+            ('Pepi', 'dfdkjoidpwopws')
+
+INSERT INTO [Genres]([GenreName], [Notes])
+     VALUES
+            ('Horror', 'fdfdowioisdoviosvjv'),
+            ('Commedy', NULL),
+            ('Action', 'dfdflwspopov'),
+            ('Thriller', 'dfdpwdpodcpc'),
+            ('Mystery', 'fdfokoiosiov')
+
+INSERT INTO [Categories]([CategoryName], [Notes])
+     VALUES
+            ('Slasher', 'sdkdjvkscjkjsc'),
+            ('New slasher', 'sdsdspcpoclc'),
+            ('Newer slasher', 'ld;fld;dlw;ld'),
+            ('Family', 'dkdjkdjckjv'),
+            ('Sad', 'ddoifodifodf')
+
+INSERT INTO [Movies]([Title], [DirectorId], [CopyrightYear], [Length], [GenreId], [CategoryId], [Rating], [Notes])
+     VALUES
+            ('Spiderman', '1', NULL, NULL, '1', '1', NULL, NULL),
+            ('The Conjouring', '2', NULL, NULL, '2', '2', NULL, NULL),
+            ('Aquaman', '3', NULL, NULL, '3', '3', NULL, NULL),
+            ('Avatar', '4', NULL, NULL, '4', '4', NULL, NULL),
+            ('Chucky', '5', NULL, NULL, '5', '5', NULL, NULL)
+
+GO
