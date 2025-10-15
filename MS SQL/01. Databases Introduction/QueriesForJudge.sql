@@ -336,9 +336,21 @@ INSERT INTO [Occupancies] ([EmployeeId], [DateOccupied], [AccountNumber], [RoomN
 
 GO
 
-/* Problem 16 */
+/* Problem 19 */
 SELECT * FROM [Towns]
 SELECT * FROM [Departments]
 SELECT * FROM [Employees]
+
+GO
+
+/* Problem 20 */
+SELECT * FROM [Towns]
+     ORDER BY [Name]
+
+SELECT * FROM [Departments]
+     ORDER BY [Name]
+
+SELECT * FROM [Employees]
+     ORDER BY [Salary] DESC
 
 GO
