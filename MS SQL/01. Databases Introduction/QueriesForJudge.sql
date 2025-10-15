@@ -370,3 +370,14 @@ ORDER BY [Name]
          [Salary] 
 	FROM [Employees]
 ORDER BY [Salary] DESC
+
+GO
+
+/* Problem 22 */
+UPDATE [Employees]
+   SET [Salary] = [Salary] * 1.10
+
+SELECT [Salary] 
+  FROM [Employees]
+
+GO
