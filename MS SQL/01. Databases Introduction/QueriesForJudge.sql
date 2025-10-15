@@ -216,3 +216,129 @@ INSERT INTO [RentalOrders]
             (3, 3, 3, 100.00, 20000, 20300, 300, '2025-09-05', '2025-09-10', 6, 300.00, 20.00, 'Active')
 
 GO
+
+/* Problem 15 */
+   CREATE TABLE [Employees](
+	       [Id] INT IDENTITY(1, 1) PRIMARY KEY,
+	[FirstName] NVARCHAR(50) NOT NULL,
+	 [LastName] NVARCHAR(50) NOT NULL,
+	    [Title] NVARCHAR(200),
+	    [Notes] NVARCHAR(MAX)
+)
+
+         CREATE TABLE [Customers](
+	  [AccountNumber] INT IDENTITY(1, 1) PRIMARY KEY,
+	      [FirstName] NVARCHAR(50) NOT NULL,
+	       [LastName] NVARCHAR(50) NOT NULL,
+	    [PhoneNumber] NVARCHAR(20),
+ 	  [EmergencyName] NVARCHAR(100),
+	[EmergencyNumber] NVARCHAR(50),
+	          [Notes] NVARCHAR(MAX)
+)
+
+    CREATE TABLE [RoomStatus](
+	[RoomStatus] NVARCHAR(50) PRIMARY KEY,
+	     [Notes] NVARCHAR(MAX)
+)
+
+  CREATE TABLE [RoomTypes](
+	[RoomType] NVARCHAR(50) PRIMARY KEY,
+	   [Notes] NVARCHAR(MAX)
+)
+
+ CREATE TABLE [BedTypes](
+	[BedType] NVARCHAR(50) PRIMARY KEY,
+	  [Notes] NVARCHAR(MAX)
+)
+
+    CREATE TABLE [Rooms](
+	[RoomNumber] INT PRIMARY KEY,
+	  [RoomType] NVARCHAR(50) FOREIGN KEY REFERENCES [RoomTypes]([RoomType]) NOT NULL,
+	   [BedType] NVARCHAR(50) FOREIGN KEY REFERENCES [BedTypes]([BedType]) NOT NULL,
+	      [Rate] DECIMAL(10, 2) NOT NULL,
+	[RoomStatus] NVARCHAR(50) FOREIGN KEY REFERENCES [RoomStatus]([RoomStatus]) NOT NULL,
+	     [Notes] NVARCHAR(MAX)
+)
+
+           CREATE TABLE [Payments](
+	               [Id] INT IDENTITY(1, 1) PRIMARY KEY,
+	       [EmployeeId] INT FOREIGN KEY REFERENCES [Employees]([Id]) NOT NULL,
+	      [PaymentDate] DATETIME2 NOT NULL,
+	    [AccountNumber] INT FOREIGN KEY REFERENCES [Customers]([AccountNumber]) NOT NULL,
+	[FirstDateOccupied] DATE NOT NULL,
+	 [LastDateOccupied] DATE NOT NULL,
+	        [TotalDays] INT NOT NULL,
+ 	    [AmountCharged] DECIMAL(10, 2) NOT NULL,
+	          [TaxRate] DECIMAL(10, 2) NOT NULL,
+	        [TaxAmount] DECIMAL(10, 2) NOT NULL,
+	     [PaymentTotal] DECIMAL(10, 2) NOT NULL,
+	            [Notes] NVARCHAR(MAX)
+)
+
+       CREATE TABLE [Occupancies](
+	           [Id] INT IDENTITY(1, 1) PRIMARY KEY,
+	   [EmployeeId] INT FOREIGN KEY REFERENCES [Employees]([Id]) NOT NULL,
+	 [DateOccupied] DATETIME2 NOT NULL,
+	[AccountNumber] INT FOREIGN KEY REFERENCES [Customers]([AccountNumber]) NOT NULL,
+	   [RoomNumber] INT FOREIGN KEY REFERENCES [Rooms]([RoomNumber]) NOT NULL,
+	  [RateApplied] DECIMAL(10, 2) NOT NULL,
+	  [PhoneCharge] DECIMAL(10, 2) NOT NULL,
+	        [Notes] NVARCHAR(MAX)
+)
+
+INSERT INTO [Employees] ([FirstName], [LastName], [Title], [Notes]) 
+     VALUES
+            ('Alice', 'Smith', 'Front Desk Manager', 'Handles check-ins and guest inquiries.'),
+            ('Bob', 'Johnson', 'Housekeeping Supervisor', 'Manages cleaning staff and room inspections.'),
+            ('Carol', 'Davis', 'Concierge', 'Assists guests with reservations and activities.')
+
+INSERT INTO [Customers] ([FirstName], [LastName], [PhoneNumber], [EmergencyName], [EmergencyNumber], [Notes]) 
+     VALUES
+            ('Emma', 'Brown', '+359887123456', 'Olivia Brown', '+359887654321', 'Prefers quiet rooms.'),
+            ('Liam', 'Miller', '+359888234567', 'Noah Miller', '+359888765432', 'Allergic to peanuts.'),
+            ('Sophia', 'Taylor', '+359889345678', 'Mia Taylor', '+359889876543', 'VIP member.')
+
+INSERT INTO [RoomStatus] ([RoomStatus], [Notes]) 
+     VALUES
+            ('Available', 'Room is ready for new guests.'),
+            ('Occupied', 'Room is currently booked.'),
+            ('Maintenance', 'Room is under maintenance or cleaning.')
+
+INSERT INTO [RoomTypes] ([RoomType], [Notes]) 
+     VALUES
+            ('Single', 'One guest room, basic amenities.'),
+            ('Double', 'Two guest room, standard amenities.'),
+            ('Suite', 'Luxury room with additional amenities and space.')
+
+INSERT INTO [BedTypes] ([BedType], [Notes]) 
+     VALUES
+            ('King', 'King size bed, comfortable for two.'),
+            ('Queen', 'Queen size bed, standard comfort.'),
+            ('Twin', 'Two single beds, suitable for sharing.')
+
+INSERT INTO [Rooms] ([RoomNumber], [RoomType], [BedType], [Rate], [RoomStatus], [Notes]) 
+     VALUES
+            ('101', 'Single', 'Queen', 100.00, 'Available', 'Quiet room near the elevator.'),
+            ('102', 'Double', 'King', 150.00, 'Available', 'Spacious room with balcony.'),
+            ('201', 'Suite', 'King', 250.00, 'Available', 'Luxury suite with living area.')
+
+INSERT INTO [Payments] ([EmployeeId], [PaymentDate], [AccountNumber], [FirstDateOccupied], [LastDateOccupied], [TotalDays], [AmountCharged], [TaxRate], [TaxAmount], [PaymentTotal], [Notes]) 
+     VALUES
+            (1, '2025-09-10', 1, '2025-09-05', '2025-09-09', 5, 500.00, 12.00, 60.00, 560.00, 'Paid in full by credit card.'),
+            (2, '2025-09-12', 2, '2025-09-10', '2025-09-12', 3, 450.00, 10.00, 45.00, 495.00, 'Paid by cash.'),
+            (3, '2025-09-14', 3, '2025-09-12', '2025-09-14', 3, 750.00, 15.00, 112.50, 862.50, 'Paid via bank transfer.')
+
+INSERT INTO [Occupancies] ([EmployeeId], [DateOccupied], [AccountNumber], [RoomNumber], [RateApplied], [PhoneCharge], [Notes]) 
+     VALUES 
+            (1, '2025-09-05', 1, '101', 100.00, 10.00, 'Checked in smoothly.'),
+            (2, '2025-09-10', 2, '102', 150.00, 0.00, 'Requested extra pillows.'),
+            (3, '2025-09-12', 3, '201', 250.00, 20.00, 'VIP guest.')
+
+GO
+
+/* Problem 16 */
+SELECT * FROM [Towns]
+SELECT * FROM [Departments]
+SELECT * FROM [Employees]
+
+GO
