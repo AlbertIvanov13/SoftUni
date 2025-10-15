@@ -389,3 +389,8 @@ UPDATE [Payments]
 SELECT [TaxRate] FROM [Payments]
 
 GO
+
+/* Problem 24 */
+DELETE FROM [Occupancies]
+
+GO
