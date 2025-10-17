@@ -15,3 +15,11 @@ SELECT [FirstName],
 FROM   [Employees]
 
 GO
+
+/* Problem 05 */
+SELECT [FirstName],
+	   [MiddleName],
+	   [LastName]
+FROM   [Employees]
+
+GO
