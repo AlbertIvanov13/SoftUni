@@ -7,3 +7,11 @@ GO
 SELECT [Name] FROM [Departments]
 
 GO
+
+/* Problem 04 */
+SELECT [FirstName],
+	   [LastName],
+	   [Salary]
+FROM   [Employees]
+
+GO
