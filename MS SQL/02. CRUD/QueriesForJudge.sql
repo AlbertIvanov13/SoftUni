@@ -30,3 +30,9 @@ SELECT CONCAT([FirstName], '.', [LastName], '@', 'softuni.bg')
   FROM [Employees]
 
 GO
+
+/* Problem 07 */
+SELECT DISTINCT [Salary] FROM [Employees]
+       ORDER BY [Salary]
+
+GO
