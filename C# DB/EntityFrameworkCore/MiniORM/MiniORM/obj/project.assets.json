@@ -2907,11 +2907,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\MiniORM.csproj",
+      "projectUniqueName": "C:\\MyPrograms\\SoftUni\\C# DB\\EntityFrameworkCore\\MiniORM\\MiniORM\\MiniORM.csproj",
       "projectName": "MiniORM",
-      "projectPath": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\MiniORM.csproj",
+      "projectPath": "C:\\MyPrograms\\SoftUni\\C# DB\\EntityFrameworkCore\\MiniORM\\MiniORM\\MiniORM.csproj",
       "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\obj\\",
+      "outputPath": "C:\\MyPrograms\\SoftUni\\C# DB\\EntityFrameworkCore\\MiniORM\\MiniORM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",

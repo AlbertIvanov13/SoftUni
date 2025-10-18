@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sVO9r7Cx45o=",
+  "dgSpecHash": "SuA7O9P/G3s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\MiniORM.csproj",
+  "projectFilePath": "C:\\MyPrograms\\SoftUni\\C# DB\\EntityFrameworkCore\\MiniORM\\MiniORM\\MiniORM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alber\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
