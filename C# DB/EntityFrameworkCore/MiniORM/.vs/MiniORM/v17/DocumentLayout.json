@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4E30F1-AEEA-446B-8A14-4E619B2923CD}|MiniORM\\MiniORM.csproj|c:\\users\\alber\\downloads\\01.orm-fundamentals-exercise-miniorm-skeleton-6.0\\miniorm\\dbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4E30F1-AEEA-446B-8A14-4E619B2923CD}|MiniORM\\MiniORM.csproj|solutionrelative:miniorm\\dbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4E30F1-AEEA-446B-8A14-4E619B2923CD}|MiniORM\\MiniORM.csproj|c:\\users\\alber\\downloads\\01.orm-fundamentals-exercise-miniorm-skeleton-6.0\\miniorm\\changetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4E30F1-AEEA-446B-8A14-4E619B2923CD}|MiniORM\\MiniORM.csproj|solutionrelative:miniorm\\changetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4E30F1-AEEA-446B-8A14-4E619B2923CD}|MiniORM\\MiniORM.csproj|c:\\users\\alber\\downloads\\01.orm-fundamentals-exercise-miniorm-skeleton-6.0\\miniorm\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4E30F1-AEEA-446B-8A14-4E619B2923CD}|MiniORM\\MiniORM.csproj|solutionrelative:miniorm\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4E30F1-AEEA-446B-8A14-4E619B2923CD}|MiniORM\\MiniORM.csproj|c:\\users\\alber\\downloads\\01.orm-fundamentals-exercise-miniorm-skeleton-6.0\\miniorm\\reflectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4E30F1-AEEA-446B-8A14-4E619B2923CD}|MiniORM\\MiniORM.csproj|solutionrelative:miniorm\\reflectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4E30F1-AEEA-446B-8A14-4E619B2923CD}|MiniORM\\MiniORM.csproj|c:\\users\\alber\\downloads\\01.orm-fundamentals-exercise-miniorm-skeleton-6.0\\miniorm\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4E30F1-AEEA-446B-8A14-4E619B2923CD}|MiniORM\\MiniORM.csproj|solutionrelative:miniorm\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4E30F1-AEEA-446B-8A14-4E619B2923CD}|MiniORM\\MiniORM.csproj|c:\\users\\alber\\downloads\\01.orm-fundamentals-exercise-miniorm-skeleton-6.0\\miniorm\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4E30F1-AEEA-446B-8A14-4E619B2923CD}|MiniORM\\MiniORM.csproj|solutionrelative:miniorm\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReflectionHelper.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\ReflectionHelper.cs",
+              "RelativeDocumentMoniker": "MiniORM\\ReflectionHelper.cs",
+              "ToolTip": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\ReflectionHelper.cs",
+              "RelativeToolTip": "MiniORM\\ReflectionHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T20:49:08.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbSet.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\DbSet.cs",
+              "RelativeDocumentMoniker": "MiniORM\\DbSet.cs",
+              "ToolTip": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\DbSet.cs",
+              "RelativeToolTip": "MiniORM\\DbSet.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T20:49:06.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\DbContext.cs",
+              "RelativeDocumentMoniker": "MiniORM\\DbContext.cs",
+              "ToolTip": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\DbContext.cs",
+              "RelativeToolTip": "MiniORM\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T20:49:03.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "MiniORM\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\DatabaseConnection.cs",
+              "RelativeToolTip": "MiniORM\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T20:44:54.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConnectionManager.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\ConnectionManager.cs",
+              "RelativeDocumentMoniker": "MiniORM\\ConnectionManager.cs",
+              "ToolTip": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\ConnectionManager.cs",
+              "RelativeToolTip": "MiniORM\\ConnectionManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T20:43:51.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangeTracker.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\ChangeTracker.cs",
+              "RelativeDocumentMoniker": "MiniORM\\ChangeTracker.cs",
+              "ToolTip": "C:\\Users\\alber\\Downloads\\01.ORM-Fundamentals-Exercise-MiniORM-Skeleton-6.0\\MiniORM\\ChangeTracker.cs",
+              "RelativeToolTip": "MiniORM\\ChangeTracker.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T20:43:44.416Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
