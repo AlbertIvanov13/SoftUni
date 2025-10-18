@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPrograms\\SoftUni\\C# OOP\\UnitTesting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB099E1-684E-4CE0-9BC4-63FB21A492D3}|TestAxe.Tests\\TestAxe.Tests.csproj|c:\\myprograms\\softuni\\c# oop\\unittesting\\testaxe.tests\\dummytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB099E1-684E-4CE0-9BC4-63FB21A492D3}|TestAxe.Tests\\TestAxe.Tests.csproj|solutionrelative:testaxe.tests\\dummytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A4AC39-F47E-4EA5-AB54-A99198F4698B}|01. TestAxe\\01. TestAxe.csproj|c:\\myprograms\\softuni\\c# oop\\unittesting\\01. testaxe\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A4AC39-F47E-4EA5-AB54-A99198F4698B}|01. TestAxe\\01. TestAxe.csproj|solutionrelative:01. testaxe\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A4AC39-F47E-4EA5-AB54-A99198F4698B}|01. TestAxe\\01. TestAxe.csproj|c:\\myprograms\\softuni\\c# oop\\unittesting\\01. testaxe\\dummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A4AC39-F47E-4EA5-AB54-A99198F4698B}|01. TestAxe\\01. TestAxe.csproj|solutionrelative:01. testaxe\\dummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alber\\AppData\\Local\\Temp\\6b589b3f-4191-48d9-919c-d22c9cca6ebe_09.CSharp-OOP-Unit-Testing-Lab-Skeleton_6.0.zip.ebe\\Skeleton\\StartUp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A4AC39-F47E-4EA5-AB54-A99198F4698B}|01. TestAxe\\01. TestAxe.csproj|c:\\myprograms\\softuni\\c# oop\\unittesting\\01. testaxe\\axe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A4AC39-F47E-4EA5-AB54-A99198F4698B}|01. TestAxe\\01. TestAxe.csproj|solutionrelative:01. testaxe\\axe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MyPrograms\\SoftUni\\C# OOP\\ReflectionAndAttributes\\06. CodeTracker\\Tracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB099E1-684E-4CE0-9BC4-63FB21A492D3}|TestAxe.Tests\\TestAxe.Tests.csproj|c:\\myprograms\\softuni\\c# oop\\unittesting\\testaxe.tests\\testaxe.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CFB099E1-684E-4CE0-9BC4-63FB21A492D3}|TestAxe.Tests\\TestAxe.Tests.csproj|solutionrelative:testaxe.tests\\testaxe.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DummyTests.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\UnitTesting\\TestAxe.Tests\\DummyTests.cs",
+              "RelativeDocumentMoniker": "TestAxe.Tests\\DummyTests.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\UnitTesting\\TestAxe.Tests\\DummyTests.cs",
+              "RelativeToolTip": "TestAxe.Tests\\DummyTests.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:52:46.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\AppData\\Local\\Temp\\6b589b3f-4191-48d9-919c-d22c9cca6ebe_09.CSharp-OOP-Unit-Testing-Lab-Skeleton_6.0.zip.ebe\\Skeleton\\StartUp.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\6b589b3f-4191-48d9-919c-d22c9cca6ebe_09.CSharp-OOP-Unit-Testing-Lab-Skeleton_6.0.zip.ebe\\Skeleton\\StartUp.cs",
+              "ToolTip": "C:\\Users\\alber\\AppData\\Local\\Temp\\6b589b3f-4191-48d9-919c-d22c9cca6ebe_09.CSharp-OOP-Unit-Testing-Lab-Skeleton_6.0.zip.ebe\\Skeleton\\StartUp.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\6b589b3f-4191-48d9-919c-d22c9cca6ebe_09.CSharp-OOP-Unit-Testing-Lab-Skeleton_6.0.zip.ebe\\Skeleton\\StartUp.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:29:32.531Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tracker.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\ReflectionAndAttributes\\06. CodeTracker\\Tracker.cs",
+              "RelativeDocumentMoniker": "..\\ReflectionAndAttributes\\06. CodeTracker\\Tracker.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\ReflectionAndAttributes\\06. CodeTracker\\Tracker.cs",
+              "RelativeToolTip": "..\\ReflectionAndAttributes\\06. CodeTracker\\Tracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T10:54:42.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestAxe.Tests",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\UnitTesting\\TestAxe.Tests\\TestAxe.Tests.csproj",
+              "RelativeDocumentMoniker": "TestAxe.Tests\\TestAxe.Tests.csproj",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\UnitTesting\\TestAxe.Tests\\TestAxe.Tests.csproj",
+              "RelativeToolTip": "TestAxe.Tests\\TestAxe.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-23T10:50:04.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dummy.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\UnitTesting\\01. TestAxe\\Dummy.cs",
+              "RelativeDocumentMoniker": "01. TestAxe\\Dummy.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\UnitTesting\\01. TestAxe\\Dummy.cs",
+              "RelativeToolTip": "01. TestAxe\\Dummy.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T10:46:11.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Axe.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\UnitTesting\\01. TestAxe\\Axe.cs",
+              "RelativeDocumentMoniker": "01. TestAxe\\Axe.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\UnitTesting\\01. TestAxe\\Axe.cs",
+              "RelativeToolTip": "01. TestAxe\\Axe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T10:45:26.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\UnitTesting\\01. TestAxe\\StartUp.cs",
+              "RelativeDocumentMoniker": "01. TestAxe\\StartUp.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\UnitTesting\\01. TestAxe\\StartUp.cs",
+              "RelativeToolTip": "01. TestAxe\\StartUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T10:01:05.551Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

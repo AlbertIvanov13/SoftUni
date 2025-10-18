@@ -1,0 +1,454 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B45673-7ED0-4D75-827B-2ACC20229F2D}|12. CustomLinkedList\\12. CustomLinkedList.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\12. customlinkedlist\\customdoublylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B45673-7ED0-4D75-827B-2ACC20229F2D}|12. CustomLinkedList\\12. CustomLinkedList.csproj|solutionrelative:12. customlinkedlist\\customdoublylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B45673-7ED0-4D75-827B-2ACC20229F2D}|12. CustomLinkedList\\12. CustomLinkedList.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\12. customlinkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B45673-7ED0-4D75-827B-2ACC20229F2D}|12. CustomLinkedList\\12. CustomLinkedList.csproj|solutionrelative:12. customlinkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F0B06E-F2B1-4C05-B279-607E8938A666}|07. GenericSwapMethodInteger\\07. GenericSwapMethodInteger.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\07. genericswapmethodinteger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F0B06E-F2B1-4C05-B279-607E8938A666}|07. GenericSwapMethodInteger\\07. GenericSwapMethodInteger.csproj|solutionrelative:07. genericswapmethodinteger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E12D05-570B-4220-9028-F678F6E4F08E}|11. Threeuple\\11. Threeuple.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\11. threeuple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E12D05-570B-4220-9028-F678F6E4F08E}|11. Threeuple\\11. Threeuple.csproj|solutionrelative:11. threeuple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{698090AB-AF9C-4E75-9D3E-EA462EAD1C38}|10. Tuple\\10. Tuple.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\10. tuple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{698090AB-AF9C-4E75-9D3E-EA462EAD1C38}|10. Tuple\\10. Tuple.csproj|solutionrelative:10. tuple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E12D05-570B-4220-9028-F678F6E4F08E}|11. Threeuple\\11. Threeuple.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\11. threeuple\\customthreeuple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E12D05-570B-4220-9028-F678F6E4F08E}|11. Threeuple\\11. Threeuple.csproj|solutionrelative:11. threeuple\\customthreeuple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{698090AB-AF9C-4E75-9D3E-EA462EAD1C38}|10. Tuple\\10. Tuple.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\10. tuple\\customtuple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{698090AB-AF9C-4E75-9D3E-EA462EAD1C38}|10. Tuple\\10. Tuple.csproj|solutionrelative:10. tuple\\customtuple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE966A3-DCB0-41F3-A703-60FB9C16FD81}|06. GenericSwapMethodString\\06. GenericSwapMethodString.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\06. genericswapmethodstring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE966A3-DCB0-41F3-A703-60FB9C16FD81}|06. GenericSwapMethodString\\06. GenericSwapMethodString.csproj|solutionrelative:06. genericswapmethodstring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D47931-7E78-4AA7-995D-5516A4421877}|09. GenericCountMethodDouble\\09. GenericCountMethodDouble.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\09. genericcountmethoddouble\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87D47931-7E78-4AA7-995D-5516A4421877}|09. GenericCountMethodDouble\\09. GenericCountMethodDouble.csproj|solutionrelative:09. genericcountmethoddouble\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3718B84-F393-4947-8BAB-7BC00A7B337C}|08. GenericCountMethodString\\08. GenericCountMethodString.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\08. genericcountmethodstring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3718B84-F393-4947-8BAB-7BC00A7B337C}|08. GenericCountMethodString\\08. GenericCountMethodString.csproj|solutionrelative:08. genericcountmethodstring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D47931-7E78-4AA7-995D-5516A4421877}|09. GenericCountMethodDouble\\09. GenericCountMethodDouble.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\09. genericcountmethoddouble\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87D47931-7E78-4AA7-995D-5516A4421877}|09. GenericCountMethodDouble\\09. GenericCountMethodDouble.csproj|solutionrelative:09. genericcountmethoddouble\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3718B84-F393-4947-8BAB-7BC00A7B337C}|08. GenericCountMethodString\\08. GenericCountMethodString.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\08. genericcountmethodstring\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3718B84-F393-4947-8BAB-7BC00A7B337C}|08. GenericCountMethodString\\08. GenericCountMethodString.csproj|solutionrelative:08. genericcountmethodstring\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61DAD898-92FE-46B5-AC65-49EBEBFE6551}|05. GenericBoxOfInteger\\05. GenericBoxOfInteger.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\05. genericboxofinteger\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61DAD898-92FE-46B5-AC65-49EBEBFE6551}|05. GenericBoxOfInteger\\05. GenericBoxOfInteger.csproj|solutionrelative:05. genericboxofinteger\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61DAD898-92FE-46B5-AC65-49EBEBFE6551}|05. GenericBoxOfInteger\\05. GenericBoxOfInteger.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\05. genericboxofinteger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61DAD898-92FE-46B5-AC65-49EBEBFE6551}|05. GenericBoxOfInteger\\05. GenericBoxOfInteger.csproj|solutionrelative:05. genericboxofinteger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254C0824-6748-4055-8838-582D397962B0}|04. GenericBoxOfString\\04. GenericBoxOfString.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\04. genericboxofstring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254C0824-6748-4055-8838-582D397962B0}|04. GenericBoxOfString\\04. GenericBoxOfString.csproj|solutionrelative:04. genericboxofstring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254C0824-6748-4055-8838-582D397962B0}|04. GenericBoxOfString\\04. GenericBoxOfString.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\04. genericboxofstring\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254C0824-6748-4055-8838-582D397962B0}|04. GenericBoxOfString\\04. GenericBoxOfString.csproj|solutionrelative:04. genericboxofstring\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2423A123-214F-4807-824B-FAB030F384E6}|03. GenericScale\\03. GenericScale.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\03. genericscale\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2423A123-214F-4807-824B-FAB030F384E6}|03. GenericScale\\03. GenericScale.csproj|solutionrelative:03. genericscale\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5575A3-B3F0-46D1-9635-240CC5F62A03}|02. ArrayCreator\\02. ArrayCreator.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\02. arraycreator\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB5575A3-B3F0-46D1-9635-240CC5F62A03}|02. ArrayCreator\\02. ArrayCreator.csproj|solutionrelative:02. arraycreator\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2423A123-214F-4807-824B-FAB030F384E6}|03. GenericScale\\03. GenericScale.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\03. genericscale\\equalityscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2423A123-214F-4807-824B-FAB030F384E6}|03. GenericScale\\03. GenericScale.csproj|solutionrelative:03. genericscale\\equalityscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2423A123-214F-4807-824B-FAB030F384E6}|03. GenericScale\\03. GenericScale.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\03. genericscale\\03. genericscale.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2423A123-214F-4807-824B-FAB030F384E6}|03. GenericScale\\03. GenericScale.csproj|solutionrelative:03. genericscale\\03. genericscale.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5575A3-B3F0-46D1-9635-240CC5F62A03}|02. ArrayCreator\\02. ArrayCreator.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\02. arraycreator\\arraycreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB5575A3-B3F0-46D1-9635-240CC5F62A03}|02. ArrayCreator\\02. ArrayCreator.csproj|solutionrelative:02. arraycreator\\arraycreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61676320-B944-4142-91DB-4EB1B35701F5}|01. Box\\01. Box.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\01. box\\01. box.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{61676320-B944-4142-91DB-4EB1B35701F5}|01. Box\\01. Box.csproj|solutionrelative:01. box\\01. box.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61676320-B944-4142-91DB-4EB1B35701F5}|01. Box\\01. Box.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\01. box\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61676320-B944-4142-91DB-4EB1B35701F5}|01. Box\\01. Box.csproj|solutionrelative:01. box\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5575A3-B3F0-46D1-9635-240CC5F62A03}|02. ArrayCreator\\02. ArrayCreator.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\02. arraycreator\\02. arraycreator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB5575A3-B3F0-46D1-9635-240CC5F62A03}|02. ArrayCreator\\02. ArrayCreator.csproj|solutionrelative:02. arraycreator\\02. arraycreator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61676320-B944-4142-91DB-4EB1B35701F5}|01. Box\\01. Box.csproj|c:\\myprograms\\softuni\\c# advanced\\generics\\01. box\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61676320-B944-4142-91DB-4EB1B35701F5}|01. Box\\01. Box.csproj|solutionrelative:01. box\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomDoublyLinkedList.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\12. CustomLinkedList\\CustomDoublyLinkedList.cs",
+              "RelativeDocumentMoniker": "12. CustomLinkedList\\CustomDoublyLinkedList.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\12. CustomLinkedList\\CustomDoublyLinkedList.cs",
+              "RelativeToolTip": "12. CustomLinkedList\\CustomDoublyLinkedList.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAH4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T23:15:15.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\12. CustomLinkedList\\Program.cs",
+              "RelativeDocumentMoniker": "12. CustomLinkedList\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\12. CustomLinkedList\\Program.cs",
+              "RelativeToolTip": "12. CustomLinkedList\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T23:13:50.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomThreeuple.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\11. Threeuple\\CustomThreeuple.cs",
+              "RelativeDocumentMoniker": "11. Threeuple\\CustomThreeuple.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\11. Threeuple\\CustomThreeuple.cs",
+              "RelativeToolTip": "11. Threeuple\\CustomThreeuple.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:44:08.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\11. Threeuple\\Program.cs",
+              "RelativeDocumentMoniker": "11. Threeuple\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\11. Threeuple\\Program.cs",
+              "RelativeToolTip": "11. Threeuple\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:43:18.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomTuple.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\10. Tuple\\CustomTuple.cs",
+              "RelativeDocumentMoniker": "10. Tuple\\CustomTuple.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\10. Tuple\\CustomTuple.cs",
+              "RelativeToolTip": "10. Tuple\\CustomTuple.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T14:41:53.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\10. Tuple\\Program.cs",
+              "RelativeDocumentMoniker": "10. Tuple\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\10. Tuple\\Program.cs",
+              "RelativeToolTip": "10. Tuple\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T14:33:49.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Box.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\09. GenericCountMethodDouble\\Box.cs",
+              "RelativeDocumentMoniker": "09. GenericCountMethodDouble\\Box.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\09. GenericCountMethodDouble\\Box.cs",
+              "RelativeToolTip": "09. GenericCountMethodDouble\\Box.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:06:22.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\09. GenericCountMethodDouble\\Program.cs",
+              "RelativeDocumentMoniker": "09. GenericCountMethodDouble\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\09. GenericCountMethodDouble\\Program.cs",
+              "RelativeToolTip": "09. GenericCountMethodDouble\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:05:50.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Box.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\08. GenericCountMethodString\\Box.cs",
+              "RelativeDocumentMoniker": "08. GenericCountMethodString\\Box.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\08. GenericCountMethodString\\Box.cs",
+              "RelativeToolTip": "08. GenericCountMethodString\\Box.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T01:20:35.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\08. GenericCountMethodString\\Program.cs",
+              "RelativeDocumentMoniker": "08. GenericCountMethodString\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\08. GenericCountMethodString\\Program.cs",
+              "RelativeToolTip": "08. GenericCountMethodString\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T01:14:41.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\07. GenericSwapMethodInteger\\Program.cs",
+              "RelativeDocumentMoniker": "07. GenericSwapMethodInteger\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\07. GenericSwapMethodInteger\\Program.cs",
+              "RelativeToolTip": "07. GenericSwapMethodInteger\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T00:53:30.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\06. GenericSwapMethodString\\Program.cs",
+              "RelativeDocumentMoniker": "06. GenericSwapMethodString\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\06. GenericSwapMethodString\\Program.cs",
+              "RelativeToolTip": "06. GenericSwapMethodString\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T23:46:47.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Box.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\05. GenericBoxOfInteger\\Box.cs",
+              "RelativeDocumentMoniker": "05. GenericBoxOfInteger\\Box.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\05. GenericBoxOfInteger\\Box.cs",
+              "RelativeToolTip": "05. GenericBoxOfInteger\\Box.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T23:41:15.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\05. GenericBoxOfInteger\\Program.cs",
+              "RelativeDocumentMoniker": "05. GenericBoxOfInteger\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\05. GenericBoxOfInteger\\Program.cs",
+              "RelativeToolTip": "05. GenericBoxOfInteger\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T23:40:30.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Box.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\04. GenericBoxOfString\\Box.cs",
+              "RelativeDocumentMoniker": "04. GenericBoxOfString\\Box.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\04. GenericBoxOfString\\Box.cs",
+              "RelativeToolTip": "04. GenericBoxOfString\\Box.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA3wB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T22:56:12.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\04. GenericBoxOfString\\Program.cs",
+              "RelativeDocumentMoniker": "04. GenericBoxOfString\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\04. GenericBoxOfString\\Program.cs",
+              "RelativeToolTip": "04. GenericBoxOfString\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T22:55:08.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "03. GenericScale.csproj",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\03. GenericScale\\03. GenericScale.csproj",
+              "RelativeDocumentMoniker": "03. GenericScale\\03. GenericScale.csproj",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\03. GenericScale\\03. GenericScale.csproj",
+              "RelativeToolTip": "03. GenericScale\\03. GenericScale.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-25T22:24:18.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EqualityScale.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\03. GenericScale\\EqualityScale.cs",
+              "RelativeDocumentMoniker": "03. GenericScale\\EqualityScale.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\03. GenericScale\\EqualityScale.cs",
+              "RelativeToolTip": "03. GenericScale\\EqualityScale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T22:06:30.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\03. GenericScale\\StartUp.cs",
+              "RelativeDocumentMoniker": "03. GenericScale\\StartUp.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\03. GenericScale\\StartUp.cs",
+              "RelativeToolTip": "03. GenericScale\\StartUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T22:04:48.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "01. Box.csproj",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\01. Box\\01. Box.csproj",
+              "RelativeDocumentMoniker": "01. Box\\01. Box.csproj",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\01. Box\\01. Box.csproj",
+              "RelativeToolTip": "01. Box\\01. Box.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-25T22:00:32.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "02. ArrayCreator.csproj",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\02. ArrayCreator\\02. ArrayCreator.csproj",
+              "RelativeDocumentMoniker": "02. ArrayCreator\\02. ArrayCreator.csproj",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\02. ArrayCreator\\02. ArrayCreator.csproj",
+              "RelativeToolTip": "02. ArrayCreator\\02. ArrayCreator.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-25T21:59:55.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ArrayCreator.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\02. ArrayCreator\\ArrayCreator.cs",
+              "RelativeDocumentMoniker": "02. ArrayCreator\\ArrayCreator.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\02. ArrayCreator\\ArrayCreator.cs",
+              "RelativeToolTip": "02. ArrayCreator\\ArrayCreator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T21:31:42.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\02. ArrayCreator\\StartUp.cs",
+              "RelativeDocumentMoniker": "02. ArrayCreator\\StartUp.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\02. ArrayCreator\\StartUp.cs",
+              "RelativeToolTip": "02. ArrayCreator\\StartUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T21:28:39.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Box.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\01. Box\\Box.cs",
+              "RelativeDocumentMoniker": "01. Box\\Box.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\01. Box\\Box.cs",
+              "RelativeToolTip": "01. Box\\Box.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T00:02:37.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\01. Box\\StartUp.cs",
+              "RelativeDocumentMoniker": "01. Box\\StartUp.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Generics\\01. Box\\StartUp.cs",
+              "RelativeToolTip": "01. Box\\StartUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T23:55:52.123Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

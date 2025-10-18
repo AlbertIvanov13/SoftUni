@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPrograms\\SoftUni\\C# Advanced\\ImplementingLinkedList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B981C189-9E11-4036-8F32-37EDC5DAFCEE}|CustomDoublyLinkedList\\CustomDoublyLinkedList.csproj|c:\\myprograms\\softuni\\c# advanced\\implementinglinkedlist\\customdoublylinkedlist\\customlinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B981C189-9E11-4036-8F32-37EDC5DAFCEE}|CustomDoublyLinkedList\\CustomDoublyLinkedList.csproj|solutionrelative:customdoublylinkedlist\\customlinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B981C189-9E11-4036-8F32-37EDC5DAFCEE}|CustomDoublyLinkedList\\CustomDoublyLinkedList.csproj|c:\\myprograms\\softuni\\c# advanced\\implementinglinkedlist\\customdoublylinkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B981C189-9E11-4036-8F32-37EDC5DAFCEE}|CustomDoublyLinkedList\\CustomDoublyLinkedList.csproj|solutionrelative:customdoublylinkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\ImplementingLinkedList\\CustomDoublyLinkedList\\Program.cs",
+              "RelativeDocumentMoniker": "CustomDoublyLinkedList\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\ImplementingLinkedList\\CustomDoublyLinkedList\\Program.cs",
+              "RelativeToolTip": "CustomDoublyLinkedList\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T23:14:52.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomLinkedList.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\ImplementingLinkedList\\CustomDoublyLinkedList\\CustomLinkedList.cs",
+              "RelativeDocumentMoniker": "CustomDoublyLinkedList\\CustomLinkedList.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\ImplementingLinkedList\\CustomDoublyLinkedList\\CustomLinkedList.cs*",
+              "RelativeToolTip": "CustomDoublyLinkedList\\CustomLinkedList.cs*",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAiwI0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T23:14:47.009Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

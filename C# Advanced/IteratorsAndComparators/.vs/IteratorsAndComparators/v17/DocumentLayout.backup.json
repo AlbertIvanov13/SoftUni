@@ -1,0 +1,266 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17FCB16E-B8E2-45F1-96D6-CAC26DD7B3C9}|CustomComparator\\CustomComparator.csproj|c:\\myprograms\\softuni\\c# advanced\\iteratorsandcomparators\\customcomparator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FCB16E-B8E2-45F1-96D6-CAC26DD7B3C9}|CustomComparator\\CustomComparator.csproj|solutionrelative:customcomparator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8877241-7D4A-4A77-83A5-0F97A9D47275}|EqualityLogic\\EqualityLogic.csproj|c:\\myprograms\\softuni\\c# advanced\\iteratorsandcomparators\\equalitylogic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8877241-7D4A-4A77-83A5-0F97A9D47275}|EqualityLogic\\EqualityLogic.csproj|solutionrelative:equalitylogic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{841E34AB-B4DF-4352-931C-B1A8A16BDBF8}|Froggy\\Froggy.csproj|c:\\myprograms\\softuni\\c# advanced\\iteratorsandcomparators\\froggy\\lake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{841E34AB-B4DF-4352-931C-B1A8A16BDBF8}|Froggy\\Froggy.csproj|solutionrelative:froggy\\lake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8877241-7D4A-4A77-83A5-0F97A9D47275}|EqualityLogic\\EqualityLogic.csproj|c:\\myprograms\\softuni\\c# advanced\\iteratorsandcomparators\\equalitylogic\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8877241-7D4A-4A77-83A5-0F97A9D47275}|EqualityLogic\\EqualityLogic.csproj|solutionrelative:equalitylogic\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1410E4D8-BCD1-47DD-8B3C-8CB871DB07D6}|ComparingObjects\\ComparingObjects.csproj|c:\\myprograms\\softuni\\c# advanced\\iteratorsandcomparators\\comparingobjects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1410E4D8-BCD1-47DD-8B3C-8CB871DB07D6}|ComparingObjects\\ComparingObjects.csproj|solutionrelative:comparingobjects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1410E4D8-BCD1-47DD-8B3C-8CB871DB07D6}|ComparingObjects\\ComparingObjects.csproj|c:\\myprograms\\softuni\\c# advanced\\iteratorsandcomparators\\comparingobjects\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1410E4D8-BCD1-47DD-8B3C-8CB871DB07D6}|ComparingObjects\\ComparingObjects.csproj|solutionrelative:comparingobjects\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{841E34AB-B4DF-4352-931C-B1A8A16BDBF8}|Froggy\\Froggy.csproj|c:\\myprograms\\softuni\\c# advanced\\iteratorsandcomparators\\froggy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{841E34AB-B4DF-4352-931C-B1A8A16BDBF8}|Froggy\\Froggy.csproj|solutionrelative:froggy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{116A11B6-E902-47EF-8F45-091A9FA3E283}|CustomStack\\CustomStack.csproj|c:\\myprograms\\softuni\\c# advanced\\iteratorsandcomparators\\customstack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{116A11B6-E902-47EF-8F45-091A9FA3E283}|CustomStack\\CustomStack.csproj|solutionrelative:customstack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{116A11B6-E902-47EF-8F45-091A9FA3E283}|CustomStack\\CustomStack.csproj|c:\\myprograms\\softuni\\c# advanced\\iteratorsandcomparators\\customstack\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{116A11B6-E902-47EF-8F45-091A9FA3E283}|CustomStack\\CustomStack.csproj|solutionrelative:customstack\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\01. Library\\Library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:01. Library\\Library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\02. ListyIterator\\IteratorsAndComparators\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:02. ListyIterator\\IteratorsAndComparators\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\01. Library\\BookComparator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:01. Library\\BookComparator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC30751-2D26-4FAA-B16A-E48F74400F6B}|01. Library\\IteratorsAndComparators.csproj|c:\\myprograms\\softuni\\c# advanced\\iteratorsandcomparators\\01. library\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC30751-2D26-4FAA-B16A-E48F74400F6B}|01. Library\\IteratorsAndComparators.csproj|solutionrelative:01. library\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC30751-2D26-4FAA-B16A-E48F74400F6B}|01. Library\\IteratorsAndComparators.csproj|c:\\myprograms\\softuni\\c# advanced\\iteratorsandcomparators\\01. library\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC30751-2D26-4FAA-B16A-E48F74400F6B}|01. Library\\IteratorsAndComparators.csproj|solutionrelative:01. library\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\CustomComparator\\Program.cs",
+              "RelativeDocumentMoniker": "CustomComparator\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\CustomComparator\\Program.cs",
+              "RelativeToolTip": "CustomComparator\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T21:33:55.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\EqualityLogic\\Person.cs",
+              "RelativeDocumentMoniker": "EqualityLogic\\Person.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\EqualityLogic\\Person.cs",
+              "RelativeToolTip": "EqualityLogic\\Person.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T19:55:53.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\EqualityLogic\\Program.cs",
+              "RelativeDocumentMoniker": "EqualityLogic\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\EqualityLogic\\Program.cs",
+              "RelativeToolTip": "EqualityLogic\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T19:55:16.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\ComparingObjects\\Person.cs",
+              "RelativeDocumentMoniker": "ComparingObjects\\Person.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\ComparingObjects\\Person.cs",
+              "RelativeToolTip": "ComparingObjects\\Person.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T23:48:56.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\ComparingObjects\\Program.cs",
+              "RelativeDocumentMoniker": "ComparingObjects\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\ComparingObjects\\Program.cs",
+              "RelativeToolTip": "ComparingObjects\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAlwBUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T23:44:01.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lake.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\Froggy\\Lake.cs",
+              "RelativeDocumentMoniker": "Froggy\\Lake.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\Froggy\\Lake.cs",
+              "RelativeToolTip": "Froggy\\Lake.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T22:24:10.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\Froggy\\Program.cs",
+              "RelativeDocumentMoniker": "Froggy\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\Froggy\\Program.cs",
+              "RelativeToolTip": "Froggy\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T22:23:24.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Stack.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\CustomStack\\Stack.cs",
+              "RelativeDocumentMoniker": "CustomStack\\Stack.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\CustomStack\\Stack.cs",
+              "RelativeToolTip": "CustomStack\\Stack.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAASwD4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T21:26:42.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\CustomStack\\Program.cs",
+              "RelativeDocumentMoniker": "CustomStack\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\CustomStack\\Program.cs",
+              "RelativeToolTip": "CustomStack\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAlwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T21:25:39.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\02. ListyIterator\\IteratorsAndComparators\\Program.cs",
+              "RelativeDocumentMoniker": "02. ListyIterator\\IteratorsAndComparators\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\02. ListyIterator\\IteratorsAndComparators\\Program.cs",
+              "RelativeToolTip": "02. ListyIterator\\IteratorsAndComparators\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T19:38:19.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookComparator.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\01. Library\\BookComparator.cs",
+              "RelativeDocumentMoniker": "01. Library\\BookComparator.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\01. Library\\BookComparator.cs",
+              "RelativeToolTip": "01. Library\\BookComparator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T19:29:05.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Library.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\01. Library\\Library.cs",
+              "RelativeDocumentMoniker": "01. Library\\Library.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\01. Library\\Library.cs",
+              "RelativeToolTip": "01. Library\\Library.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAA+wEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T14:30:36.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\01. Library\\Book.cs",
+              "RelativeDocumentMoniker": "01. Library\\Book.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\01. Library\\Book.cs",
+              "RelativeToolTip": "01. Library\\Book.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAswDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T14:26:22.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\01. Library\\StartUp.cs",
+              "RelativeDocumentMoniker": "01. Library\\StartUp.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\IteratorsAndComparators\\01. Library\\StartUp.cs",
+              "RelativeToolTip": "01. Library\\StartUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T14:23:07.642Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

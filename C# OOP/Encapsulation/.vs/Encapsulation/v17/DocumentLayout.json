@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93CD966D-5C23-4C4E-BC6C-B2531A6F906E}|ClassBoxData\\ClassBoxData.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\classboxdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93CD966D-5C23-4C4E-BC6C-B2531A6F906E}|ClassBoxData\\ClassBoxData.csproj|solutionrelative:classboxdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93CD966D-5C23-4C4E-BC6C-B2531A6F906E}|ClassBoxData\\ClassBoxData.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\classboxdata\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93CD966D-5C23-4C4E-BC6C-B2531A6F906E}|ClassBoxData\\ClassBoxData.csproj|solutionrelative:classboxdata\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7589C87E-C8FA-4F1D-8B1B-3F9CB61CAB75}|Validation\\Validation.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\validation\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7589C87E-C8FA-4F1D-8B1B-3F9CB61CAB75}|Validation\\Validation.csproj|solutionrelative:validation\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2381A788-96DC-4C83-BB87-40D94A3D117F}|ShoppingSpree\\ShoppingSpree.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\shoppingspree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2381A788-96DC-4C83-BB87-40D94A3D117F}|ShoppingSpree\\ShoppingSpree.csproj|solutionrelative:shoppingspree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2381A788-96DC-4C83-BB87-40D94A3D117F}|ShoppingSpree\\ShoppingSpree.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\shoppingspree\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2381A788-96DC-4C83-BB87-40D94A3D117F}|ShoppingSpree\\ShoppingSpree.csproj|solutionrelative:shoppingspree\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2381A788-96DC-4C83-BB87-40D94A3D117F}|ShoppingSpree\\ShoppingSpree.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\shoppingspree\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2381A788-96DC-4C83-BB87-40D94A3D117F}|ShoppingSpree\\ShoppingSpree.csproj|solutionrelative:shoppingspree\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594DE8B9-2297-48C3-9C17-066CA1B81F53}|AnimalFarm\\AnimalFarm.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\animalfarm\\models\\chicken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594DE8B9-2297-48C3-9C17-066CA1B81F53}|AnimalFarm\\AnimalFarm.csproj|solutionrelative:animalfarm\\models\\chicken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594DE8B9-2297-48C3-9C17-066CA1B81F53}|AnimalFarm\\AnimalFarm.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\animalfarm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594DE8B9-2297-48C3-9C17-066CA1B81F53}|AnimalFarm\\AnimalFarm.csproj|solutionrelative:animalfarm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7870CDE-56D7-4FDF-917B-B6BFBA3819C6}|Team\\Team.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\team\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7870CDE-56D7-4FDF-917B-B6BFBA3819C6}|Team\\Team.csproj|solutionrelative:team\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7870CDE-56D7-4FDF-917B-B6BFBA3819C6}|Team\\Team.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\team\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7870CDE-56D7-4FDF-917B-B6BFBA3819C6}|Team\\Team.csproj|solutionrelative:team\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7870CDE-56D7-4FDF-917B-B6BFBA3819C6}|Team\\Team.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\team\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7870CDE-56D7-4FDF-917B-B6BFBA3819C6}|Team\\Team.csproj|solutionrelative:team\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7589C87E-C8FA-4F1D-8B1B-3F9CB61CAB75}|Validation\\Validation.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\validation\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7589C87E-C8FA-4F1D-8B1B-3F9CB61CAB75}|Validation\\Validation.csproj|solutionrelative:validation\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6215E298-718A-46C7-B065-50153C1C7531}|Salary\\Salary.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\salary\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6215E298-718A-46C7-B065-50153C1C7531}|Salary\\Salary.csproj|solutionrelative:salary\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6215E298-718A-46C7-B065-50153C1C7531}|Salary\\Salary.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\salary\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6215E298-718A-46C7-B065-50153C1C7531}|Salary\\Salary.csproj|solutionrelative:salary\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF62E904-434C-46FA-9502-8075888CA2E8}|Persons\\Persons.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\persons\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF62E904-434C-46FA-9502-8075888CA2E8}|Persons\\Persons.csproj|solutionrelative:persons\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF62E904-434C-46FA-9502-8075888CA2E8}|Persons\\Persons.csproj|c:\\myprograms\\softuni\\c# oop\\encapsulation\\persons\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF62E904-434C-46FA-9502-8075888CA2E8}|Persons\\Persons.csproj|solutionrelative:persons\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\AnimalFarm\\Program.cs",
+              "RelativeDocumentMoniker": "AnimalFarm\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\AnimalFarm\\Program.cs",
+              "RelativeToolTip": "AnimalFarm\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T10:44:28.506Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\ShoppingSpree\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ShoppingSpree\\Models\\Product.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\ShoppingSpree\\Models\\Product.cs",
+              "RelativeToolTip": "ShoppingSpree\\Models\\Product.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIA1wCMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T11:04:58.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\ShoppingSpree\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "ShoppingSpree\\Models\\Person.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\ShoppingSpree\\Models\\Person.cs",
+              "RelativeToolTip": "ShoppingSpree\\Models\\Person.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAWwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T11:04:47.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\ShoppingSpree\\Program.cs",
+              "RelativeDocumentMoniker": "ShoppingSpree\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\ShoppingSpree\\Program.cs",
+              "RelativeToolTip": "ShoppingSpree\\Program.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T11:04:21.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Chicken.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\AnimalFarm\\Models\\Chicken.cs",
+              "RelativeDocumentMoniker": "AnimalFarm\\Models\\Chicken.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\AnimalFarm\\Models\\Chicken.cs",
+              "RelativeToolTip": "AnimalFarm\\Models\\Chicken.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T10:54:58.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Box.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\ClassBoxData\\Box.cs",
+              "RelativeDocumentMoniker": "ClassBoxData\\Box.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\ClassBoxData\\Box.cs",
+              "RelativeToolTip": "ClassBoxData\\Box.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T10:24:19.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\ClassBoxData\\Program.cs",
+              "RelativeDocumentMoniker": "ClassBoxData\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\ClassBoxData\\Program.cs",
+              "RelativeToolTip": "ClassBoxData\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T01:10:01.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Team\\Team.cs",
+              "RelativeDocumentMoniker": "Team\\Team.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Team\\Team.cs",
+              "RelativeToolTip": "Team\\Team.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T20:12:31.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Team\\Person.cs",
+              "RelativeDocumentMoniker": "Team\\Person.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Team\\Person.cs",
+              "RelativeToolTip": "Team\\Person.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAwGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T20:07:14.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Team\\StartUp.cs",
+              "RelativeDocumentMoniker": "Team\\StartUp.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Team\\StartUp.cs",
+              "RelativeToolTip": "Team\\StartUp.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T20:06:16.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Validation\\Person.cs",
+              "RelativeDocumentMoniker": "Validation\\Person.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Validation\\Person.cs",
+              "RelativeToolTip": "Validation\\Person.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:36:39.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Validation\\StartUp.cs",
+              "RelativeDocumentMoniker": "Validation\\StartUp.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Validation\\StartUp.cs",
+              "RelativeToolTip": "Validation\\StartUp.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:33:35.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Salary\\Person.cs",
+              "RelativeDocumentMoniker": "Salary\\Person.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Salary\\Person.cs",
+              "RelativeToolTip": "Salary\\Person.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:14:18.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Salary\\StartUp.cs",
+              "RelativeDocumentMoniker": "Salary\\StartUp.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Salary\\StartUp.cs",
+              "RelativeToolTip": "Salary\\StartUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:08:57.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Persons\\Person.cs",
+              "RelativeDocumentMoniker": "Persons\\Person.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Persons\\Person.cs",
+              "RelativeToolTip": "Persons\\Person.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:49:14.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Persons\\StartUp.cs",
+              "RelativeDocumentMoniker": "Persons\\StartUp.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Encapsulation\\Persons\\StartUp.cs",
+              "RelativeToolTip": "Persons\\StartUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:47:45.159Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

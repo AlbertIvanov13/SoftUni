@@ -2,39 +2,31 @@ body{
     background: #eee;
 }
 
-.main{
+.section-quotes{
     display: flex;
     gap: 2em;
-    margin: 2em;
 }
 
-.first{
+.section-quotes .main{
     display: flex;
     flex-direction: column;
-    gap: inherit;
+    gap: 2em;
 }
 
-.card {
-  display: flex;
-  padding: 1.5em;
-  background: white;
-  border: none;
-  border-radius: 0.3em;
-    align-items: center;
-}
-
-.second{
+.card{
     display: flex;
-    flex: 0 0 70ch;
+    background: #fff;
+    flex-direction: column;
 }
 
-figure{
-    flex: 0 0 15ch;
-    border-radius: 50%;
-    aspect-ratio: 1;
+.aside{
+    display: flex;
+}
+
+.avatar{
     background: green;
 }
 
-.content{
-    align-items: flex-start;
+.main .card{
+    display: flex;
 }

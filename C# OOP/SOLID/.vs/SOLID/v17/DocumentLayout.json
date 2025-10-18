@@ -1,0 +1,414 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alber\\AppData\\Local\\Temp\\d0482eaf-345e-4293-b009-c22c3a20b7d0_NewsFeed-Skeleton.zip.7d0\\Article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alber\\AppData\\Local\\Temp\\7e97d5b1-e10f-413e-b516-5f3a1467fdfd_03. Creatures of the Code_ Repository Challenge_Author Solution.zip.dfd\\MythicalCreaturesHub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D09FD0-C1A9-43FC-8E06-DBC900E561A3}|DrawingManager-After\\DrawingManager-After.csproj|c:\\myprograms\\softuni\\c# oop\\solid\\drawingmanager-after\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D09FD0-C1A9-43FC-8E06-DBC900E561A3}|DrawingManager-After\\DrawingManager-After.csproj|solutionrelative:drawingmanager-after\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alber\\AppData\\Local\\Temp\\908c9227-b525-424c-a56e-9e3d927b2bfb_07. CSharp-OOP-SOLID-Demos.zip.bfb\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alber\\AppData\\Local\\Temp\\a442d2a7-5d94-4e7a-aab6-604032706637_07. CSharp-OOP-SOLID-Demos.zip.637\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\DrawingManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D09FD0-C1A9-43FC-8E06-DBC900E561A3}|DrawingManager-After\\DrawingManager-After.csproj|c:\\myprograms\\softuni\\c# oop\\solid\\drawingmanager-after\\interfaces\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D09FD0-C1A9-43FC-8E06-DBC900E561A3}|DrawingManager-After\\DrawingManager-After.csproj|solutionrelative:drawingmanager-after\\interfaces\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D09FD0-C1A9-43FC-8E06-DBC900E561A3}|DrawingManager-After\\DrawingManager-After.csproj|c:\\myprograms\\softuni\\c# oop\\solid\\drawingmanager-after\\interfaces\\irenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D09FD0-C1A9-43FC-8E06-DBC900E561A3}|DrawingManager-After\\DrawingManager-After.csproj|solutionrelative:drawingmanager-after\\interfaces\\irenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D09FD0-C1A9-43FC-8E06-DBC900E561A3}|DrawingManager-After\\DrawingManager-After.csproj|c:\\myprograms\\softuni\\c# oop\\solid\\drawingmanager-after\\interfaces\\idrawingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D09FD0-C1A9-43FC-8E06-DBC900E561A3}|DrawingManager-After\\DrawingManager-After.csproj|solutionrelative:drawingmanager-after\\interfaces\\idrawingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D09FD0-C1A9-43FC-8E06-DBC900E561A3}|DrawingManager-After\\DrawingManager-After.csproj|c:\\myprograms\\softuni\\c# oop\\solid\\drawingmanager-after\\interfaces\\idrawingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D09FD0-C1A9-43FC-8E06-DBC900E561A3}|DrawingManager-After\\DrawingManager-After.csproj|solutionrelative:drawingmanager-after\\interfaces\\idrawingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D09FD0-C1A9-43FC-8E06-DBC900E561A3}|DrawingManager-After\\DrawingManager-After.csproj|c:\\myprograms\\softuni\\c# oop\\solid\\drawingmanager-after\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D09FD0-C1A9-43FC-8E06-DBC900E561A3}|DrawingManager-After\\DrawingManager-After.csproj|solutionrelative:drawingmanager-after\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alber\\AppData\\Local\\Temp\\b2480a83-859d-4b15-ba5b-cd790fc68bcb_07. CSharp-OOP-SOLID-Demos.zip.bcb\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IShape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8A6975-5258-4C5D-B5BF-A16895418349}|DrawingShape-Before\\DrawingShape-Before.csproj|c:\\myprograms\\softuni\\c# oop\\solid\\drawingshape-before\\interfaces\\idrawingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8A6975-5258-4C5D-B5BF-A16895418349}|DrawingShape-Before\\DrawingShape-Before.csproj|solutionrelative:drawingshape-before\\interfaces\\idrawingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8A6975-5258-4C5D-B5BF-A16895418349}|DrawingShape-Before\\DrawingShape-Before.csproj|c:\\myprograms\\softuni\\c# oop\\solid\\drawingshape-before\\interfaces\\irenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8A6975-5258-4C5D-B5BF-A16895418349}|DrawingShape-Before\\DrawingShape-Before.csproj|solutionrelative:drawingshape-before\\interfaces\\irenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8A6975-5258-4C5D-B5BF-A16895418349}|DrawingShape-Before\\DrawingShape-Before.csproj|c:\\myprograms\\softuni\\c# oop\\solid\\drawingshape-before\\interfaces\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8A6975-5258-4C5D-B5BF-A16895418349}|DrawingShape-Before\\DrawingShape-Before.csproj|solutionrelative:drawingshape-before\\interfaces\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alber\\AppData\\Local\\Temp\\f1eaac32-4e9a-4314-a519-512dafbd86ce_07. CSharp-OOP-SOLID-Demos.zip.6ce\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IRenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alber\\AppData\\Local\\Temp\\40644b51-2eb2-4129-8f4c-cbbeb99121f7_07. CSharp-OOP-SOLID-Demos.zip.1f7\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IDrawingManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8A6975-5258-4C5D-B5BF-A16895418349}|DrawingShape-Before\\DrawingShape-Before.csproj|c:\\myprograms\\softuni\\c# oop\\solid\\drawingshape-before\\drawingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8A6975-5258-4C5D-B5BF-A16895418349}|DrawingShape-Before\\DrawingShape-Before.csproj|solutionrelative:drawingshape-before\\drawingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8A6975-5258-4C5D-B5BF-A16895418349}|DrawingShape-Before\\DrawingShape-Before.csproj|c:\\myprograms\\softuni\\c# oop\\solid\\drawingshape-before\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8A6975-5258-4C5D-B5BF-A16895418349}|DrawingShape-Before\\DrawingShape-Before.csproj|solutionrelative:drawingshape-before\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8A6975-5258-4C5D-B5BF-A16895418349}|DrawingShape-Before\\DrawingShape-Before.csproj|c:\\myprograms\\softuni\\c# oop\\solid\\drawingshape-before\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8A6975-5258-4C5D-B5BF-A16895418349}|DrawingShape-Before\\DrawingShape-Before.csproj|solutionrelative:drawingshape-before\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alber\\AppData\\Local\\Temp\\f00c703b-d8e9-40a7-9660-1a65022b89d5_07. CSharp-OOP-SOLID-Demos.zip.9d5\\Demo-Solutions\\01. SRP\\P01. DrawingShape-Before\\Rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8A6975-5258-4C5D-B5BF-A16895418349}|DrawingShape-Before\\DrawingShape-Before.csproj|c:\\myprograms\\softuni\\c# oop\\solid\\drawingshape-before\\interfaces\\idrawingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8A6975-5258-4C5D-B5BF-A16895418349}|DrawingShape-Before\\DrawingShape-Before.csproj|solutionrelative:drawingshape-before\\interfaces\\idrawingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alber\\AppData\\Local\\Temp\\6e0cd3c8-683d-4a5a-ab83-c0ae8c250d74_07. CSharp-OOP-SOLID-Demos.zip.d74\\Demo-Solutions\\01. SRP\\P01. DrawingShape-Before\\Contracts\\IShape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E7D500-FC18-4C68-A3C8-98865A317E86}|SingleResponsibility\\SingleResponsibility.csproj|c:\\myprograms\\softuni\\c# oop\\solid\\singleresponsibility\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E7D500-FC18-4C68-A3C8-98865A317E86}|SingleResponsibility\\SingleResponsibility.csproj|solutionrelative:singleresponsibility\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\AppData\\Local\\Temp\\d0482eaf-345e-4293-b009-c22c3a20b7d0_NewsFeed-Skeleton.zip.7d0\\Article.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\d0482eaf-345e-4293-b009-c22c3a20b7d0_NewsFeed-Skeleton.zip.7d0\\Article.cs",
+              "ToolTip": "C:\\Users\\alber\\AppData\\Local\\Temp\\d0482eaf-345e-4293-b009-c22c3a20b7d0_NewsFeed-Skeleton.zip.7d0\\Article.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\d0482eaf-345e-4293-b009-c22c3a20b7d0_NewsFeed-Skeleton.zip.7d0\\Article.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T13:49:33.309Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MythicalCreaturesHub.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\AppData\\Local\\Temp\\7e97d5b1-e10f-413e-b516-5f3a1467fdfd_03. Creatures of the Code_ Repository Challenge_Author Solution.zip.dfd\\MythicalCreaturesHub.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\7e97d5b1-e10f-413e-b516-5f3a1467fdfd_03. Creatures of the Code_ Repository Challenge_Author Solution.zip.dfd\\MythicalCreaturesHub.cs",
+              "ToolTip": "C:\\Users\\alber\\AppData\\Local\\Temp\\7e97d5b1-e10f-413e-b516-5f3a1467fdfd_03. Creatures of the Code_ Repository Challenge_Author Solution.zip.dfd\\MythicalCreaturesHub.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\7e97d5b1-e10f-413e-b516-5f3a1467fdfd_03. Creatures of the Code_ Repository Challenge_Author Solution.zip.dfd\\MythicalCreaturesHub.cs [Read Only]",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T21:58:21.751Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingManager-After\\Rectangle.cs",
+              "RelativeDocumentMoniker": "DrawingManager-After\\Rectangle.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingManager-After\\Rectangle.cs",
+              "RelativeToolTip": "DrawingManager-After\\Rectangle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T00:01:32.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\AppData\\Local\\Temp\\908c9227-b525-424c-a56e-9e3d927b2bfb_07. CSharp-OOP-SOLID-Demos.zip.bfb\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Rectangle.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\908c9227-b525-424c-a56e-9e3d927b2bfb_07. CSharp-OOP-SOLID-Demos.zip.bfb\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Rectangle.cs",
+              "ToolTip": "C:\\Users\\alber\\AppData\\Local\\Temp\\908c9227-b525-424c-a56e-9e3d927b2bfb_07. CSharp-OOP-SOLID-Demos.zip.bfb\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Rectangle.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\908c9227-b525-424c-a56e-9e3d927b2bfb_07. CSharp-OOP-SOLID-Demos.zip.bfb\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Rectangle.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T00:01:19.173Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DrawingManager.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\AppData\\Local\\Temp\\a442d2a7-5d94-4e7a-aab6-604032706637_07. CSharp-OOP-SOLID-Demos.zip.637\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\DrawingManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\a442d2a7-5d94-4e7a-aab6-604032706637_07. CSharp-OOP-SOLID-Demos.zip.637\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\DrawingManager.cs",
+              "ToolTip": "C:\\Users\\alber\\AppData\\Local\\Temp\\a442d2a7-5d94-4e7a-aab6-604032706637_07. CSharp-OOP-SOLID-Demos.zip.637\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\DrawingManager.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\a442d2a7-5d94-4e7a-aab6-604032706637_07. CSharp-OOP-SOLID-Demos.zip.637\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\DrawingManager.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T00:00:58.443Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDrawingContext.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingManager-After\\Interfaces\\IDrawingContext.cs",
+              "RelativeDocumentMoniker": "DrawingManager-After\\Interfaces\\IDrawingContext.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingManager-After\\Interfaces\\IDrawingContext.cs",
+              "RelativeToolTip": "DrawingManager-After\\Interfaces\\IDrawingContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T00:00:30.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IShape.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingManager-After\\Interfaces\\IShape.cs",
+              "RelativeDocumentMoniker": "DrawingManager-After\\Interfaces\\IShape.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingManager-After\\Interfaces\\IShape.cs",
+              "RelativeToolTip": "DrawingManager-After\\Interfaces\\IShape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:59:34.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IShape.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\AppData\\Local\\Temp\\b2480a83-859d-4b15-ba5b-cd790fc68bcb_07. CSharp-OOP-SOLID-Demos.zip.bcb\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IShape.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\b2480a83-859d-4b15-ba5b-cd790fc68bcb_07. CSharp-OOP-SOLID-Demos.zip.bcb\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IShape.cs",
+              "ToolTip": "C:\\Users\\alber\\AppData\\Local\\Temp\\b2480a83-859d-4b15-ba5b-cd790fc68bcb_07. CSharp-OOP-SOLID-Demos.zip.bcb\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IShape.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\b2480a83-859d-4b15-ba5b-cd790fc68bcb_07. CSharp-OOP-SOLID-Demos.zip.bcb\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IShape.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:59:21.014Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRenderer.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingManager-After\\Interfaces\\IRenderer.cs",
+              "RelativeDocumentMoniker": "DrawingManager-After\\Interfaces\\IRenderer.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingManager-After\\Interfaces\\IRenderer.cs",
+              "RelativeToolTip": "DrawingManager-After\\Interfaces\\IRenderer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:59:07.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\AppData\\Local\\Temp\\f1eaac32-4e9a-4314-a519-512dafbd86ce_07. CSharp-OOP-SOLID-Demos.zip.6ce\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IRenderer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\f1eaac32-4e9a-4314-a519-512dafbd86ce_07. CSharp-OOP-SOLID-Demos.zip.6ce\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IRenderer.cs",
+              "ToolTip": "C:\\Users\\alber\\AppData\\Local\\Temp\\f1eaac32-4e9a-4314-a519-512dafbd86ce_07. CSharp-OOP-SOLID-Demos.zip.6ce\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IRenderer.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\f1eaac32-4e9a-4314-a519-512dafbd86ce_07. CSharp-OOP-SOLID-Demos.zip.6ce\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IRenderer.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:58:59.472Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDrawingManager.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingManager-After\\Interfaces\\IDrawingManager.cs",
+              "RelativeDocumentMoniker": "DrawingManager-After\\Interfaces\\IDrawingManager.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingManager-After\\Interfaces\\IDrawingManager.cs",
+              "RelativeToolTip": "DrawingManager-After\\Interfaces\\IDrawingManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:58:21.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingManager-After\\Program.cs",
+              "RelativeDocumentMoniker": "DrawingManager-After\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingManager-After\\Program.cs",
+              "RelativeToolTip": "DrawingManager-After\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:57:22.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IShape.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingShape-Before\\Interfaces\\IShape.cs",
+              "RelativeDocumentMoniker": "DrawingShape-Before\\Interfaces\\IShape.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingShape-Before\\Interfaces\\IShape.cs",
+              "RelativeToolTip": "DrawingShape-Before\\Interfaces\\IShape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:49:55.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRenderer.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingShape-Before\\Interfaces\\IRenderer.cs",
+              "RelativeDocumentMoniker": "DrawingShape-Before\\Interfaces\\IRenderer.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingShape-Before\\Interfaces\\IRenderer.cs",
+              "RelativeToolTip": "DrawingShape-Before\\Interfaces\\IRenderer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:49:42.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDrawingManager.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingShape-Before\\Interfaces\\IDrawingManager.cs",
+              "RelativeDocumentMoniker": "DrawingShape-Before\\Interfaces\\IDrawingManager.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingShape-Before\\Interfaces\\IDrawingManager.cs",
+              "RelativeToolTip": "DrawingShape-Before\\Interfaces\\IDrawingManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:49:07.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IDrawingManager.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\AppData\\Local\\Temp\\40644b51-2eb2-4129-8f4c-cbbeb99121f7_07. CSharp-OOP-SOLID-Demos.zip.1f7\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IDrawingManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\40644b51-2eb2-4129-8f4c-cbbeb99121f7_07. CSharp-OOP-SOLID-Demos.zip.1f7\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IDrawingManager.cs",
+              "ToolTip": "C:\\Users\\alber\\AppData\\Local\\Temp\\40644b51-2eb2-4129-8f4c-cbbeb99121f7_07. CSharp-OOP-SOLID-Demos.zip.1f7\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IDrawingManager.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\40644b51-2eb2-4129-8f4c-cbbeb99121f7_07. CSharp-OOP-SOLID-Demos.zip.1f7\\Demo-Solutions\\01. SRP\\P01. DrawingShape-After\\Contracts\\IDrawingManager.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:58:17.184Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingShape-Before\\Rectangle.cs",
+              "RelativeDocumentMoniker": "DrawingShape-Before\\Rectangle.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingShape-Before\\Rectangle.cs",
+              "RelativeToolTip": "DrawingShape-Before\\Rectangle.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:55:38.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\AppData\\Local\\Temp\\f00c703b-d8e9-40a7-9660-1a65022b89d5_07. CSharp-OOP-SOLID-Demos.zip.9d5\\Demo-Solutions\\01. SRP\\P01. DrawingShape-Before\\Rectangle.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\f00c703b-d8e9-40a7-9660-1a65022b89d5_07. CSharp-OOP-SOLID-Demos.zip.9d5\\Demo-Solutions\\01. SRP\\P01. DrawingShape-Before\\Rectangle.cs",
+              "ToolTip": "C:\\Users\\alber\\AppData\\Local\\Temp\\f00c703b-d8e9-40a7-9660-1a65022b89d5_07. CSharp-OOP-SOLID-Demos.zip.9d5\\Demo-Solutions\\01. SRP\\P01. DrawingShape-Before\\Rectangle.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\f00c703b-d8e9-40a7-9660-1a65022b89d5_07. CSharp-OOP-SOLID-Demos.zip.9d5\\Demo-Solutions\\01. SRP\\P01. DrawingShape-Before\\Rectangle.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:55:47.648Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DrawingManager.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingShape-Before\\DrawingManager.cs",
+              "RelativeDocumentMoniker": "DrawingShape-Before\\DrawingManager.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingShape-Before\\DrawingManager.cs",
+              "RelativeToolTip": "DrawingShape-Before\\DrawingManager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:54:40.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IShape.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\AppData\\Local\\Temp\\6e0cd3c8-683d-4a5a-ab83-c0ae8c250d74_07. CSharp-OOP-SOLID-Demos.zip.d74\\Demo-Solutions\\01. SRP\\P01. DrawingShape-Before\\Contracts\\IShape.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\6e0cd3c8-683d-4a5a-ab83-c0ae8c250d74_07. CSharp-OOP-SOLID-Demos.zip.d74\\Demo-Solutions\\01. SRP\\P01. DrawingShape-Before\\Contracts\\IShape.cs",
+              "ToolTip": "C:\\Users\\alber\\AppData\\Local\\Temp\\6e0cd3c8-683d-4a5a-ab83-c0ae8c250d74_07. CSharp-OOP-SOLID-Demos.zip.d74\\Demo-Solutions\\01. SRP\\P01. DrawingShape-Before\\Contracts\\IShape.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\alber\\AppData\\Local\\Temp\\6e0cd3c8-683d-4a5a-ab83-c0ae8c250d74_07. CSharp-OOP-SOLID-Demos.zip.d74\\Demo-Solutions\\01. SRP\\P01. DrawingShape-Before\\Contracts\\IShape.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:51:01.592Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IDrawingContext.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingShape-Before\\Interfaces\\IDrawingContext.cs",
+              "RelativeDocumentMoniker": "DrawingShape-Before\\Interfaces\\IDrawingContext.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingShape-Before\\Interfaces\\IDrawingContext.cs",
+              "RelativeToolTip": "DrawingShape-Before\\Interfaces\\IDrawingContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:48:43.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingShape-Before\\Program.cs",
+              "RelativeDocumentMoniker": "DrawingShape-Before\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\DrawingShape-Before\\Program.cs",
+              "RelativeToolTip": "DrawingShape-Before\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:47:23.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\SingleResponsibility\\Program.cs",
+              "RelativeDocumentMoniker": "SingleResponsibility\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\SOLID\\SingleResponsibility\\Program.cs",
+              "RelativeToolTip": "SingleResponsibility\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T20:23:12.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

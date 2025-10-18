@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPrograms\\SoftUni\\C# OOP\\Exams\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC9887C-AC39-472C-94DF-E828C4554276}|CyberSecurityDS\\CyberSecurityDS.csproj|c:\\myprograms\\softuni\\c# oop\\exams\\cybersecurityds\\models\\contracts\\isystemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC9887C-AC39-472C-94DF-E828C4554276}|CyberSecurityDS\\CyberSecurityDS.csproj|solutionrelative:cybersecurityds\\models\\contracts\\isystemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC9887C-AC39-472C-94DF-E828C4554276}|CyberSecurityDS\\CyberSecurityDS.csproj|c:\\myprograms\\softuni\\c# oop\\exams\\cybersecurityds\\core\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC9887C-AC39-472C-94DF-E828C4554276}|CyberSecurityDS\\CyberSecurityDS.csproj|solutionrelative:cybersecurityds\\core\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC9887C-AC39-472C-94DF-E828C4554276}|CyberSecurityDS\\CyberSecurityDS.csproj|c:\\myprograms\\softuni\\c# oop\\exams\\cybersecurityds\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC9887C-AC39-472C-94DF-E828C4554276}|CyberSecurityDS\\CyberSecurityDS.csproj|solutionrelative:cybersecurityds\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC9887C-AC39-472C-94DF-E828C4554276}|CyberSecurityDS\\CyberSecurityDS.csproj|c:\\myprograms\\softuni\\c# oop\\exams\\cybersecurityds\\core\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC9887C-AC39-472C-94DF-E828C4554276}|CyberSecurityDS\\CyberSecurityDS.csproj|solutionrelative:cybersecurityds\\core\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A886E0A2-2A39-457C-9AD7-BC67C9B066B8}|SecureOpsSystem.Tests\\SecureOpsSystem.Tests.csproj|c:\\myprograms\\softuni\\c# oop\\exams\\secureopssystem.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A886E0A2-2A39-457C-9AD7-BC67C9B066B8}|SecureOpsSystem.Tests\\SecureOpsSystem.Tests.csproj|solutionrelative:secureopssystem.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ISystemManager.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Exams\\CyberSecurityDS\\Models\\Contracts\\ISystemManager.cs",
+              "RelativeDocumentMoniker": "CyberSecurityDS\\Models\\Contracts\\ISystemManager.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Exams\\CyberSecurityDS\\Models\\Contracts\\ISystemManager.cs",
+              "RelativeToolTip": "CyberSecurityDS\\Models\\Contracts\\ISystemManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T20:13:10.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Engine.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Exams\\CyberSecurityDS\\Core\\Engine.cs",
+              "RelativeDocumentMoniker": "CyberSecurityDS\\Core\\Engine.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Exams\\CyberSecurityDS\\Core\\Engine.cs",
+              "RelativeToolTip": "CyberSecurityDS\\Core\\Engine.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:07:19.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Exams\\CyberSecurityDS\\Core\\Controller.cs",
+              "RelativeDocumentMoniker": "CyberSecurityDS\\Core\\Controller.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Exams\\CyberSecurityDS\\Core\\Controller.cs",
+              "RelativeToolTip": "CyberSecurityDS\\Core\\Controller.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:06:05.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Exams\\CyberSecurityDS\\StartUp.cs",
+              "RelativeDocumentMoniker": "CyberSecurityDS\\StartUp.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Exams\\CyberSecurityDS\\StartUp.cs",
+              "RelativeToolTip": "CyberSecurityDS\\StartUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:05:58.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# OOP\\Exams\\SecureOpsSystem.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "SecureOpsSystem.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# OOP\\Exams\\SecureOpsSystem.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "SecureOpsSystem.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwKMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T18:23:22.499Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

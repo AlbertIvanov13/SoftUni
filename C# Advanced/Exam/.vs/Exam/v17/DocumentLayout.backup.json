@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFC5E8B-F77E-4E01-BD4B-9604FFF700A3}|09. CocktailBar\\09. CocktailBar.csproj|c:\\myprograms\\softuni\\c# advanced\\exam\\09. cocktailbar\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFC5E8B-F77E-4E01-BD4B-9604FFF700A3}|09. CocktailBar\\09. CocktailBar.csproj|solutionrelative:09. cocktailbar\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFC5E8B-F77E-4E01-BD4B-9604FFF700A3}|09. CocktailBar\\09. CocktailBar.csproj|c:\\myprograms\\softuni\\c# advanced\\exam\\09. cocktailbar\\cocktail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFC5E8B-F77E-4E01-BD4B-9604FFF700A3}|09. CocktailBar\\09. CocktailBar.csproj|solutionrelative:09. cocktailbar\\cocktail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFC5E8B-F77E-4E01-BD4B-9604FFF700A3}|09. CocktailBar\\09. CocktailBar.csproj|c:\\myprograms\\softuni\\c# advanced\\exam\\09. cocktailbar\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFC5E8B-F77E-4E01-BD4B-9604FFF700A3}|09. CocktailBar\\09. CocktailBar.csproj|solutionrelative:09. cocktailbar\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E20452F-26C3-4111-BE7D-8DD4E2AF7510}|06. NewsFeed\\06. NewsFeed.csproj|c:\\myprograms\\softuni\\c# advanced\\exam\\06. newsfeed\\newsfeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E20452F-26C3-4111-BE7D-8DD4E2AF7510}|06. NewsFeed\\06. NewsFeed.csproj|solutionrelative:06. newsfeed\\newsfeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E20452F-26C3-4111-BE7D-8DD4E2AF7510}|06. NewsFeed\\06. NewsFeed.csproj|c:\\myprograms\\softuni\\c# advanced\\exam\\06. newsfeed\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E20452F-26C3-4111-BE7D-8DD4E2AF7510}|06. NewsFeed\\06. NewsFeed.csproj|solutionrelative:06. newsfeed\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3551E37F-1D26-4290-A9B8-478DD16BB94C}|07. WildSurvival\\07. WildSurvival.csproj|c:\\myprograms\\softuni\\c# advanced\\exam\\07. wildsurvival\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3551E37F-1D26-4290-A9B8-478DD16BB94C}|07. WildSurvival\\07. WildSurvival.csproj|solutionrelative:07. wildsurvival\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B4D9C6-F590-49B7-BD0A-B4B42E278BBA}|08. CollectingStars\\08. CollectingStars.csproj|c:\\myprograms\\softuni\\c# advanced\\exam\\08. collectingstars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47B4D9C6-F590-49B7-BD0A-B4B42E278BBA}|08. CollectingStars\\08. CollectingStars.csproj|solutionrelative:08. collectingstars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E20452F-26C3-4111-BE7D-8DD4E2AF7510}|06. NewsFeed\\06. NewsFeed.csproj|c:\\myprograms\\softuni\\c# advanced\\exam\\06. newsfeed\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E20452F-26C3-4111-BE7D-8DD4E2AF7510}|06. NewsFeed\\06. NewsFeed.csproj|solutionrelative:06. newsfeed\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6AF0614-728C-4ADF-9744-82B107CA496D}|05. SpaceMission\\05. SpaceMission.csproj|c:\\myprograms\\softuni\\c# advanced\\exam\\05. spacemission\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6AF0614-728C-4ADF-9744-82B107CA496D}|05. SpaceMission\\05. SpaceMission.csproj|solutionrelative:05. spacemission\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33351B6F-CD8E-4B2B-88EC-DCBE064AE559}|Demo\\Demo.csproj|c:\\myprograms\\softuni\\c# advanced\\exam\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33351B6F-CD8E-4B2B-88EC-DCBE064AE559}|Demo\\Demo.csproj|solutionrelative:demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cocktail.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\09. CocktailBar\\Cocktail.cs",
+              "RelativeDocumentMoniker": "09. CocktailBar\\Cocktail.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\09. CocktailBar\\Cocktail.cs",
+              "RelativeToolTip": "09. CocktailBar\\Cocktail.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:03:20.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\09. CocktailBar\\Menu.cs",
+              "RelativeDocumentMoniker": "09. CocktailBar\\Menu.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\09. CocktailBar\\Menu.cs",
+              "RelativeToolTip": "09. CocktailBar\\Menu.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:02:55.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\06. NewsFeed\\Article.cs",
+              "RelativeDocumentMoniker": "06. NewsFeed\\Article.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\06. NewsFeed\\Article.cs",
+              "RelativeToolTip": "06. NewsFeed\\Article.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:00:12.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewsFeed.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\06. NewsFeed\\NewsFeed.cs",
+              "RelativeDocumentMoniker": "06. NewsFeed\\NewsFeed.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\06. NewsFeed\\NewsFeed.cs",
+              "RelativeToolTip": "06. NewsFeed\\NewsFeed.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv0kAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T22:37:52.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\08. CollectingStars\\Program.cs",
+              "RelativeDocumentMoniker": "08. CollectingStars\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\08. CollectingStars\\Program.cs",
+              "RelativeToolTip": "08. CollectingStars\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T22:33:53.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\06. NewsFeed\\StartUp.cs",
+              "RelativeDocumentMoniker": "06. NewsFeed\\StartUp.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\06. NewsFeed\\StartUp.cs",
+              "RelativeToolTip": "06. NewsFeed\\StartUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T22:16:10.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\09. CocktailBar\\StartUp.cs",
+              "RelativeDocumentMoniker": "09. CocktailBar\\StartUp.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\09. CocktailBar\\StartUp.cs",
+              "RelativeToolTip": "09. CocktailBar\\StartUp.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T22:15:57.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\07. WildSurvival\\Program.cs",
+              "RelativeDocumentMoniker": "07. WildSurvival\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\07. WildSurvival\\Program.cs",
+              "RelativeToolTip": "07. WildSurvival\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:43:11.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\05. SpaceMission\\Program.cs",
+              "RelativeDocumentMoniker": "05. SpaceMission\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\05. SpaceMission\\Program.cs",
+              "RelativeToolTip": "05. SpaceMission\\Program.cs",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAAAOsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T10:30:57.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Demo\\Program.cs",
+              "ToolTip": "C:\\MyPrograms\\SoftUni\\C# Advanced\\Exam\\Demo\\Program.cs",
+              "RelativeToolTip": "Demo\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T10:30:16.192Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
