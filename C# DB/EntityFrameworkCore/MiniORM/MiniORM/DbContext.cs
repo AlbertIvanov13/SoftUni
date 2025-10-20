@@ -1,9 +1,86 @@
-﻿using System.Data.SqlTypes;
+﻿using System.Collections;
+using System.Data.SqlTypes;
+using System.Reflection;
+using System.Reflection.Metadata;
 
 namespace MiniORM
 {
-    public class DbContext
+    public abstract class DbContext
     {
-        // TODO: Create your DbContext class here.
+        protected DbContext(string connectionString)
+        {
+            connection = new DatabaseConnection(connectionString);
+            dbSetProperties = DiscoverDbSets();
+            using (new ConnectionManager(connection))
+            {
+                InitializeDbSets();
+            }
+
+            MapAllRelations();
+        }
+
+        private readonly DatabaseConnection  connection;
+        private readonly Dictionary<Type, PropertyInfo> dbSetProperties;
+
+        internal static readonly Type[] AllowedSqlTypes =
+        {
+            typeof(string),
+            typeof(int),
+            typeof(uint),
+            typeof(long),
+            typeof(ulong),
+            typeof(decimal),
+            typeof(bool),
+            typeof(DateTime),
+        };
+
+        public void SaveChanges()
+        {
+            var dbSets = dbSetProperties
+                .Select(pi => pi.Value.GetValue(this))
+                .ToArray();
+
+            foreach (IEnumerable<object> dbSet in dbSets)
+            {
+                var invalidEntities = dbSet.Where(entity => !IsObjectValid(entity))
+                    .ToArray();
+
+                if (invalidEntities.Any())
+                {
+                    throw new InvalidOperationException($"{invalidEntities.Length} Invalid Entities Found in {dbSet.GetType().Name}");
+                }
+            }
+
+            using (new ConnectionManager(connection))
+            {
+                using (var transaction = connection.StartTransaction())
+                {
+                    foreach (IEnumerable dbSet in dbSets)
+                    {
+                        var persistMethod = typeof(DbContext)
+                            .GetMethod("Persist", BindingFlags.NonPublic | BindingFlags.Instance)!
+                            .MakeGenericMethod(dbSet.GetType());
+                        try
+                        {
+                            try
+                            {
+                                persistMethod.Invoke(this, new object[] { dbSet });
+                            }
+                            catch (TargetInvocationException e) when (e.InnerException is not null)
+                            {
+                                throw e.InnerException;
+                            }
+                        }
+                        catch
+                        {
+                            Console.WriteLine("Rollback!!!");
+                            transaction.Rollback();
+                            throw;
+                        }
+                    }
+                    transaction.Commit();
+                }
+            }
+        }
     }
 }
