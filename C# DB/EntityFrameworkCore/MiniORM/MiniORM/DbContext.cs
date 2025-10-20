@@ -126,5 +126,18 @@ namespace MiniORM
             var dbSetInstance = new DbSet<TEntity>(entities);
             ReflectionHelper.ReplaceBackingField(this, dbSet.Name, dbSetInstance);
         }
+
+        private void MapAllRelations()
+        {
+            foreach (var dbSetProperty in dbSetProperties)
+            {
+                var dbSetType = dbSetProperty.Key;
+                var mapRelationsGeneric = typeof(DbContext)
+                    .GetMethod("MapRelations", BindingFlags.Instance | BindingFlags.NonPublic)
+                    .MakeGenericMethod(dbSetType);
+                var dbSet = dbSetProperty.Value.GetValue(this);
+                mapRelationsGeneric.Invoke(this, new object[] { dbSet });
+            }
+        }
     }
 }
