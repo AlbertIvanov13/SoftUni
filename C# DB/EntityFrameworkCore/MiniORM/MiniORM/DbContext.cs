@@ -118,5 +118,13 @@ namespace MiniORM
                 populateDbSetGeneric.Invoke(this, new object[] { dbSetProperty });
             }
         }
+
+        private void PopulateDbSet<TEntity>(PropertyInfo dbSet)
+            where TEntity : class, new()
+        {
+            var entities = LoadTableEntities<TEntity>();
+            var dbSetInstance = new DbSet<TEntity>(entities);
+            ReflectionHelper.ReplaceBackingField(this, dbSet.Name, dbSetInstance);
+        }
     }
 }
