@@ -82,5 +82,27 @@ namespace MiniORM
                 }
             }
         }
+
+        private void Persist<TEntity>(DbSet<TEntity> dbSet)
+            where TEntity : class, new()
+        {
+            var tableName = GetTableName(typeof(TEntity));
+            var columns  = connection.FetchColumnNames(tableName).ToArray();
+            if (dbSet.ChangeTracker.Added.Any())
+            {
+                connection.InsertEntities(dbSet.ChangeTracker.Added, tableName, columns);
+            }
+
+            var modifiedEntities = dbSet.ChangeTracker.GetModifiedEntities(dbSet).ToArray();
+            if (modifiedEntities.Any())
+            {
+                connection.UpdateEntities(modifiedEntities, tableName, columns);
+            }
+
+            if (dbSet.ChangeTracker.Removed.Any())
+            {
+                connection.DeleteEntities(dbSet.ChangeTracker.Removed, tableName, columns);
+            }
+        }
     }
 }

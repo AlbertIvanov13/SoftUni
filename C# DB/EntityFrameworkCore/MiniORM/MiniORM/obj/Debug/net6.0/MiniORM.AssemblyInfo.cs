@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniORM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c6f4bc747c6e96b110b901b168d8a6c3ba115ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17a4c20397711b99efff9f67aa8c3441c6dfe96d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniORM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniORM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
