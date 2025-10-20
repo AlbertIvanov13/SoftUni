@@ -104,5 +104,19 @@ namespace MiniORM
                 connection.DeleteEntities(dbSet.ChangeTracker.Removed, tableName, columns);
             }
         }
+
+        private void InitializeDbSets()
+        {
+            foreach (var dbSet in dbSetProperties)
+            {
+                var dbSetType = dbSet.Key;
+                var dbSetProperty = dbSet.Value;
+
+                var populateDbSetGeneric = typeof(DbContext)
+                    .GetMethod("PopulateDbSet", BindingFlags.Instance | BindingFlags.NonPublic)
+                    .MakeGenericMethod(dbSetType);
+                populateDbSetGeneric.Invoke(this, new object[] { dbSetProperty });
+            }
+        }
     }
 }
