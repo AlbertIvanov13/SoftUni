@@ -139,5 +139,16 @@ namespace MiniORM
                 mapRelationsGeneric.Invoke(this, new object[] { dbSet });
             }
         }
+
+        private void MapRelations<TEntity>(DbSet<TEntity> dbSet)
+            where TEntity : class, new()
+        {
+            var entityType = typeof(TEntity);
+            MapNavigationProperties(dbSet);
+            var collections = entityType
+                .GetProperties()
+                .Where(pi => pi.PropertyType.IsGenericType && pi.PropertyType.GetGenericTypeDefinition() == typeof(ICollection<>))
+                .ToArray();
+        }
     }
 }
