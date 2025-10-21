@@ -36,3 +36,9 @@ SELECT DISTINCT [Salary] FROM [Employees]
        ORDER BY [Salary]
 
 GO
+
+/* Problem 08 */
+SELECT * FROM [Employees]
+        WHERE [JobTitle] = 'Sales Representative'
+
+GO
