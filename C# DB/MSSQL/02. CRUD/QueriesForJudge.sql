@@ -57,3 +57,13 @@ SELECT CONCAT([FirstName], ' ', [MiddleName], ' ', [LastName])
            AS [Full Name]
          FROM [Employees]
         WHERE [Salary] IN (25000, 14000, 12500, 23600)
+
+GO
+
+/* Problem 11 */
+SELECT [FirstName],
+	   [LastName]
+  FROM [Employees]
+ WHERE [ManagerID] IS NULL
+
+GO
