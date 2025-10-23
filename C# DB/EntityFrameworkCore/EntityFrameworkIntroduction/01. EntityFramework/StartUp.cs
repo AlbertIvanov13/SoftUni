@@ -11,7 +11,7 @@ namespace SoftUni
         {
             SoftUniContext context = new SoftUniContext();
 
-            string result = AddNewAddressToEmployee(context);
+            string result = GetEmployeesInPeriod(context);
 
             Console.WriteLine(result);
         }
@@ -113,6 +113,42 @@ namespace SoftUni
                 .ToArray();
 
             return string.Join(Environment.NewLine, employeesAddresses);
+        }
+
+        /* Problem 07 */
+        public static string GetEmployeesInPeriod(SoftUniContext context)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            var employees = context.EmployeesProjects
+                .Select(ep => new
+                {
+                    ep.Employee.FirstName,
+                    ep.Employee.LastName,
+                    ep.Employee.Manager,
+                    ep.Project.StartDate.Year,
+                    ep.Project.StartDate,
+                    ep.Project.EndDate,
+                    ep.Project.StartDate.Month,
+                    ep.Project.Name
+                    
+                })
+                .Take(10)
+                .ToArray();
+
+            foreach (var employee in employees)
+            {
+                sb.AppendLine($"{employee.FirstName} {employee.LastName} - Manager: {employee.Manager.FirstName} {employee.Manager.LastName}");
+                if (employee.Name.Any())
+                {
+                    if (employee.Year >= 2001 && employee.Year <= 2003)
+                    {
+                        sb.AppendLine($"--{employee.Name} - {employee.StartDate.ToString("M/d/yyyy hh:mm:ss tt")}  - {employee.EndDate?.ToString("M/d/yyyy hh:mm:ss tt")}");
+                    }
+                }
+            }
+
+            return sb.ToString().TrimEnd();
         }
     }
 }
