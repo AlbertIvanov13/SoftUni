@@ -1,8 +1,10 @@
 ﻿
 namespace SoftUni
 {
+    using Microsoft.EntityFrameworkCore;
     using SoftUni.Data;
     using SoftUni.Models;
+    using System.Globalization;
     using System.Text;
 
     public class StartUp
@@ -120,18 +122,21 @@ namespace SoftUni
         {
             StringBuilder sb = new StringBuilder();
 
-            var employees = context.EmployeesProjects
+            var employees = context.Employees
                 .Select(ep => new
                 {
-                    ep.Employee.FirstName,
-                    ep.Employee.LastName,
-                    ep.Employee.Manager,
-                    ep.Project.StartDate.Year,
-                    ep.Project.StartDate,
-                    ep.Project.EndDate,
-                    ep.Project.StartDate.Month,
-                    ep.Project.Name
-                    
+                    ep.FirstName,
+                    ep.LastName,
+                    ep.Manager,
+                    Projects = ep.EmployeesProjects.Where(ep => ep.Project.StartDate.Year >= 2001 & ep.Project.StartDate.Year <= 2003)
+                    .Select(ep => new
+                    {
+                        ProjectName = ep.Project.Name,
+                        StartDate = ep.Project.StartDate.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture),
+                        EndDate = ep.Project.EndDate != null
+                            ? ep.Project.EndDate.Value.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture)
+                            : "not finished"
+                    })
                 })
                 .Take(10)
                 .ToArray();
@@ -139,11 +144,11 @@ namespace SoftUni
             foreach (var employee in employees)
             {
                 sb.AppendLine($"{employee.FirstName} {employee.LastName} - Manager: {employee.Manager.FirstName} {employee.Manager.LastName}");
-                if (employee.Name.Any())
+                if (employee.Projects.Any())
                 {
-                    if (employee.Year >= 2001 && employee.Year <= 2003)
+                    foreach (var project in employee.Projects)
                     {
-                        sb.AppendLine($"--{employee.Name} - {employee.StartDate.ToString("M/d/yyyy hh:mm:ss tt")}  - {employee.EndDate?.ToString("M/d/yyyy hh:mm:ss tt")}");
+                        sb.AppendLine($"--{project.ProjectName} - {project.StartDate} - {project.EndDate}");
                     }
                 }
             }
