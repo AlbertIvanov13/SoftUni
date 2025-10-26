@@ -13,7 +13,7 @@ namespace SoftUni
         {
             SoftUniContext context = new SoftUniContext();
 
-            string result = GetLatestProjects(context);
+            string result = IncreaseSalaries(context);
 
             Console.WriteLine(result);
         }
@@ -259,6 +259,30 @@ namespace SoftUni
                 sb.AppendLine($"{project.Name}");
                 sb.AppendLine($"{project.Description}");
                 sb.AppendLine($"{project.StartDate.ToString("M/d/yyyy h:mm:ss tt")}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        /* Problem 12 */
+        public static string IncreaseSalaries(SoftUniContext context)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            var employees = context.Employees
+                .Where(e => e.Department.Name == "Engineering" || e.Department.Name == "Tool Design" || e.Department.Name == "Marketing" || e.Department.Name == "Information Services")
+                .ToArray();
+
+            foreach (var employee in employees)
+            {
+                employee.Salary *= 1.12m;
+            }
+
+            context.SaveChanges();
+
+            foreach (var updatedEmployee in employees.OrderBy(e => e.FirstName).ThenBy(e => e.LastName))
+            {
+                sb.AppendLine($"{updatedEmployee.FirstName} {updatedEmployee.LastName} (${updatedEmployee.Salary:f2})");
             }
 
             return sb.ToString().TrimEnd();
