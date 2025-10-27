@@ -5,6 +5,7 @@ namespace SoftUni
     using SoftUni.Data;
     using SoftUni.Models;
     using System.Globalization;
+    using System.Reflection.Metadata.Ecma335;
     using System.Text;
 
     public class StartUp
@@ -13,7 +14,7 @@ namespace SoftUni
         {
             SoftUniContext context = new SoftUniContext();
 
-            string result = GetEmployeesByFirstNameStartingWithSa(context);
+            string result = RemoveTown(context);
 
             Console.WriteLine(result);
         }
@@ -307,6 +308,34 @@ namespace SoftUni
             foreach (var employee in employees)
             {
                 sb.AppendLine($"{employee.FirstName} {employee.LastName} - {employee.JobTitle} - (${employee.Salary:f2})");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        /* Problem 14 */
+        public static string DeleteProjectById(SoftUniContext context)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            var projectToDelete = context.EmployeesProjects.Where(p => p.ProjectId == 2);
+
+            context.EmployeesProjects.RemoveRange(projectToDelete);
+
+            var project = context.Projects.FirstOrDefault(p => p.ProjectId == 2);
+
+            context.Projects.Remove(project);
+
+            context.SaveChanges();
+
+            var projectsToDisplay = context.Projects
+                .Select(p => p.Name)
+                .Take(10)
+                .ToArray();
+
+            foreach (var item in projectsToDisplay)
+            {
+                sb.AppendLine(item);
             }
 
             return sb.ToString().TrimEnd();
