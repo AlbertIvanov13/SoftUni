@@ -340,5 +340,42 @@ namespace SoftUni
 
             return sb.ToString().TrimEnd();
         }
+
+        /* Problem 15 */
+        public static string RemoveTown(SoftUniContext context)
+        {
+            int counter = 0;
+            StringBuilder sb = new StringBuilder();
+
+            var town = context.Towns.Where(t => t.Name == "Seattle").FirstOrDefault();
+
+            var employees = context.Employees
+                .Where(e => e.Address.TownId == town.TownId)
+                .ToArray();
+
+            foreach (var employee in employees)
+            {
+                employee.AddressId = null;
+            }
+
+            var addresses = context.Addresses
+                .Where(a => a.TownId == town.TownId)
+                .ToArray();
+
+            foreach (var address in addresses)
+            {
+                counter++;
+                context.Remove(address);
+            }
+
+            sb.AppendLine($"{counter} addresses in Seattle were deleted");
+
+
+            context.Remove(town);
+
+            context.SaveChanges();
+
+            return sb .ToString().TrimEnd();
+        }
     }
 }
