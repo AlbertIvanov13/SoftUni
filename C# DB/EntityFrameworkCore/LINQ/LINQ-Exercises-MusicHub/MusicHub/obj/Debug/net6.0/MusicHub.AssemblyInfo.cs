@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MusicHub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+173b517a7b1025140984c0fe54d2d332630a4309")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1275978d815c944d45db1468880c8ad41966a009")]
 [assembly: System.Reflection.AssemblyProductAttribute("MusicHub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MusicHub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
