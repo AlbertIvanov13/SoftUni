@@ -93,3 +93,12 @@ SELECT [FirstName],
  WHERE [DepartmentID] != 4
 
 GO
+
+/* Problem 15 */
+SELECT * FROM [Employees]
+     ORDER BY [Salary] DESC,
+              [FirstName],
+              [LastName] DESC,
+              [MiddleName]
+
+GO
