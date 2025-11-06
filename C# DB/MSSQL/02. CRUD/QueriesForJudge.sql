@@ -67,3 +67,13 @@ SELECT [FirstName],
  WHERE [ManagerID] IS NULL
 
 GO
+
+/* Problem 12 */
+  SELECT [FirstName],
+         [LastName],
+	     [Salary]
+    FROM [Employees]
+   WHERE [Salary] >= 50000
+ORDER BY [Salary] DESC
+
+GO
