@@ -16,7 +16,7 @@
             string? command = Console.ReadLine();
             if (command != null)
             {
-                string result = GetBooksByAgeRestriction(db, command);
+                string result = GetBooksByCategory(db, command);
                 Console.WriteLine(result);
             }
         }
@@ -47,6 +47,35 @@
             return sb.ToString().TrimEnd();
         }
 
-       
+        //Problem 06
+        public static string GetBooksByCategory(BookShopContext context, string input)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            string[] categoriesArr = input
+                .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                .Select(c => c.ToLowerInvariant())
+                .ToArray();
+
+            if (categoriesArr.Any())
+            {
+                IEnumerable<string> bookTitles = context
+                    .Books
+                    .AsNoTracking()
+                    .Where(b => b.BookCategories
+                        .Select(bc => bc.Category)
+                        .Any(c => categoriesArr.Contains(c.Name.ToLower())))
+                    .OrderBy(b => b.Title)
+                    .Select(b => b.Title)
+                    .ToArray();
+
+                foreach (var title in bookTitles)
+                {
+                    sb.AppendLine(title);
+                }
+            }
+
+            return sb.ToString().TrimEnd();
+        }
     }
 }
