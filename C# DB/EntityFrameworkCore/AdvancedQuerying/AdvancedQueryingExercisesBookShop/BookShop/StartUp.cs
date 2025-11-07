@@ -14,7 +14,7 @@
             using var db = new BookShopContext();
             DbInitializer.ResetDatabase(db);
 
-            IncreasePrices(db);
+            GetTotalProfitByCategory(db);
         }
 
         //Problem 02
@@ -121,6 +121,35 @@
             foreach (var author in authorCopies)
             {
                 sb.AppendLine($"{author.FirstName} {author.LastName} - {author.TotalCopies}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        //Problem 13
+        public static string GetTotalProfitByCategory(BookShopContext context)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            var categories = context
+                .Categories
+                .Include(c => c.CategoryBooks)
+                .ThenInclude(cb => cb.Book)
+                .AsNoTracking()
+                .Select(c => new 
+                {
+                    c.Name,
+                    TotalProfit = c.CategoryBooks
+                        .Select(cb => cb.Book)
+                        .Sum(b => b.Price * b.Copies)
+                })
+                .OrderByDescending(c => c.TotalProfit)
+                .ThenBy(c => c.Name)
+                .ToArray();
+
+            foreach (var category in categories)
+            {
+                sb.AppendLine($"{category.Name} ${category.TotalProfit:f2}");
             }
 
             return sb.ToString().TrimEnd();
