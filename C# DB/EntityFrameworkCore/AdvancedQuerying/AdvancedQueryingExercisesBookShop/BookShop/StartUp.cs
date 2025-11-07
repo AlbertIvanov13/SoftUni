@@ -14,7 +14,7 @@
             using var db = new BookShopContext();
             DbInitializer.ResetDatabase(db);
 
-            GetTotalProfitByCategory(db);
+            IncreasePrices(db);
         }
 
         //Problem 02
@@ -153,6 +153,22 @@
             }
 
             return sb.ToString().TrimEnd();
+        }
+
+        //Problem 15
+        public static void IncreasePrices(BookShopContext context)
+        {
+            IQueryable<Book> booksToUpdate = context
+                .Books
+                .Where(b => b.ReleaseDate != null &&
+                            b.ReleaseDate.Value.Year < 2010);
+
+            foreach (Book book in booksToUpdate)
+            {
+                book.Price += 5;
+            }
+
+            context.SaveChanges();
         }
 
     }
