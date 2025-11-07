@@ -1,5 +1,6 @@
 ﻿namespace BookShop
 {
+    using BookShop.Models;
     using BookShop.Models.Enums;
     using Data;
     using Initializer;
@@ -13,12 +14,7 @@
             using var db = new BookShopContext();
             DbInitializer.ResetDatabase(db);
 
-            string? input = Console.ReadLine();
-            if (input != null)
-            {
-                string result = GetAuthorNamesEndingIn(db, input);
-                Console.WriteLine(result);
-            }
+            IncreasePrices(db);
         }
 
         //Problem 02
@@ -100,6 +96,31 @@
             foreach (var author in authorsNames)
             {
                 sb.AppendLine($"{author.FirstName} {author.LastName}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        //Problem 12
+        public static string CountCopiesByAuthor(BookShopContext context)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            var authorCopies = context
+                .Authors
+                .AsNoTracking()
+                .Select(a => new 
+                {
+                    a.FirstName,
+                    a.LastName,
+                    TotalCopies = a.Books.Sum(b => b.Copies)
+                })
+                .OrderByDescending(a => a.TotalCopies)
+                .ToArray();
+
+            foreach (var author in authorCopies)
+            {
+                sb.AppendLine($"{author.FirstName} {author.LastName} - {author.TotalCopies}");
             }
 
             return sb.ToString().TrimEnd();
