@@ -13,10 +13,10 @@
             using var db = new BookShopContext();
             DbInitializer.ResetDatabase(db);
 
-            string? command = Console.ReadLine();
-            if (command != null)
+            string? input = Console.ReadLine();
+            if (input != null)
             {
-                string result = GetBooksByCategory(db, command);
+                string result = GetAuthorNamesEndingIn(db, input);
                 Console.WriteLine(result);
             }
         }
@@ -77,5 +77,33 @@
 
             return sb.ToString().TrimEnd();
         }
+
+        //Problem 08
+        public static string GetAuthorNamesEndingIn(BookShopContext context, string input)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            var authorsNames = context
+                .Authors
+                .AsNoTracking()
+                .Where(a => a.FirstName != null &&
+                            a.FirstName.EndsWith(input))
+                .Select(a => new 
+                {
+                    a.FirstName,
+                    a.LastName
+                })
+                .OrderBy(a => a.FirstName)
+                .ThenBy(a => a.LastName)
+                .ToArray();
+
+            foreach (var author in authorsNames)
+            {
+                sb.AppendLine($"{author.FirstName} {author.LastName}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
     }
 }
