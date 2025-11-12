@@ -20,12 +20,14 @@ public partial class AcademicRecordsDbContext : DbContext
 
     public virtual DbSet<Student> Students { get; set; } = null!;
 
+    public virtual DbSet<Course> Courses { get; set; } = null!;
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         if (!optionsBuilder.IsConfigured)
         {
             optionsBuilder
-                .UseSqlServer("Server=.;Database=AcademicRecordsDB;Trusted_Connection=True;Encrypt=False");
+                .UseSqlServer(Configuration.GetConnectionString());
         }
     }
 
@@ -36,6 +38,12 @@ public partial class AcademicRecordsDbContext : DbContext
             entity.HasKey(e => e.Id).HasName("PK__Exams__3214EC070800A3AF");
 
             entity.Property(e => e.Name).HasMaxLength(100);
+
+            entity
+                .HasOne(e => e.Course)
+                .WithMany(c => c.Exams)
+                .HasForeignKey(e => e.CourseId)
+                .OnDelete(DeleteBehavior.SetNull);
         });
 
         modelBuilder.Entity<Grade>(entity =>
@@ -55,11 +63,44 @@ public partial class AcademicRecordsDbContext : DbContext
                 .HasConstraintName("FK_Grades_Students");
         });
 
+        modelBuilder.Entity<Course>(entity =>
+        {
+            entity
+                .HasKey(e => e.Id);
+
+            entity
+                .Property(e => e.Title)
+                .HasMaxLength(100);
+        });
+
         modelBuilder.Entity<Student>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Students__3214EC072EB08841");
 
             entity.Property(e => e.FullName).HasMaxLength(100);
+
+            entity
+                .HasMany(s => s.Courses)
+                .WithMany(s => s.Students)
+                .UsingEntity<Dictionary<string, object>>(
+                    "StudentsCourses",
+                    r => r
+                    .HasOne<Course>()
+                    .WithMany()
+                    .HasForeignKey("CourseId")
+                    .OnDelete(DeleteBehavior.ClientSetNull),
+                     l => l
+                     .HasOne<Student>()
+                     .WithMany()
+                     .HasForeignKey("StudentId")
+                     .OnDelete(DeleteBehavior.ClientSetNull),
+                     me => 
+                     {
+                         me.HasKey("StudentId", "CourseId");
+                         me.ToTable("StudentsCourses");
+                     }
+                     
+                );
         });
 
         OnModelCreatingPartial(modelBuilder);

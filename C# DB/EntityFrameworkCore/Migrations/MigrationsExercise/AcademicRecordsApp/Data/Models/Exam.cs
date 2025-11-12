@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿namespace AcademicRecordsApp.Data.Models;
 
-namespace AcademicRecordsApp.Data.Models;
-
-public partial class Exam
+public class Exam
 {
     public int Id { get; set; }
 
     public string Name { get; set; } = null!;
 
-    public virtual ICollection<Grade> Grades { get; set; } = new List<Grade>();
+    public int? CourseId { get; set; }
+
+    public virtual Course Course { get; set; } = null!;
+
+    public virtual ICollection<Grade> Grades { get; set; }
+        = new HashSet<Grade>();
 }

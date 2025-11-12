@@ -151,3 +151,10 @@ C:\MyPrograms\SoftUni\C# DB\EntityFrameworkCore\Migrations\MigrationsExercise\Ac
 C:\MyPrograms\SoftUni\C# DB\EntityFrameworkCore\Migrations\MigrationsExercise\AcademicRecordsApp\obj\Debug\net8.0\AcademicRecordsApp.pdb
 C:\MyPrograms\SoftUni\C# DB\EntityFrameworkCore\Migrations\MigrationsExercise\AcademicRecordsApp\obj\Debug\net8.0\AcademicRecordsApp.genruntimeconfig.cache
 C:\MyPrograms\SoftUni\C# DB\EntityFrameworkCore\Migrations\MigrationsExercise\AcademicRecordsApp\obj\Debug\net8.0\ref\AcademicRecordsApp.dll
+C:\MyPrograms\SoftUni\C# DB\EntityFrameworkCore\Migrations\MigrationsExercise\AcademicRecordsApp\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\MyPrograms\SoftUni\C# DB\EntityFrameworkCore\Migrations\MigrationsExercise\AcademicRecordsApp\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\MyPrograms\SoftUni\C# DB\EntityFrameworkCore\Migrations\MigrationsExercise\AcademicRecordsApp\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\MyPrograms\SoftUni\C# DB\EntityFrameworkCore\Migrations\MigrationsExercise\AcademicRecordsApp\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\MyPrograms\SoftUni\C# DB\EntityFrameworkCore\Migrations\MigrationsExercise\AcademicRecordsApp\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\MyPrograms\SoftUni\C# DB\EntityFrameworkCore\Migrations\MigrationsExercise\AcademicRecordsApp\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\MyPrograms\SoftUni\C# DB\EntityFrameworkCore\Migrations\MigrationsExercise\AcademicRecordsApp\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll

@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("25b7a1bd-5aa2-4098-9481-4b02b77fcd9c")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AcademicRecordsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfb80d20c32bce0a09c7ba7f6c57940484353b75")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a52630062feab4feb7a2934dcd0b0aa38b497f8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AcademicRecordsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AcademicRecordsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
