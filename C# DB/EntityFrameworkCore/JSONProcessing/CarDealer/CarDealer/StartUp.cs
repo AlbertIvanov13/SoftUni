@@ -4,6 +4,7 @@ using CarDealer.Models;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
+using System.Globalization;
 using System.IO;
 using System.Text;
 
@@ -19,12 +20,12 @@ namespace CarDealer
 
             string jsonFileDirPath = Path.Combine(Directory.GetCurrentDirectory(), "../../../Datasets/");
 
-            string jsonFileName = "cars.json";
+            string jsonFileName = "customers.json";
 
             string jsonFileText = File
                 .ReadAllText(jsonFileDirPath + jsonFileName);
 
-            string result = ImportCars(dbContext, jsonFileText);
+            string result = ImportCustomers(dbContext, jsonFileText);
 
             Console.WriteLine(result);
         }
@@ -167,6 +168,52 @@ namespace CarDealer
             }
 
             return $"Successfully imported {carsToImport.Count}.";
+        }
+
+        //Problem 12
+        public static string ImportCustomers(CarDealerContext context, string inputJson)
+        {
+            ICollection<Customer> customersToImport = new List<Customer>();
+
+            IEnumerable<ImportCustomerDto>? customerDtos = JsonConvert
+                .DeserializeObject<ImportCustomerDto[]>(inputJson);
+
+            if (customerDtos != null)
+            {
+                foreach (ImportCustomerDto customerDto in customerDtos)
+                {
+                    if (!IsValid(customerDto))
+                    {
+                        continue;
+                    }
+
+                    bool isBirthDateValid = DateTime
+                        .TryParseExact(customerDto.BirthDate, "yyyy-MM-dd'T'HH:mm:ss",
+                        CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime birthDate);
+
+                    bool isYoungDriverValid = bool
+                        .TryParse(customerDto.IsYoungDriver, out bool isYoungDriver);
+
+                    if ((!isBirthDateValid) || (!isYoungDriverValid))
+                    {
+                        continue;
+                    }
+
+                    Customer newCustomer = new Customer()
+                    {
+                        Name = customerDto.Name,
+                        BirthDate = birthDate,
+                        IsYoungDriver = isYoungDriver,
+                    };
+                    customersToImport.Add(newCustomer);
+
+                }
+
+                context.Customers.AddRange(customersToImport);
+                context.SaveChanges();
+            }
+
+            return $"Successfully imported {customersToImport.Count}.";
         }
         private static bool IsValid(object obj)
         {
