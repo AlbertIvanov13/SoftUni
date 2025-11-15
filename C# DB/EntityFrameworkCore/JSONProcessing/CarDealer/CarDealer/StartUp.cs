@@ -170,6 +170,7 @@ namespace CarDealer
             return $"Successfully imported {carsToImport.Count}.";
         }
 
+
         //Problem 12
         public static string ImportCustomers(CarDealerContext context, string inputJson)
         {
