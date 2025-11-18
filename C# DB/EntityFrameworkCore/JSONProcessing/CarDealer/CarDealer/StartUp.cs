@@ -2,6 +2,7 @@
 using CarDealer.DTOs.Import;
 using CarDealer.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
@@ -25,7 +26,7 @@ namespace CarDealer
             string jsonFileText = File
                 .ReadAllText(jsonFileDirPath + jsonFileName);
 
-            string result = ImportSales(dbContext, jsonFileText);
+            string result = GetSalesWithAppliedDiscount(dbContext);
 
             Console.WriteLine(result);
         }
@@ -260,6 +261,51 @@ namespace CarDealer
             }
 
             return $"Successfully imported {salesToImport.Count}.";
+        }
+
+        //Problem 19
+        public static string GetSalesWithAppliedDiscount(CarDealerContext context)
+        {
+            var top10Sales = context
+                .Sales
+                .Include(s => s.Customer)
+                .Include(s => s.Car)
+                .ThenInclude(c => c.PartsCars)
+                .ThenInclude(pc => pc.Part)
+                .AsNoTracking()
+                .Select(s => new
+                {
+                    Car = new 
+                    {
+                        Make = s.Car.Make,
+                        Model = s.Car.Model,
+                        TraveledDistance = s.Car.TraveledDistance,
+                    },
+                    CustomerName = s.Customer.Name,
+                    CustomerIsYoungDriver = s.Customer.IsYoungDriver,
+                    Discount = s.Discount,
+                    Price = s.Car.PartsCars
+                        .Select(pc => pc.Part)
+                        .Sum(p => p.Price)
+                })
+                .Take(10)
+                .ToArray();
+
+            var saleExportDtos = top10Sales
+                .Select(s => new
+                {
+                    car = s.Car,
+                    customerName = s.CustomerName,
+                    discount = s.Discount.ToString("f2"),
+                    price = s.Price.ToString("f2"),
+                    priceWithDiscount = (s.Price - (s.Price * (s.Discount / 100))).ToString("f2")
+                })
+                .ToArray();
+
+            string jsonResult = JsonConvert
+                .SerializeObject(saleExportDtos, Formatting.Indented);
+
+            return jsonResult;
         }
         private static bool IsValid(object obj)
         {
