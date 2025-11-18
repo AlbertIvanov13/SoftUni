@@ -28,6 +28,7 @@ namespace CarDealer
 
             string result = GetSalesWithAppliedDiscount(dbContext);
 
+
             Console.WriteLine(result);
         }
 
