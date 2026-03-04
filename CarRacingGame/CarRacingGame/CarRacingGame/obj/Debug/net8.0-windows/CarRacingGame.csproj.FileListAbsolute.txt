@@ -15,3 +15,4 @@ C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0
 C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\CarRacingGame.pdb
 C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\CarRacingGame.genruntimeconfig.cache
 C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\ref\CarRacingGame.dll
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\CarRacingGame.Properties.Resources.resources

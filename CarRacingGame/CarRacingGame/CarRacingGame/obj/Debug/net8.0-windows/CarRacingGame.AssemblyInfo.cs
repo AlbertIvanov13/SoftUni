@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarRacingGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1a3c69628f111a99e8c939137cb022f5e0d9d60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55f2d4f1e0e6c61d865da3549d33c55a887ecd8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarRacingGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarRacingGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
