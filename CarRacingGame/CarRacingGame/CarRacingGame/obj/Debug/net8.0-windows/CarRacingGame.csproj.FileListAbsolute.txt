@@ -1,0 +1,17 @@
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\bin\Debug\net8.0-windows\CarRacingGame.exe
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\bin\Debug\net8.0-windows\CarRacingGame.deps.json
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\bin\Debug\net8.0-windows\CarRacingGame.runtimeconfig.json
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\bin\Debug\net8.0-windows\CarRacingGame.dll
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\bin\Debug\net8.0-windows\CarRacingGame.pdb
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\CarRacingGame.Form1.resources
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\CarRacingGame.csproj.GenerateResource.cache
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\CarRacingGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\CarRacingGame.AssemblyInfoInputs.cache
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\CarRacingGame.AssemblyInfo.cs
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\CarRacingGame.csproj.CoreCompileInputs.cache
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\CarRacingGame.sourcelink.json
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\CarRacingGame.dll
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\refint\CarRacingGame.dll
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\CarRacingGame.pdb
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\CarRacingGame.genruntimeconfig.cache
+C:\MyPrograms\SoftUni\CarRacingGame\CarRacingGame\CarRacingGame\obj\Debug\net8.0-windows\ref\CarRacingGame.dll
