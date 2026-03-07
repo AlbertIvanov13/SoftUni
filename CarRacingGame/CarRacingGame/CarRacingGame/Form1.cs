@@ -20,8 +20,12 @@ namespace CarRacingGame
         private void timer1_Tick(object sender, EventArgs e)
         {
             moveline(gamespeed);
-            enemy(3);
+            enemy(gamespeed);
         }
+
+        Random r = new Random();
+
+        int x, y;    
 
         void enemy(int speed)
         {
@@ -29,9 +33,30 @@ namespace CarRacingGame
             {
                 enemy1.Top = 0;
             }
+
+            
+
             else
             {
                 enemy1.Top += speed;
+            }
+
+            if (enemy2.Top >= 500)
+            {
+                enemy2.Top = 0;
+            }
+            else
+            {
+                enemy2.Top += speed;
+            }
+
+            if (enemy3.Top >= 500)
+            {
+                enemy3.Top = 0;
+            }
+            else
+            {
+                enemy3.Top += speed;
             }
         }
 
@@ -111,12 +136,7 @@ namespace CarRacingGame
             }
         }
 
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox8_Click(object sender, EventArgs e)
+        private void enemy2_Click(object sender, EventArgs e)
         {
 
         }

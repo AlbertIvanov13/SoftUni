@@ -133,7 +133,6 @@
             enemy1.SizeMode = PictureBoxSizeMode.StretchImage;
             enemy1.TabIndex = 8;
             enemy1.TabStop = false;
-            enemy1.Click += pictureBox8_Click;
             // 
             // enemy2
             // 
@@ -144,6 +143,7 @@
             enemy2.SizeMode = PictureBoxSizeMode.StretchImage;
             enemy2.TabIndex = 9;
             enemy2.TabStop = false;
+            enemy2.Click += enemy2_Click;
             // 
             // enemy3
             // 
