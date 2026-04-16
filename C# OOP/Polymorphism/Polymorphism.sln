@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOperations", "MathOperations\MathOperations.csproj", "{73917DB8-3FFB-4700-9796-8DA50E671578}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operations", "MathOperations\Operations.csproj", "{73917DB8-3FFB-4700-9796-8DA50E671578}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Animals", "Animals\Animals.csproj", "{9E9BD8C5-C377-43A7-81E8-FF292B56F984}"
 EndProject
@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes", "Shapes\Shapes.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{DE8600B5-1C26-47B6-AEE5-AEEDECD01768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooking", "Cooking\Cooking.csproj", "{CBEFF373-BB60-429C-A0E4-F9B5D12E3909}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cooking", "Cooking\Cooking.csproj", "{CBEFF373-BB60-429C-A0E4-F9B5D12E3909}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

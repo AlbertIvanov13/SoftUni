@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyPrograms\\SoftUni\\C# OOP\\Polymorphism\\MathOperations\\MathOperations.csproj",
-      "projectName": "MathOperations",
-      "projectPath": "C:\\MyPrograms\\SoftUni\\C# OOP\\Polymorphism\\MathOperations\\MathOperations.csproj",
+      "projectUniqueName": "C:\\MyPrograms\\SoftUni\\C# OOP\\Polymorphism\\MathOperations\\Operations.csproj",
+      "projectName": "Operations",
+      "projectPath": "C:\\MyPrograms\\SoftUni\\C# OOP\\Polymorphism\\MathOperations\\Operations.csproj",
       "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
       "outputPath": "C:\\MyPrograms\\SoftUni\\C# OOP\\Polymorphism\\MathOperations\\obj\\",
       "projectStyle": "PackageReference",
