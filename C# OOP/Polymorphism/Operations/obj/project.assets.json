@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyPrograms\\SoftUni\\C# OOP\\Polymorphism\\MathOperations\\Operations.csproj",
+      "projectUniqueName": "C:\\MyPrograms\\SoftUni\\C# OOP\\Polymorphism\\Operations\\Operations.csproj",
       "projectName": "Operations",
-      "projectPath": "C:\\MyPrograms\\SoftUni\\C# OOP\\Polymorphism\\MathOperations\\Operations.csproj",
+      "projectPath": "C:\\MyPrograms\\SoftUni\\C# OOP\\Polymorphism\\Operations\\Operations.csproj",
       "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-      "outputPath": "C:\\MyPrograms\\SoftUni\\C# OOP\\Polymorphism\\MathOperations\\obj\\",
+      "outputPath": "C:\\MyPrograms\\SoftUni\\C# OOP\\Polymorphism\\Operations\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",

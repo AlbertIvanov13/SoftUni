@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4UJJUvrFfvw=",
+  "dgSpecHash": "c66TKPRqDDc=",
   "success": true,
-  "projectFilePath": "C:\\MyPrograms\\SoftUni\\C# OOP\\Polymorphism\\MathOperations\\Operations.csproj",
+  "projectFilePath": "C:\\MyPrograms\\SoftUni\\C# OOP\\Polymorphism\\Operations\\Operations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alber\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.35\\microsoft.windowsdesktop.app.ref.6.0.35.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.35\\microsoft.netcore.app.ref.6.0.35.nupkg.sha512",
