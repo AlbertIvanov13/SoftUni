@@ -1,6 +1,6 @@
 import os
 
-file = os.path.join(r"C:\MyPrograms\SoftUni\PythonAdvanced", "file_handling_exercises", "text.txt")
+file = os.path.join("text.txt")
 
 with open(file) as f:
     i = 0
